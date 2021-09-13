@@ -13308,8 +13308,8 @@
             {
                 "name": "play_youtube_video",
                 "info": {
-                    "x": 5417,
-                    "y": 4997,
+                    "x": 5532,
+                    "y": 4994,
                     "z": 50,
                     "color": "#5a5a5a",
                     "height": 310,
@@ -13474,8 +13474,8 @@
             {
                 "name": "get_youtube_video_infos",
                 "info": {
-                    "x": 4643,
-                    "y": 4974,
+                    "x": 4521,
+                    "y": 5017,
                     "z": 84,
                     "color": "#5a5a5a",
                     "height": 382,
@@ -13492,15 +13492,12 @@
                     ],
                     "result": [],
                     "title": [
-                        "ODx64qWdxU",
                         "OEN88hctuR"
                     ],
                     "description": [],
                     "duration": [],
                     "views": [],
-                    "thumbnail": [
-                        "mVmvqAsIsr"
-                    ],
+                    "thumbnail": [],
                     "url": [
                         "15pJbGPHVY"
                     ],
@@ -13614,8 +13611,8 @@
             {
                 "name": "merge_texts_advanced",
                 "info": {
-                    "x": 7297,
-                    "y": 5595,
+                    "x": 7686,
+                    "y": 5329,
                     "z": 104,
                     "color": "#5a5a5a",
                     "height": 175,
@@ -13642,8 +13639,8 @@
             {
                 "name": "get_voice_channel_info",
                 "info": {
-                    "x": 6542,
-                    "y": 5589,
+                    "x": 6468,
+                    "y": 5513,
                     "z": 108,
                     "color": "#5a5a5a",
                     "height": 118,
@@ -13658,7 +13655,7 @@
                 },
                 "outputs": {
                     "action": [
-                        "eS3sp8FCtB"
+                        "xsFvMjYULu"
                     ],
                     "result": [
                         "JukYajn3x9"
@@ -15304,8 +15301,8 @@
             {
                 "name": "edit_embed_message",
                 "info": {
-                    "x": 7865,
-                    "y": 5425,
+                    "x": 8142,
+                    "y": 5462,
                     "z": 285,
                     "color": "#5a5a5a",
                     "height": 569,
@@ -15731,7 +15728,8 @@
                     "text": [
                         "easPNgj6tE",
                         "VK2e30v1EU",
-                        "EFnW1xW1zj"
+                        "EFnW1xW1zj",
+                        "QVP76kL0a3"
                     ]
                 }
             },
@@ -16921,8 +16919,8 @@
             {
                 "name": "edit_message",
                 "info": {
-                    "x": 8426,
-                    "y": 5606,
+                    "x": 8708,
+                    "y": 5629,
                     "z": 381,
                     "color": "#5a5a5a",
                     "height": 237,
@@ -16966,8 +16964,8 @@
             {
                 "name": "play_youtube_video",
                 "info": {
-                    "x": 4651,
-                    "y": 5595,
+                    "x": 4576,
+                    "y": 5647,
                     "z": 383,
                     "color": "#5a5a5a",
                     "height": 310,
@@ -17014,8 +17012,8 @@
             {
                 "name": "merge_actions",
                 "info": {
-                    "x": 4178,
-                    "y": 5506,
+                    "x": 3866,
+                    "y": 5422,
                     "z": 385,
                     "color": "#5a5a5a",
                     "height": 113,
@@ -17052,6 +17050,65 @@
                     "action": [
                         "5Cf0gxZ98H"
                     ]
+                }
+            },
+            {
+                "name": "read_file2",
+                "info": {
+                    "x": 6954,
+                    "y": 5778,
+                    "z": 387,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 457
+                },
+                "inputs": {
+                    "action": "xsFvMjYULu",
+                    "file_path": "QVP76kL0a3"
+                },
+                "options": {
+                    "conversion_type": "text"
+                },
+                "outputs": {
+                    "action": [
+                        "8AezFo9d3Y"
+                    ],
+                    "content": [
+                        "OFUFr7JviC"
+                    ]
+                }
+            },
+            {
+                "name": "get_youtube_video_infos",
+                "info": {
+                    "x": 7492,
+                    "y": 5617,
+                    "z": 388,
+                    "color": "#5a5a5a",
+                    "height": 382,
+                    "width": 320
+                },
+                "inputs": {
+                    "action": "8AezFo9d3Y",
+                    "search_value": "OFUFr7JviC"
+                },
+                "outputs": {
+                    "action": [
+                        "eS3sp8FCtB"
+                    ],
+                    "title": [
+                        "ODx64qWdxU"
+                    ],
+                    "description": [],
+                    "duration": [],
+                    "views": [],
+                    "thumbnail": [
+                        "mVmvqAsIsr"
+                    ],
+                    "url": [],
+                    "channel": [],
+                    "channelurl": [],
+                    "channelverified": []
                 }
             }
         ],
