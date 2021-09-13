@@ -15331,7 +15331,6 @@
                         "1O3MYPMTbr"
                     ],
                     "message_embed": [
-                        "1gey4b9EZy",
                         "2sov29p5Kf"
                     ]
                 }
@@ -16862,6 +16861,7 @@
                         "BPWA9Cqrzc"
                     ],
                     "message_embed": [
+                        "1gey4b9EZy",
                         "MBHM4lTwTz"
                     ]
                 }
@@ -16908,20 +16908,26 @@
                 "name": "edit_message",
                 "info": {
                     "x": 8148,
-                    "y": 5601,
+                    "y": 5599,
                     "z": 381,
                     "color": "#5a5a5a",
-                    "height": 196,
-                    "width": 276
+                    "height": 237,
+                    "width": 280
                 },
                 "inputs": {
                     "action": "1O3MYPMTbr",
                     "message": "5mRwXQz0oS",
                     "message_text": "0V5oHBG7ku",
-                    "message_embed": "2sov29p5Kf"
+                    "message_embed": "2sov29p5Kf",
+                    "channel": "xgqc6n3klX",
+                    "text": "1x8ZkXcUPS",
+                    "embed": "SZgABsld6T",
+                    "attachment": "vzYkKwgIF8",
+                    "split_message": "6enBnuUbgK"
                 },
                 "outputs": {
-                    "action": []
+                    "action": [],
+                    "message": []
                 }
             }
         ],
