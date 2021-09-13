@@ -1,6 +1,350 @@
 [
     {
         "info": {
+            "title": "Actualizacion",
+            "description": "",
+            "thumbnail": ""
+        },
+        "blocks": [
+            {
+                "name": "bot_initialization_event",
+                "info": {
+                    "x": 127,
+                    "y": 224,
+                    "z": 1,
+                    "color": "#5a5a5a",
+                    "height": 82,
+                    "width": 239
+                },
+                "outputs": {
+                    "action": [
+                        "ahv1hpxZGy"
+                    ]
+                }
+            },
+            {
+                "name": "read_file2",
+                "info": {
+                    "x": 553,
+                    "y": 264,
+                    "z": 2,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 457
+                },
+                "inputs": {
+                    "action": "ahv1hpxZGy",
+                    "file_path": "VVH92EGEd8"
+                },
+                "options": {
+                    "conversion_type": "text"
+                },
+                "outputs": {
+                    "action": [
+                        "Pg5a7HtvVB"
+                    ],
+                    "content": [
+                        "ePSRmM1ePM"
+                    ]
+                }
+            },
+            {
+                "name": "text",
+                "info": {
+                    "x": 110,
+                    "y": 548,
+                    "z": 3,
+                    "color": "#5a5a5a",
+                    "height": 118,
+                    "width": 305
+                },
+                "options": {
+                    "text": ".\\actualizacion.txt"
+                },
+                "outputs": {
+                    "text": [
+                        "VVH92EGEd8",
+                        "w9r6mqOzfI"
+                    ]
+                }
+            },
+            {
+                "name": "Switch_conditional",
+                "info": {
+                    "x": 1159,
+                    "y": 269,
+                    "z": 4,
+                    "color": "#5a5a5a",
+                    "height": 299,
+                    "width": 440
+                },
+                "inputs": {
+                    "action": "Pg5a7HtvVB",
+                    "value1": "ePSRmM1ePM",
+                    "sw0": "f6JyJslSf3",
+                    "sw1": "NiQhA51Rv0",
+                    "sw2": "aCtSSBrZDX",
+                    "sw3": "koDluqUHtq",
+                    "sw4": "zvICHQKQEf",
+                    "sw5": "zwwjB5Ffk9"
+                },
+                "options": {
+                    "operation": "includes"
+                },
+                "outputs": {
+                    "swo0": [
+                        "BfJG7e7PrS"
+                    ],
+                    "swo1": [],
+                    "swo2": [],
+                    "swo3": [],
+                    "swo4": [],
+                    "swo5": [],
+                    "swo6": []
+                }
+            },
+            {
+                "name": "text",
+                "info": {
+                    "x": 679,
+                    "y": 543,
+                    "z": 5,
+                    "color": "#5a5a5a",
+                    "height": 118,
+                    "width": 305
+                },
+                "options": {
+                    "text": "si"
+                },
+                "outputs": {
+                    "text": [
+                        "f6JyJslSf3"
+                    ]
+                }
+            },
+            {
+                "name": "write_file",
+                "info": {
+                    "x": 1794,
+                    "y": 497,
+                    "z": 6,
+                    "color": "#5a5a5a",
+                    "height": 144,
+                    "width": 417
+                },
+                "inputs": {
+                    "action": "BfJG7e7PrS",
+                    "file_path": "w9r6mqOzfI",
+                    "content": "cXxCruUnin"
+                },
+                "options": {
+                    "conversion_type": "text"
+                },
+                "outputs": {
+                    "action": [
+                        "3cckJPyjuB"
+                    ]
+                }
+            },
+            {
+                "name": "text",
+                "info": {
+                    "x": 1395,
+                    "y": 753,
+                    "z": 7,
+                    "color": "#5a5a5a",
+                    "height": 118,
+                    "width": 305
+                },
+                "options": {
+                    "text": ""
+                },
+                "outputs": {
+                    "text": [
+                        "cXxCruUnin"
+                    ]
+                }
+            },
+            {
+                "name": "create_embed_message",
+                "info": {
+                    "x": 2372,
+                    "y": 644,
+                    "z": 8,
+                    "color": "#5a5a5a",
+                    "height": 517,
+                    "width": 340
+                },
+                "inputs": {
+                    "action": "3cckJPyjuB",
+                    "color": "qKYsuihppz",
+                    "thumbnail": "whwIi9OpI6",
+                    "author_icon": "AiztCrVzmu",
+                    "author_name": "8fv1Qu9J67",
+                    "author_url": "hzsz3MR5zC",
+                    "title": "ZiLLrnQkEj",
+                    "url": "rXPqCXq1sq",
+                    "description": "ho71PsMYYa",
+                    "image": "905CwuKJpJ",
+                    "footer_icon": "zy02F2E1KQ",
+                    "footer_text": "OHYDRwqmpL",
+                    "timestamp": "BIhlVsMAzy"
+                },
+                "outputs": {
+                    "action": [
+                        "JY62USOLYH"
+                    ],
+                    "message_embed": [
+                        "57KIgNwjeF"
+                    ]
+                }
+            },
+            {
+                "name": "text",
+                "info": {
+                    "x": 1948,
+                    "y": 855,
+                    "z": 9,
+                    "color": "#5a5a5a",
+                    "height": 118,
+                    "width": 305
+                },
+                "options": {
+                    "text": "Aplicando actualizacion, reiniciando bot"
+                },
+                "outputs": {
+                    "text": [
+                        "ZiLLrnQkEj"
+                    ]
+                }
+            },
+            {
+                "name": "color",
+                "info": {
+                    "x": 2006,
+                    "y": 714,
+                    "z": 10,
+                    "color": "#5a5a5a",
+                    "height": 105,
+                    "width": 193
+                },
+                "options": {
+                    "color": "#ff00ff"
+                },
+                "outputs": {
+                    "color": [
+                        "qKYsuihppz"
+                    ]
+                }
+            },
+            {
+                "name": "text",
+                "info": {
+                    "x": 1941,
+                    "y": 1014,
+                    "z": 11,
+                    "color": "#5a5a5a",
+                    "height": 118,
+                    "width": 305
+                },
+                "options": {
+                    "text": "https://media4.giphy.com/media/3o7529NY5tIrfPBwzu/giphy.gif?cid=ecf05e47fc3eyel92nibwqnp3cs5yijgum1t0gnjqbf1i7gs&rid=giphy.gif&ct=s"
+                },
+                "outputs": {
+                    "text": [
+                        "905CwuKJpJ"
+                    ]
+                }
+            },
+            {
+                "name": "send_message",
+                "info": {
+                    "x": 3495,
+                    "y": 843,
+                    "z": 12,
+                    "color": "#5a5a5a",
+                    "height": 237,
+                    "width": 280
+                },
+                "inputs": {
+                    "action": "Y9A1ayLLab",
+                    "channel": "qO4EfnMhBx",
+                    "text": "GPc6YT0SPp",
+                    "embed": "57KIgNwjeF",
+                    "attachment": "EISpwqFlQf",
+                    "split_message": "udc8SjAUOa"
+                },
+                "outputs": {
+                    "action": [
+                        "kObmGIU5bl"
+                    ],
+                    "message": []
+                }
+            },
+            {
+                "name": "find_channel",
+                "info": {
+                    "x": 2803,
+                    "y": 940,
+                    "z": 13,
+                    "color": "#5a5a5a",
+                    "height": 159,
+                    "width": 558
+                },
+                "inputs": {
+                    "action": "JY62USOLYH",
+                    "server": "jeD4dViXyG",
+                    "search_value": "UbRj7hqyIn"
+                },
+                "options": {
+                    "channel_type": "any",
+                    "find_channel_by": "id"
+                },
+                "outputs": {
+                    "action": [
+                        "Y9A1ayLLab"
+                    ],
+                    "channel": [
+                        "qO4EfnMhBx"
+                    ]
+                }
+            },
+            {
+                "name": "text",
+                "info": {
+                    "x": 2455,
+                    "y": 1277,
+                    "z": 14,
+                    "color": "#5a5a5a",
+                    "height": 118,
+                    "width": 305
+                },
+                "options": {
+                    "text": "818499575630266368"
+                },
+                "outputs": {
+                    "text": [
+                        "UbRj7hqyIn"
+                    ]
+                }
+            },
+            {
+                "name": "restart_bot",
+                "info": {
+                    "x": 3925.3451260653414,
+                    "y": 1092.3281028053977,
+                    "z": 15,
+                    "color": "#5a5a5a"
+                },
+                "inputs": {
+                    "action": "kObmGIU5bl"
+                }
+            }
+        ],
+        "notes": []
+    },
+    {
+        "info": {
             "title": "Anti Spam\n",
             "description": "",
             "thumbnail": ""
