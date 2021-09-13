@@ -100,7 +100,9 @@
                     "swo3": [],
                     "swo4": [],
                     "swo5": [],
-                    "swo6": []
+                    "swo6": [
+                        "Ph8hhHHA6p"
+                    ]
                 }
             },
             {
@@ -277,7 +279,7 @@
                 "outputs": {
                     "action": [
                         "kObmGIU5bl",
-                        "HUlvCa8sam"
+                        "UygV7QoN6D"
                     ],
                     "message": []
                 }
@@ -346,8 +348,8 @@
             {
                 "name": "wait_with_number",
                 "info": {
-                    "x": 3795,
-                    "y": 1277,
+                    "x": 1366,
+                    "y": 1437,
                     "z": 16,
                     "color": "#5a5a5a",
                     "height": 172,
@@ -383,6 +385,26 @@
                 "outputs": {
                     "action": [
                         "ahv1hpxZGy"
+                    ]
+                }
+            },
+            {
+                "name": "merge_actions",
+                "info": {
+                    "x": 3772,
+                    "y": 1173,
+                    "z": 18,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 224
+                },
+                "inputs": {
+                    "action1": "Ph8hhHHA6p",
+                    "action2": "UygV7QoN6D"
+                },
+                "outputs": {
+                    "action": [
+                        "HUlvCa8sam"
                     ]
                 }
             }
