@@ -18,7 +18,7 @@
                 },
                 "outputs": {
                     "action": [
-                        "ahv1hpxZGy"
+                        "IeTNz0Gjyx"
                     ]
                 }
             },
@@ -276,7 +276,8 @@
                 },
                 "outputs": {
                     "action": [
-                        "kObmGIU5bl"
+                        "kObmGIU5bl",
+                        "HUlvCa8sam"
                     ],
                     "message": []
                 }
@@ -331,13 +332,58 @@
             {
                 "name": "restart_bot",
                 "info": {
-                    "x": 3925.3451260653414,
-                    "y": 1092.3281028053977,
+                    "x": 4269,
+                    "y": 1153,
                     "z": 15,
-                    "color": "#5a5a5a"
+                    "color": "#5a5a5a",
+                    "height": 82,
+                    "width": 150
                 },
                 "inputs": {
                     "action": "kObmGIU5bl"
+                }
+            },
+            {
+                "name": "wait_with_number",
+                "info": {
+                    "x": 3795,
+                    "y": 1277,
+                    "z": 16,
+                    "color": "#5a5a5a",
+                    "height": 172,
+                    "width": 418
+                },
+                "inputs": {
+                    "action": "HUlvCa8sam"
+                },
+                "options": {
+                    "time_type": "seconds",
+                    "time": "1"
+                },
+                "outputs": {
+                    "action": [
+                        "yzvYRYdnnm"
+                    ]
+                }
+            },
+            {
+                "name": "merge_actions",
+                "info": {
+                    "x": 248,
+                    "y": 344,
+                    "z": 17,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 224
+                },
+                "inputs": {
+                    "action1": "IeTNz0Gjyx",
+                    "action2": "yzvYRYdnnm"
+                },
+                "outputs": {
+                    "action": [
+                        "ahv1hpxZGy"
+                    ]
                 }
             }
         ],
