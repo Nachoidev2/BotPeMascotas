@@ -13613,8 +13613,8 @@
             {
                 "name": "merge_texts_advanced",
                 "info": {
-                    "x": 7056,
-                    "y": 5574,
+                    "x": 7297,
+                    "y": 5595,
                     "z": 104,
                     "color": "#5a5a5a",
                     "height": 175,
@@ -13641,8 +13641,8 @@
             {
                 "name": "get_voice_channel_info",
                 "info": {
-                    "x": 6285,
-                    "y": 5581,
+                    "x": 6152,
+                    "y": 5586,
                     "z": 108,
                     "color": "#5a5a5a",
                     "height": 118,
@@ -13657,7 +13657,7 @@
                 },
                 "outputs": {
                     "action": [
-                        "eS3sp8FCtB"
+                        "cN1UILgZDb"
                     ],
                     "result": [
                         "JukYajn3x9"
@@ -15303,8 +15303,8 @@
             {
                 "name": "edit_embed_message",
                 "info": {
-                    "x": 7638,
-                    "y": 5387,
+                    "x": 7865,
+                    "y": 5425,
                     "z": 285,
                     "color": "#5a5a5a",
                     "height": 569,
@@ -16907,8 +16907,8 @@
             {
                 "name": "edit_message",
                 "info": {
-                    "x": 8148,
-                    "y": 5599,
+                    "x": 8426,
+                    "y": 5606,
                     "z": 381,
                     "color": "#5a5a5a",
                     "height": 237,
@@ -16928,6 +16928,29 @@
                 "outputs": {
                     "action": [],
                     "message": []
+                }
+            },
+            {
+                "name": "wait_with_number",
+                "info": {
+                    "x": 6869,
+                    "y": 5543,
+                    "z": 382,
+                    "color": "#5a5a5a",
+                    "height": 172,
+                    "width": 418
+                },
+                "inputs": {
+                    "action": "cN1UILgZDb"
+                },
+                "options": {
+                    "time_type": "milliseconds",
+                    "time": "10"
+                },
+                "outputs": {
+                    "action": [
+                        "eS3sp8FCtB"
+                    ]
                 }
             }
         ],
