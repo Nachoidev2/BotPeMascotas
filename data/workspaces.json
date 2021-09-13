@@ -3743,9 +3743,7 @@
                     "action": [
                         "awUwr34D9r"
                     ]
-                },
-                "inputs": {},
-                "options": {}
+                }
             },
             {
                 "name": "wait_with_number",
@@ -3788,8 +3786,7 @@
                     "action": [
                         "wvn9ljBAxQ"
                     ]
-                },
-                "options": {}
+                }
             },
             {
                 "name": "get_server_info",
@@ -3863,8 +3860,7 @@
                     "text": [
                         "rg6RCEnrIs"
                     ]
-                },
-                "inputs": {}
+                }
             },
             {
                 "name": "merge_texts_advanced",
@@ -4112,8 +4108,7 @@
                     "number": [
                         "bZ3lx9jNgO"
                     ]
-                },
-                "inputs": {}
+                }
             },
             {
                 "name": "get_bot_audio_info",
@@ -4265,8 +4260,7 @@
                     "action": [
                         "RjHvl7CYHA"
                     ]
-                },
-                "options": {}
+                }
             },
             {
                 "name": "bot_initialization_event",
@@ -4282,9 +4276,7 @@
                     "action": [
                         "zHZXS8ccY6"
                     ]
-                },
-                "inputs": {},
-                "options": {}
+                }
             },
             {
                 "name": "edit_voice_channel2",
@@ -4311,8 +4303,7 @@
                     "action": [
                         "b2WTmjXEDq"
                     ]
-                },
-                "options": {}
+                }
             },
             {
                 "name": "text",
@@ -4331,8 +4322,7 @@
                     "text": [
                         "R0tWFJatr3"
                     ]
-                },
-                "inputs": {}
+                }
             },
             {
                 "name": "find_channel",
@@ -4380,8 +4370,7 @@
                     "text": [
                         "lYFkcw6w4Z"
                     ]
-                },
-                "inputs": {}
+                }
             },
             {
                 "name": "find_server",
@@ -4505,8 +4494,7 @@
                     "action": [
                         "27PaGsgWaK"
                     ]
-                },
-                "options": {}
+                }
             },
             {
                 "name": "wait_with_number",
@@ -4585,8 +4573,7 @@
                     "action": [
                         "bDERr04OpE"
                     ]
-                },
-                "options": {}
+                }
             },
             {
                 "name": "find_channel",
@@ -4636,8 +4623,7 @@
                     "text": [
                         "inuldKOVC2"
                     ]
-                },
-                "inputs": {}
+                }
             },
             {
                 "name": "edit_voice_channel2",
@@ -4664,8 +4650,7 @@
                     "action": [
                         "O7mkWBxOZc"
                     ]
-                },
-                "options": {}
+                }
             },
             {
                 "name": "find_channel",
@@ -4715,8 +4700,7 @@
                     "text": [
                         "CipBybpOpL"
                     ]
-                },
-                "inputs": {}
+                }
             },
             {
                 "name": "get_fivem_info",
@@ -4760,10 +4744,10 @@
                 "outputs": {
                     "text": [
                         "imIOGM3FhK",
-                        "rhZ4fbeMvo"
+                        "rhZ4fbeMvo",
+                        "QdkcnHxjyK"
                     ]
-                },
-                "inputs": {}
+                }
             },
             {
                 "name": "ping_host",
@@ -4787,8 +4771,7 @@
                     "action2": [
                         "c7sYiHAuxs"
                     ]
-                },
-                "options": {}
+                }
             },
             {
                 "name": "number",
@@ -4807,10 +4790,10 @@
                     "number": [
                         "raXkTTf3gc",
                         "NIAxRRM04t",
-                        "Se35aDB9k6"
+                        "Se35aDB9k6",
+                        "ZwTwx8sAiI"
                     ]
-                },
-                "inputs": {}
+                }
             },
             {
                 "name": "text",
@@ -4829,10 +4812,10 @@
                     "text": [
                         "0NTGBFHl9X",
                         "N5KSb40a75",
-                        "Re2hZwYgKW"
+                        "Re2hZwYgKW",
+                        "AZwdrRBjJF"
                     ]
-                },
-                "inputs": {}
+                }
             },
             {
                 "name": "text",
@@ -4852,8 +4835,7 @@
                         "LfbZh2qBXb",
                         "g9qQFxwaQX"
                     ]
-                },
-                "inputs": {}
+                }
             },
             {
                 "name": "edit_voice_channel2",
@@ -4880,8 +4862,7 @@
                     "action": [
                         "HnZl9HQBsa"
                     ]
-                },
-                "options": {}
+                }
             },
             {
                 "name": "merge_actions",
@@ -4901,8 +4882,7 @@
                     "action": [
                         "Epas3ZOLmc"
                     ]
-                },
-                "options": {}
+                }
             },
             {
                 "name": "get_voice_channel_info",
@@ -4975,8 +4955,7 @@
                     "action": [
                         "jPf1Ge4npv"
                     ]
-                },
-                "options": {}
+                }
             },
             {
                 "name": "get_voice_channel_info",
@@ -5049,8 +5028,7 @@
                     "action": [
                         "EjPIbX62b7"
                     ]
-                },
-                "options": {}
+                }
             },
             {
                 "name": "check_comparison",
@@ -5123,8 +5101,7 @@
                     "action": [
                         "43GdvKl3Pq"
                     ]
-                },
-                "options": {}
+                }
             },
             {
                 "name": "get_voice_channel_info",
@@ -5197,8 +5174,7 @@
                     "action": [
                         "9BZZJHtbQw"
                     ]
-                },
-                "options": {}
+                }
             },
             {
                 "name": "ping_host",
@@ -5222,8 +5198,7 @@
                     "action2": [
                         "2sFVZmZl6P"
                     ]
-                },
-                "options": {}
+                }
             },
             {
                 "name": "merge_actions",
@@ -5243,8 +5218,7 @@
                     "action": [
                         "hzLFZH8X4j"
                     ]
-                },
-                "options": {}
+                }
             },
             {
                 "name": "text",
@@ -5264,8 +5238,7 @@
                         "NJBVP6q07d",
                         "FpxEBKfEBl"
                     ]
-                },
-                "inputs": {}
+                }
             },
             {
                 "name": "text",
@@ -5285,8 +5258,7 @@
                         "uRydmmLGNH",
                         "7f99T3b9Nr"
                     ]
-                },
-                "inputs": {}
+                }
             },
             {
                 "name": "edit_voice_channel2",
@@ -5313,8 +5285,7 @@
                     "action": [
                         "Yu3fIBlek6"
                     ]
-                },
-                "options": {}
+                }
             },
             {
                 "name": "get_voice_channel_info",
@@ -5387,8 +5358,7 @@
                     "action": [
                         "oMC7gaCXTG"
                     ]
-                },
-                "options": {}
+                }
             },
             {
                 "name": "command_event_with_text",
@@ -5420,7 +5390,7 @@
                     "server": [],
                     "channel": [
                         "Euq0QUOFQ2",
-                        "OSaEa73IFd"
+                        "LM6Kb61XIS"
                     ],
                     "vc": [],
                     "user": [],
@@ -5431,8 +5401,8 @@
             {
                 "name": "ping_host",
                 "info": {
-                    "x": 1165,
-                    "y": 3743,
+                    "x": 1055,
+                    "y": 3792,
                     "z": 112,
                     "color": "#5a5a5a",
                     "height": 144,
@@ -5450,8 +5420,7 @@
                     "action2": [
                         "aqs5ExzITh"
                     ]
-                },
-                "options": {}
+                }
             },
             {
                 "name": "Chad_send_messagev2.2",
@@ -5484,40 +5453,10 @@
                 }
             },
             {
-                "name": "Chad_send_messagev2.2",
-                "info": {
-                    "x": 2193,
-                    "y": 3630,
-                    "z": 114,
-                    "color": "#5a5a5a",
-                    "height": 299,
-                    "width": 472
-                },
-                "inputs": {
-                    "action": "kQnfAa1aIe",
-                    "channel": "OSaEa73IFd",
-                    "embed": "nxetl6Kpem",
-                    "attachment": "hXeHuO3Xf5",
-                    "text1": "f79J97yOqa",
-                    "text2": "kJHKCt0zWb",
-                    "text3": "m2YgTxYJiZ",
-                    "text4": "k6oW9kd4Py"
-                },
-                "options": {
-                    "TTS": "false",
-                    "smsg": "false",
-                    "text": "\n🎮 𝕁𝕦𝕘𝕒𝕕𝕠𝕣𝕖𝕤: ${text1}"
-                },
-                "outputs": {
-                    "action": [],
-                    "message": []
-                }
-            },
-            {
                 "name": "get_fivem_info",
                 "info": {
-                    "x": 1421,
-                    "y": 3589,
+                    "x": 1239,
+                    "y": 3546,
                     "z": 115,
                     "color": "#5a5a5a",
                     "height": 113,
@@ -5532,11 +5471,317 @@
                 },
                 "outputs": {
                     "action": [
-                        "kQnfAa1aIe"
+                        "wrlcv7X2rp"
                     ],
                     "result": [
-                        "f79J97yOqa"
+                        "rR3PNoX0W6"
                     ]
+                }
+            },
+            {
+                "name": "create_embed_message",
+                "info": {
+                    "x": 2430,
+                    "y": 3446,
+                    "z": 116,
+                    "color": "#5a5a5a",
+                    "height": 517,
+                    "width": 340
+                },
+                "inputs": {
+                    "action": "iE1Wxgkat2",
+                    "color": "wM7ic1n2q0",
+                    "thumbnail": "1CNuueQfjr",
+                    "author_icon": "N0Ntju1Ng3",
+                    "author_name": "xRdr3ttVpN",
+                    "author_url": "X0NeLAHjJv",
+                    "title": "yJUPWHrEyJ",
+                    "url": "bWUhFCXgiw",
+                    "description": "beaSFbqP1R",
+                    "image": "SlOYGOsUL2",
+                    "footer_icon": "AgW9nNOXof",
+                    "footer_text": "ewTVhnI3pL",
+                    "timestamp": "ALI8Q46f02"
+                },
+                "outputs": {
+                    "action": [
+                        "lBNEMHBtIV"
+                    ],
+                    "message_embed": [
+                        "F69eDZOUWI"
+                    ]
+                }
+            },
+            {
+                "name": "color",
+                "info": {
+                    "x": 1727,
+                    "y": 3736,
+                    "z": 117,
+                    "color": "#5a5a5a",
+                    "height": 105,
+                    "width": 193
+                },
+                "options": {
+                    "color": "#ff00ff"
+                },
+                "outputs": {
+                    "color": [
+                        "wM7ic1n2q0",
+                        "iTwJsiGEhC"
+                    ]
+                }
+            },
+            {
+                "name": "merge_texts_advanced",
+                "info": {
+                    "x": 1897,
+                    "y": 3554,
+                    "z": 118,
+                    "color": "#5a5a5a",
+                    "height": 175,
+                    "width": 418
+                },
+                "inputs": {
+                    "action": "wrlcv7X2rp",
+                    "text1": "rR3PNoX0W6",
+                    "text2": "deBwdYPVaw",
+                    "text3": "OST5gr5d3x"
+                },
+                "options": {
+                    "text": "🔌 𝔼𝕤𝕥𝕒𝕕𝕠: 🟢\n🎮 𝕁𝕦𝕘𝕒𝕕𝕠𝕣𝕖𝕤: ${text1}"
+                },
+                "outputs": {
+                    "action": [
+                        "iE1Wxgkat2"
+                    ],
+                    "text": [
+                        "yJUPWHrEyJ"
+                    ]
+                }
+            },
+            {
+                "name": "send_message",
+                "info": {
+                    "x": 2826,
+                    "y": 3729,
+                    "z": 119,
+                    "color": "#5a5a5a",
+                    "height": 237,
+                    "width": 280
+                },
+                "inputs": {
+                    "action": "lBNEMHBtIV",
+                    "channel": "LM6Kb61XIS",
+                    "text": "FzvTCm50Au",
+                    "embed": "F69eDZOUWI",
+                    "attachment": "4zZOTnMS5C",
+                    "split_message": "F9TE5pW8TI"
+                },
+                "outputs": {
+                    "action": [],
+                    "message": []
+                }
+            },
+            {
+                "name": "get_fivem_info",
+                "info": {
+                    "x": 1364,
+                    "y": 4539,
+                    "z": 120,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 536
+                },
+                "inputs": {
+                    "action": "Rc9hsbJB1V",
+                    "ip": "QdkcnHxjyK"
+                },
+                "options": {
+                    "type": "2"
+                },
+                "outputs": {
+                    "action": [
+                        "Jh4ZGqCYrA"
+                    ],
+                    "result": [
+                        "7c6ibQ0OUg"
+                    ]
+                }
+            },
+            {
+                "name": "command_event_with_text",
+                "info": {
+                    "x": 87,
+                    "y": 4426,
+                    "z": 121,
+                    "color": "#5a5a5a",
+                    "height": 401,
+                    "width": 759
+                },
+                "inputs": {
+                    "command_slowmode": "IPbo26tl0E"
+                },
+                "options": {
+                    "command_name": "jugadores",
+                    "custom_prefix": "",
+                    "command_restriction": "none",
+                    "required_member_permission": "none",
+                    "case_sensitive": "no",
+                    "command_slowmode_restriction": "none"
+                },
+                "outputs": {
+                    "action1": [
+                        "DXWVlGdBoS"
+                    ],
+                    "action2": [],
+                    "message": [],
+                    "server": [],
+                    "channel": [
+                        "GrJY3thO8u",
+                        "EnH9X6Ded8"
+                    ],
+                    "vc": [],
+                    "user": [],
+                    "member": [],
+                    "error_message": []
+                }
+            },
+            {
+                "name": "ping_host",
+                "info": {
+                    "x": 960,
+                    "y": 4559,
+                    "z": 122,
+                    "color": "#5a5a5a",
+                    "height": 144,
+                    "width": 273
+                },
+                "inputs": {
+                    "action": "DXWVlGdBoS",
+                    "host": "AZwdrRBjJF",
+                    "port": "ZwTwx8sAiI"
+                },
+                "outputs": {
+                    "action1": [
+                        "Rc9hsbJB1V"
+                    ],
+                    "action2": [
+                        "f7n7XxczmN"
+                    ]
+                }
+            },
+            {
+                "name": "merge_texts_advanced",
+                "info": {
+                    "x": 2046,
+                    "y": 4624,
+                    "z": 123,
+                    "color": "#5a5a5a",
+                    "height": 175,
+                    "width": 418
+                },
+                "inputs": {
+                    "action": "Jh4ZGqCYrA",
+                    "text1": "7c6ibQ0OUg",
+                    "text2": "MKdb2XLSVN",
+                    "text3": "NF9v2BDJPs"
+                },
+                "options": {
+                    "text": "🎮 𝕁𝕦𝕘𝕒𝕕𝕠𝕣𝕖𝕤: ${text1}"
+                },
+                "outputs": {
+                    "action": [
+                        "1IsXAmGg2G"
+                    ],
+                    "text": [
+                        "Wru2fO3iyR"
+                    ]
+                }
+            },
+            {
+                "name": "create_embed_message",
+                "info": {
+                    "x": 2604,
+                    "y": 4547,
+                    "z": 124,
+                    "color": "#5a5a5a",
+                    "height": 517,
+                    "width": 340
+                },
+                "inputs": {
+                    "action": "1IsXAmGg2G",
+                    "color": "iTwJsiGEhC",
+                    "thumbnail": "EOI2pYXL3M",
+                    "author_icon": "9JiAQT7c01",
+                    "author_name": "6qYye4qmGq",
+                    "author_url": "lES4My0Gya",
+                    "title": "Wru2fO3iyR",
+                    "url": "H89BetvBFi",
+                    "description": "5xlDpEw8uZ",
+                    "image": "uqkbgshZSh",
+                    "footer_icon": "YCCEg5HA8O",
+                    "footer_text": "L5l3LKXB2o",
+                    "timestamp": "vtagiwBXVL"
+                },
+                "outputs": {
+                    "action": [
+                        "ZBusWpphuW"
+                    ],
+                    "message_embed": [
+                        "ZMJX8rfy6e"
+                    ]
+                }
+            },
+            {
+                "name": "send_message",
+                "info": {
+                    "x": 3065.1145426432317,
+                    "y": 4970.922037760421,
+                    "z": 125,
+                    "color": "#5a5a5a"
+                },
+                "inputs": {
+                    "action": "ZBusWpphuW",
+                    "channel": "GrJY3thO8u",
+                    "text": "jlDHQDUsx3",
+                    "embed": "ZMJX8rfy6e",
+                    "attachment": "uRVRZjkeKS",
+                    "split_message": "6IpcJyzY2a"
+                },
+                "outputs": {
+                    "action": [],
+                    "message": []
+                }
+            },
+            {
+                "name": "Chad_send_messagev2.2",
+                "info": {
+                    "x": 1507,
+                    "y": 4845,
+                    "z": 126,
+                    "color": "#5a5a5a",
+                    "height": 299,
+                    "width": 472
+                },
+                "inputs": {
+                    "action": "f7n7XxczmN",
+                    "channel": "EnH9X6Ded8",
+                    "embed": "jhfcDsYhxh",
+                    "attachment": "PoN8JCxwEO",
+                    "text1": "r15deNvySO",
+                    "text2": "vZsqPNd2FO",
+                    "text3": "631ydan2M2",
+                    "text4": "qID5hiSnV0"
+                },
+                "options": {
+                    "TTS": "false",
+                    "smsg": "false",
+                    "text": "El servidor esta offline"
+                },
+                "outputs": {
+                    "action": [],
+                    "message": []
                 }
             }
         ],
