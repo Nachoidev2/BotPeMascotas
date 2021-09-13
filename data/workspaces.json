@@ -9,8 +9,8 @@
             {
                 "name": "bot_initialization_event",
                 "info": {
-                    "x": 127,
-                    "y": 224,
+                    "x": 57,
+                    "y": 28,
                     "z": 1,
                     "color": "#5a5a5a",
                     "height": 82,
@@ -18,7 +18,7 @@
                 },
                 "outputs": {
                     "action": [
-                        "IeTNz0Gjyx"
+                        "OuIjrYi1i4"
                     ]
                 }
             },
@@ -371,8 +371,8 @@
             {
                 "name": "merge_actions",
                 "info": {
-                    "x": 248,
-                    "y": 344,
+                    "x": 316,
+                    "y": 387,
                     "z": 17,
                     "color": "#5a5a5a",
                     "height": 113,
@@ -405,6 +405,29 @@
                 "outputs": {
                     "action": [
                         "HUlvCa8sam"
+                    ]
+                }
+            },
+            {
+                "name": "wait_with_number",
+                "info": {
+                    "x": 48,
+                    "y": 160,
+                    "z": 19,
+                    "color": "#5a5a5a",
+                    "height": 172,
+                    "width": 418
+                },
+                "inputs": {
+                    "action": "OuIjrYi1i4"
+                },
+                "options": {
+                    "time_type": "milliseconds",
+                    "time": "20"
+                },
+                "outputs": {
+                    "action": [
+                        "IeTNz0Gjyx"
                     ]
                 }
             }
