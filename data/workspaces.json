@@ -278,8 +278,8 @@
                 },
                 "outputs": {
                     "action": [
-                        "kObmGIU5bl",
-                        "UygV7QoN6D"
+                        "UygV7QoN6D",
+                        "pVdCx3YpBr"
                     ],
                     "message": []
                 }
@@ -334,8 +334,8 @@
             {
                 "name": "restart_bot",
                 "info": {
-                    "x": 4269,
-                    "y": 1153,
+                    "x": 4491,
+                    "y": 1143,
                     "z": 15,
                     "color": "#5a5a5a",
                     "height": 82,
@@ -391,8 +391,8 @@
             {
                 "name": "merge_actions",
                 "info": {
-                    "x": 3772,
-                    "y": 1173,
+                    "x": 3753,
+                    "y": 1223,
                     "z": 18,
                     "color": "#5a5a5a",
                     "height": 113,
@@ -428,6 +428,29 @@
                 "outputs": {
                     "action": [
                         "IeTNz0Gjyx"
+                    ]
+                }
+            },
+            {
+                "name": "wait_with_number",
+                "info": {
+                    "x": 3904,
+                    "y": 1010,
+                    "z": 20,
+                    "color": "#5a5a5a",
+                    "height": 172,
+                    "width": 418
+                },
+                "inputs": {
+                    "action": "pVdCx3YpBr"
+                },
+                "options": {
+                    "time_type": "milliseconds",
+                    "time": "40"
+                },
+                "outputs": {
+                    "action": [
+                        "kObmGIU5bl"
                     ]
                 }
             }
