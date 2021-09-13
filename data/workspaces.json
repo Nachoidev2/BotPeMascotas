@@ -422,8 +422,8 @@
                     "action": "OuIjrYi1i4"
                 },
                 "options": {
-                    "time_type": "milliseconds",
-                    "time": "20"
+                    "time_type": "seconds",
+                    "time": "1"
                 },
                 "outputs": {
                     "action": [
