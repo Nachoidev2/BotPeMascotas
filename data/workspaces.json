@@ -13365,8 +13365,8 @@
             {
                 "name": "number",
                 "info": {
-                    "x": 2154,
-                    "y": 5264,
+                    "x": 2376,
+                    "y": 5162,
                     "z": 52,
                     "color": "#5a5a5a",
                     "height": 107,
@@ -13398,7 +13398,7 @@
                 },
                 "outputs": {
                     "action": [
-                        "q8tkWJHsDl"
+                        "wzmB5EGNCZ"
                     ]
                 }
             },
@@ -13424,8 +13424,8 @@
             {
                 "name": "send_message",
                 "info": {
-                    "x": 6830,
-                    "y": 5134,
+                    "x": 2493,
+                    "y": 5425,
                     "z": 65,
                     "color": "#5a5a5a",
                     "height": 237,
@@ -13441,7 +13441,7 @@
                 },
                 "outputs": {
                     "action": [
-                        "qmCmRqhRZI"
+                        "q8tkWJHsDl"
                     ],
                     "message": [
                         "5mRwXQz0oS"
@@ -13641,8 +13641,8 @@
             {
                 "name": "get_voice_channel_info",
                 "info": {
-                    "x": 6152,
-                    "y": 5586,
+                    "x": 6542,
+                    "y": 5589,
                     "z": 108,
                     "color": "#5a5a5a",
                     "height": 118,
@@ -13657,7 +13657,7 @@
                 },
                 "outputs": {
                     "action": [
-                        "cN1UILgZDb"
+                        "eS3sp8FCtB"
                     ],
                     "result": [
                         "JukYajn3x9"
@@ -13692,8 +13692,8 @@
             {
                 "name": "merge_texts_advanced",
                 "info": {
-                    "x": 4420,
-                    "y": 6044,
+                    "x": 4535,
+                    "y": 6029,
                     "z": 139,
                     "color": "#5a5a5a",
                     "height": 175,
@@ -16484,8 +16484,8 @@
             {
                 "name": "merge_actions",
                 "info": {
-                    "x": 6031,
-                    "y": 5436,
+                    "x": 6026,
+                    "y": 5426,
                     "z": 350,
                     "color": "#5a5a5a",
                     "height": 113,
@@ -16497,7 +16497,7 @@
                 },
                 "outputs": {
                     "action": [
-                        "wzmB5EGNCZ"
+                        "qmCmRqhRZI"
                     ]
                 }
             },
@@ -16834,8 +16834,8 @@
             {
                 "name": "create_embed_message",
                 "info": {
-                    "x": 6398,
-                    "y": 4891,
+                    "x": 2118,
+                    "y": 5317,
                     "z": 377,
                     "color": "#5a5a5a",
                     "height": 517,
@@ -16869,8 +16869,8 @@
             {
                 "name": "text",
                 "info": {
-                    "x": 6021,
-                    "y": 5248,
+                    "x": 1610,
+                    "y": 5566,
                     "z": 378,
                     "color": "#5a5a5a",
                     "height": 118,
@@ -16888,8 +16888,8 @@
             {
                 "name": "text",
                 "info": {
-                    "x": 6037,
-                    "y": 5085,
+                    "x": 1581,
+                    "y": 5395,
                     "z": 379,
                     "color": "#5a5a5a",
                     "height": 118,
@@ -16928,29 +16928,6 @@
                 "outputs": {
                     "action": [],
                     "message": []
-                }
-            },
-            {
-                "name": "wait_with_number",
-                "info": {
-                    "x": 6869,
-                    "y": 5543,
-                    "z": 382,
-                    "color": "#5a5a5a",
-                    "height": 172,
-                    "width": 418
-                },
-                "inputs": {
-                    "action": "cN1UILgZDb"
-                },
-                "options": {
-                    "time_type": "milliseconds",
-                    "time": "10"
-                },
-                "outputs": {
-                    "action": [
-                        "eS3sp8FCtB"
-                    ]
                 }
             }
         ],
