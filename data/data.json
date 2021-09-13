@@ -1,0 +1,81 @@
+{
+    "dbb": {
+        "prefixes": {
+            "main": "!",
+            "servers": {}
+        },
+        "owners": []
+    },
+    "discord": {
+        "servers": {},
+        "members": {
+            "373649987914956800": {
+                "member xp data": 620,
+                "Level cap": 100
+            },
+            "834617940732280844": {
+                "member xp data": 1130,
+                "Level cap": 100
+            },
+            "865742073356222494": {
+                "Level cap": 400,
+                "member xp data": 0
+            },
+            "691107023869181983": {
+                "member xp data": 80,
+                "Level cap": 100
+            },
+            "555545683889881110": {
+                "member xp data": 430,
+                "Level cap": 100
+            },
+            "537674596468523026": {
+                "member xp data": 10,
+                "Level cap": 100
+            },
+            "414200930813214730": {
+                "member xp data": 30,
+                "Level cap": 100
+            },
+            "636987370192896011": {
+                "member xp data": 10,
+                "Level cap": 100
+            },
+            "437390007276273694": {
+                "member xp data": 80,
+                "Level cap": 100
+            },
+            "472613756279717898": {
+                "member xp data": 190,
+                "Level cap": 100
+            },
+            "513593338037927946": {
+                "member xp data": 40,
+                "Level cap": 100
+            },
+            "698594415807037531": {
+                "member xp data": 10,
+                "Level cap": 100
+            },
+            "217437351612252162": {
+                "member xp data": 30,
+                "Level cap": 100
+            },
+            "355489819062960139": {
+                "member xp data": 20,
+                "Level cap": 100
+            },
+            "428597569988460545": {
+                "member xp data": 30,
+                "Level cap": 100
+            },
+            "553702628291248129": {
+                "member xp data": 20,
+                "Level cap": 100
+            }
+        },
+        "users": {}
+    },
+    "blocks": {},
+    "custom": {}
+}
