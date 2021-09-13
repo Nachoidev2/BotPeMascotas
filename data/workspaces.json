@@ -496,9 +496,7 @@
                         "zVP7CiRfVf",
                         "UbnYL1qDBc"
                     ]
-                },
-                "inputs": {},
-                "options": {}
+                }
             },
             {
                 "name": "delete_message",
@@ -518,8 +516,7 @@
                 },
                 "outputs": {
                     "action": []
-                },
-                "options": {}
+                }
             },
             {
                 "name": "Switch_conditional",
@@ -583,8 +580,7 @@
                     "text": [
                         "Pxlq9IJke8"
                     ]
-                },
-                "inputs": {}
+                }
             },
             {
                 "name": "get_message_info",
@@ -641,8 +637,7 @@
                         "dyVLeTzy65",
                         "sDgHf02eKm"
                     ]
-                },
-                "options": {}
+                }
             },
             {
                 "name": "text",
@@ -661,8 +656,7 @@
                     "text": [
                         "iIt6QCqkr7"
                     ]
-                },
-                "inputs": {}
+                }
             },
             {
                 "name": "text",
@@ -681,8 +675,7 @@
                     "text": [
                         "wodD2GWYnF"
                     ]
-                },
-                "inputs": {}
+                }
             },
             {
                 "name": "text",
@@ -701,8 +694,7 @@
                     "text": [
                         "aKTFWL46Zn"
                     ]
-                },
-                "inputs": {}
+                }
             },
             {
                 "name": "check_comparison",
@@ -886,8 +878,7 @@
                     "text": [
                         "anLe5zY133"
                     ]
-                },
-                "inputs": {}
+                }
             },
             {
                 "name": "get_member_info",
@@ -958,8 +949,7 @@
                     "text": [
                         "eMd3pzX0p0"
                     ]
-                },
-                "inputs": {}
+                }
             },
             {
                 "name": "check_comparison",
@@ -1054,8 +1044,7 @@
                     "text": [
                         "7GOKM6rfWd"
                     ]
-                },
-                "inputs": {}
+                }
             },
             {
                 "name": "get_member_info",
@@ -5203,7 +5192,8 @@
                     "text": [
                         "imIOGM3FhK",
                         "rhZ4fbeMvo",
-                        "QdkcnHxjyK"
+                        "QdkcnHxjyK",
+                        "83Zm4yiS0p"
                     ]
                 }
             },
@@ -5929,7 +5919,7 @@
                 },
                 "outputs": {
                     "action": [
-                        "wrlcv7X2rp"
+                        "bcguWq7kSx"
                     ],
                     "result": [
                         "rR3PNoX0W6"
@@ -5973,8 +5963,8 @@
             {
                 "name": "color",
                 "info": {
-                    "x": 1727,
-                    "y": 3736,
+                    "x": 2049,
+                    "y": 3801,
                     "z": 117,
                     "color": "#5a5a5a",
                     "height": 105,
@@ -6007,7 +5997,7 @@
                     "text3": "OST5gr5d3x"
                 },
                 "options": {
-                    "text": "🔌 𝔼𝕤𝕥𝕒𝕕𝕠: 🟢\n🎮 𝕁𝕦𝕘𝕒𝕕𝕠𝕣𝕖𝕤: ${text1}"
+                    "text": "🔌 𝔼𝕤𝕥𝕒𝕕𝕠: 🟢\n🎮 𝕁𝕦𝕘𝕒𝕕𝕠𝕣𝕖𝕤: ${text1}/${text2}"
                 },
                 "outputs": {
                     "action": [
@@ -6240,6 +6230,32 @@
                 "outputs": {
                     "action": [],
                     "message": []
+                }
+            },
+            {
+                "name": "get_fivem_info",
+                "info": {
+                    "x": 1381,
+                    "y": 3783,
+                    "z": 127,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 536
+                },
+                "inputs": {
+                    "action": "bcguWq7kSx",
+                    "ip": "83Zm4yiS0p"
+                },
+                "options": {
+                    "type": "3"
+                },
+                "outputs": {
+                    "action": [
+                        "wrlcv7X2rp"
+                    ],
+                    "result": [
+                        "deBwdYPVaw"
+                    ]
                 }
             }
         ],
