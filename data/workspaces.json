@@ -16986,7 +16986,7 @@
                 },
                 "outputs": {
                     "action": [
-                        "K7b1rtemZF"
+                        "5Cf0gxZ98H"
                     ]
                 }
             },
@@ -17026,29 +17026,6 @@
                 "outputs": {
                     "action": [
                         "uk9df3zyWL"
-                    ]
-                }
-            },
-            {
-                "name": "wait_with_number",
-                "info": {
-                    "x": 5487,
-                    "y": 5762,
-                    "z": 386,
-                    "color": "#5a5a5a",
-                    "height": 172,
-                    "width": 418
-                },
-                "inputs": {
-                    "action": "K7b1rtemZF"
-                },
-                "options": {
-                    "time_type": "milliseconds",
-                    "time": "40"
-                },
-                "outputs": {
-                    "action": [
-                        "5Cf0gxZ98H"
                     ]
                 }
             },
