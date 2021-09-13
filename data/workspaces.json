@@ -13272,7 +13272,8 @@
                         "61iZ1PEzpq",
                         "etZehYaNLg",
                         "uP0X3Zbzyc",
-                        "FfBm4EHYF8"
+                        "FfBm4EHYF8",
+                        "yaybrQQd0A"
                     ],
                     "vc": [
                         "WqyeL4z3Rw",
@@ -15382,8 +15383,8 @@
             {
                 "name": "text",
                 "info": {
-                    "x": 2781,
-                    "y": 4577,
+                    "x": 2775,
+                    "y": 4546,
                     "z": 292,
                     "color": "#5a5a5a",
                     "height": 118,
@@ -15782,7 +15783,8 @@
                     "content": [
                         "AukGHWN8Mv",
                         "OuV0x55KFt",
-                        "LvfxbIf8th"
+                        "LvfxbIf8th",
+                        "O3EBosNE1A"
                     ]
                 }
             },
@@ -16395,8 +16397,8 @@
             {
                 "name": "play_youtube_playlist2",
                 "info": {
-                    "x": 5297,
-                    "y": 5448,
+                    "x": 5272,
+                    "y": 5373,
                     "z": 344,
                     "color": "#5a5a5a",
                     "height": 341,
@@ -16445,8 +16447,8 @@
             {
                 "name": "text",
                 "info": {
-                    "x": 2782,
-                    "y": 4427,
+                    "x": 2783,
+                    "y": 4406,
                     "z": 348,
                     "color": "#5a5a5a",
                     "height": 118,
@@ -16464,8 +16466,8 @@
             {
                 "name": "merge_actions",
                 "info": {
-                    "x": 4547,
-                    "y": 5488,
+                    "x": 4765,
+                    "y": 5400,
                     "z": 349,
                     "color": "#5a5a5a",
                     "height": 113,
@@ -16482,18 +16484,26 @@
                 }
             },
             {
-                "name": "merge_actions",
+                "name": "merge_actions_10x",
                 "info": {
-                    "x": 6026,
-                    "y": 5426,
+                    "x": 6143,
+                    "y": 5473,
                     "z": 350,
                     "color": "#5a5a5a",
-                    "height": 113,
-                    "width": 224
+                    "height": 361,
+                    "width": 233
                 },
                 "inputs": {
                     "action1": "0S2Q3G6q0S",
-                    "action2": "WsdS5Am8hE"
+                    "action2": "WsdS5Am8hE",
+                    "action3": "5Cf0gxZ98H",
+                    "action4": "YyoFfe0YMo",
+                    "action5": "PHCg0bSr8t",
+                    "action6": "L6tSAcwVl2",
+                    "action7": "A50javaK4M",
+                    "action8": "klBCYeUB4N",
+                    "action9": "tWxLZKkBQ3",
+                    "action10": "eOCbNHi95A"
                 },
                 "outputs": {
                     "action": [
@@ -16534,8 +16544,12 @@
                     "swo2": [
                         "d53rSxMH68"
                     ],
-                    "swo3": [],
-                    "swo4": [],
+                    "swo3": [
+                        "ndVkqgHxgM"
+                    ],
+                    "swo4": [
+                        "Kl4vKyg7Bv"
+                    ],
                     "swo5": [],
                     "swo6": [
                         "j1m3qXejA4"
@@ -16928,6 +16942,93 @@
                 "outputs": {
                     "action": [],
                     "message": []
+                }
+            },
+            {
+                "name": "text",
+                "info": {
+                    "x": 2774,
+                    "y": 4681,
+                    "z": 382,
+                    "color": "#5a5a5a",
+                    "height": 118,
+                    "width": 305
+                },
+                "options": {
+                    "text": "https://youtu.be"
+                },
+                "outputs": {
+                    "text": [
+                        "apDelXEPhB"
+                    ]
+                }
+            },
+            {
+                "name": "play_youtube_video",
+                "info": {
+                    "x": 4651,
+                    "y": 5595,
+                    "z": 383,
+                    "color": "#5a5a5a",
+                    "height": 310,
+                    "width": 581
+                },
+                "inputs": {
+                    "action": "uk9df3zyWL",
+                    "server": "yaybrQQd0A",
+                    "video_id": "O3EBosNE1A",
+                    "seek": "MaPT7Qfaf6",
+                    "volume": "G2GCESnuDQ",
+                    "bitrate": "t0RtjKmwuw",
+                    "custom_position": "m2LKMyWFqT"
+                },
+                "options": {
+                    "audio_behavior_type": "add_last",
+                    "audio_quality_type": "highestaudio"
+                },
+                "outputs": {
+                    "action": [
+                        "5Cf0gxZ98H"
+                    ]
+                }
+            },
+            {
+                "name": "text",
+                "info": {
+                    "x": 3102,
+                    "y": 4692,
+                    "z": 384,
+                    "color": "#5a5a5a",
+                    "height": 118,
+                    "width": 305
+                },
+                "options": {
+                    "text": "https://www.youtube.com"
+                },
+                "outputs": {
+                    "text": [
+                        "bvdP9CVfPm"
+                    ]
+                }
+            },
+            {
+                "name": "merge_actions",
+                "info": {
+                    "x": 4178,
+                    "y": 5506,
+                    "z": 385,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 224
+                },
+                "inputs": {
+                    "action1": "ndVkqgHxgM",
+                    "action2": "Kl4vKyg7Bv"
+                },
+                "outputs": {
+                    "action": [
+                        "uk9df3zyWL"
+                    ]
                 }
             }
         ],
