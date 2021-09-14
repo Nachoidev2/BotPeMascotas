@@ -14417,7 +14417,7 @@
                     "text3": "FreB1cyDZj"
                 },
                 "options": {
-                    "text": ":thumbsup: Uniendose a : ${text2}\n🎵 Reproduciendo : ${text1}"
+                    "text": ":thumbsup: Reproduciendo en : ${text2}\n🎵 Canción : ${text1}"
                 },
                 "outputs": {
                     "action": [
@@ -17878,6 +17878,25 @@
                     "channel": [],
                     "channelurl": [],
                     "channelverified": []
+                }
+            },
+            {
+                "name": "text",
+                "info": {
+                    "x": 7774,
+                    "y": 5880,
+                    "z": 389,
+                    "color": "#5a5a5a",
+                    "height": 118,
+                    "width": 305
+                },
+                "options": {
+                    "text": "https://media4.giphy.com/media/cJBSOt22MJ1P9dVXPR/giphy_s.gif?cid=ecf05e477cmtnsqqgzmnr9k1m61tafuj8ryin4vsrwae3f8i&rid=giphy_s.gif&ct=s"
+                },
+                "outputs": {
+                    "text": [
+                        "eTj8uX1RiL"
+                    ]
                 }
             }
         ],
