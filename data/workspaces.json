@@ -4720,9 +4720,7 @@
                     "width": 251
                 },
                 "outputs": {
-                    "action": [
-                        "zHZXS8ccY6"
-                    ]
+                    "action": []
                 }
             },
             {
@@ -6098,8 +6096,8 @@
             {
                 "name": "ping_host",
                 "info": {
-                    "x": 960,
-                    "y": 4559,
+                    "x": 959,
+                    "y": 4535,
                     "z": 122,
                     "color": "#5a5a5a",
                     "height": 144,
