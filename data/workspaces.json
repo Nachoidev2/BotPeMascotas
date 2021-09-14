@@ -4720,7 +4720,9 @@
                     "width": 251
                 },
                 "outputs": {
-                    "action": []
+                    "action": [
+                        "zHZXS8ccY6"
+                    ]
                 }
             },
             {
@@ -5333,8 +5335,8 @@
             {
                 "name": "get_voice_channel_info",
                 "info": {
-                    "x": 1432,
-                    "y": 2842,
+                    "x": 1439,
+                    "y": 2839,
                     "z": 90,
                     "color": "#5a5a5a",
                     "height": 113,
