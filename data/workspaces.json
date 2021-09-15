@@ -9,8 +9,8 @@
             {
                 "name": "get_content_from_website",
                 "info": {
-                    "x": 1391,
-                    "y": 686,
+                    "x": 1760,
+                    "y": 361,
                     "z": 1,
                     "color": "#5a5a5a",
                     "height": 113,
@@ -21,9 +21,7 @@
                     "url": "dpBPmZVvIb"
                 },
                 "outputs": {
-                    "action": [
-                        "ops9oMlfUD"
-                    ],
+                    "action": [],
                     "content": [
                         "HaHMWKRKR3"
                     ]
@@ -69,8 +67,8 @@
             {
                 "name": "transform_value",
                 "info": {
-                    "x": 1657,
-                    "y": 667,
+                    "x": 1898,
+                    "y": 580,
                     "z": 4,
                     "color": "#5a5a5a",
                     "height": 113,
@@ -91,8 +89,8 @@
             {
                 "name": "get_property_from_object",
                 "info": {
-                    "x": 355,
-                    "y": 632,
+                    "x": 776,
+                    "y": 616,
                     "z": 7,
                     "color": "#5a5a5a",
                     "height": 144,
@@ -104,15 +102,17 @@
                     "key": "lNzIQcTpeB"
                 },
                 "outputs": {
-                    "action": [],
+                    "action": [
+                        "h8VCToH6GL"
+                    ],
                     "value": []
                 }
             },
             {
                 "name": "text",
                 "info": {
-                    "x": 38,
-                    "y": 630,
+                    "x": 337,
+                    "y": 690,
                     "z": 8,
                     "color": "#5a5a5a",
                     "height": 118,
@@ -155,7 +155,7 @@
                 "name": "text",
                 "info": {
                     "x": 311,
-                    "y": 896,
+                    "y": 870,
                     "z": 10,
                     "color": "#5a5a5a",
                     "height": 118,
@@ -216,8 +216,8 @@
             {
                 "name": "merge_texts_advanced",
                 "info": {
-                    "x": 1205,
-                    "y": 957,
+                    "x": 1166,
+                    "y": 1037,
                     "z": 13,
                     "color": "#5a5a5a",
                     "height": 175,
@@ -233,12 +233,8 @@
                     "text": "Dolar = $${text1}"
                 },
                 "outputs": {
-                    "action": [
-                        "1yo3bHvVbH"
-                    ],
-                    "text": [
-                        "R2pz5J7LTd"
-                    ]
+                    "action": [],
+                    "text": []
                 }
             },
             {
@@ -304,8 +300,8 @@
             {
                 "name": "console_log",
                 "info": {
-                    "x": 1458,
-                    "y": 1326,
+                    "x": 1805,
+                    "y": 1194,
                     "z": 18,
                     "color": "#5a5a5a",
                     "height": 113,
@@ -337,16 +333,66 @@
                 },
                 "options": {
                     "method_type": "get",
-                    "data_type": "text"
+                    "data_type": "json"
                 },
                 "outputs": {
                     "action": [
-                        "h8VCToH6GL"
+                        "AgW2X15k4J"
                     ],
                     "data": [
                         "jkQAln0eB0",
-                        "cE6Z99h8MD"
+                        "cE6Z99h8MD",
+                        "dvrz3ozMJM"
                     ]
+                }
+            },
+            {
+                "name": "get_object_info",
+                "info": {
+                    "x": 1146,
+                    "y": 695,
+                    "z": 21,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 478
+                },
+                "inputs": {
+                    "action": "AgW2X15k4J",
+                    "object": "dvrz3ozMJM"
+                },
+                "options": {
+                    "object_info": "1"
+                },
+                "outputs": {
+                    "action": [
+                        "1yo3bHvVbH"
+                    ],
+                    "result": [
+                        "R2pz5J7LTd"
+                    ]
+                }
+            },
+            {
+                "name": "get_item_from_list_v2",
+                "info": {
+                    "x": 1164,
+                    "y": 837,
+                    "z": 22,
+                    "color": "#5a5a5a",
+                    "height": 165,
+                    "width": 443
+                },
+                "inputs": {
+                    "action": "yLqIeLjvms",
+                    "list": "ZXdiUKxGKc",
+                    "custom_position": "NqbVArGOMv"
+                },
+                "options": {
+                    "position_type": "first"
+                },
+                "outputs": {
+                    "action": [],
+                    "value": []
                 }
             }
         ],
