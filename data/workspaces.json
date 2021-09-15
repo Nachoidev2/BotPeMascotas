@@ -362,9 +362,36 @@
                 },
                 "outputs": {
                     "action": [
-                        "1yo3bHvVbH"
+                        "mXLxxOAKEz"
                     ],
                     "result": [
+                        "lkLY6rvQQT"
+                    ]
+                }
+            },
+            {
+                "name": "get_item_from_list_v2",
+                "info": {
+                    "x": 1279,
+                    "y": 864,
+                    "z": 22,
+                    "color": "#5a5a5a",
+                    "height": 165,
+                    "width": 443
+                },
+                "inputs": {
+                    "action": "mXLxxOAKEz",
+                    "list": "lkLY6rvQQT",
+                    "custom_position": "vWqkmHofpX"
+                },
+                "options": {
+                    "position_type": "second"
+                },
+                "outputs": {
+                    "action": [
+                        "1yo3bHvVbH"
+                    ],
+                    "value": [
                         "R2pz5J7LTd"
                     ]
                 }
