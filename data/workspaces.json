@@ -174,8 +174,8 @@
             {
                 "name": "get_property_from_object",
                 "info": {
-                    "x": 781,
-                    "y": 1029,
+                    "x": 789,
+                    "y": 1039,
                     "z": 11,
                     "color": "#5a5a5a",
                     "height": 144,
@@ -297,8 +297,8 @@
             {
                 "name": "console_log",
                 "info": {
-                    "x": 1932,
-                    "y": 1110,
+                    "x": 1902,
+                    "y": 908,
                     "z": 18,
                     "color": "#5a5a5a",
                     "height": 113,
@@ -345,8 +345,8 @@
             {
                 "name": "get_object_info",
                 "info": {
-                    "x": 1184,
-                    "y": 738,
+                    "x": 1201,
+                    "y": 724,
                     "z": 21,
                     "color": "#5a5a5a",
                     "height": 113,
@@ -357,7 +357,7 @@
                     "object": "dvrz3ozMJM"
                 },
                 "options": {
-                    "object_info": "3"
+                    "object_info": "1"
                 },
                 "outputs": {
                     "action": [
