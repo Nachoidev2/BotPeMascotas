@@ -22,10 +22,11 @@
                 },
                 "outputs": {
                     "action": [
-                        "ops9oMlfUD"
+                        "degaWjMXbP"
                     ],
                     "content": [
-                        "HaHMWKRKR3"
+                        "HaHMWKRKR3",
+                        "40clmr596Y"
                     ]
                 }
             },
@@ -68,8 +69,8 @@
             {
                 "name": "transform_value",
                 "info": {
-                    "x": 966,
-                    "y": 518,
+                    "x": 1271,
+                    "y": 606,
                     "z": 4,
                     "color": "#5a5a5a",
                     "height": 113,
@@ -83,12 +84,8 @@
                     "transformation_type": "jsonparse"
                 },
                 "outputs": {
-                    "action": [
-                        "2rLUG8ibh2"
-                    ],
-                    "result": [
-                        "jkQAln0eB0"
-                    ]
+                    "action": [],
+                    "result": []
                 }
             },
             {
@@ -138,8 +135,8 @@
             {
                 "name": "get_property_from_object",
                 "info": {
-                    "x": 701,
-                    "y": 843,
+                    "x": 688,
+                    "y": 833,
                     "z": 9,
                     "color": "#5a5a5a",
                     "height": 144,
@@ -220,7 +217,7 @@
             {
                 "name": "merge_texts_advanced",
                 "info": {
-                    "x": 708,
+                    "x": 705,
                     "y": 1209,
                     "z": 13,
                     "color": "#5a5a5a",
@@ -321,6 +318,32 @@
                 },
                 "outputs": {
                     "action": []
+                }
+            },
+            {
+                "name": "read_file",
+                "info": {
+                    "x": 968,
+                    "y": 431,
+                    "z": 19,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 457
+                },
+                "inputs": {
+                    "action": "degaWjMXbP",
+                    "file_path": "40clmr596Y"
+                },
+                "options": {
+                    "conversion_type": "json"
+                },
+                "outputs": {
+                    "action": [
+                        "2rLUG8ibh2"
+                    ],
+                    "content": [
+                        "jkQAln0eB0"
+                    ]
                 }
             }
         ],
