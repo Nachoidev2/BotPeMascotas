@@ -128,7 +128,7 @@
                     "width": 305
                 },
                 "options": {
-                    "text": "/api/dolaroficial"
+                    "text": "dolaroficial"
                 },
                 "outputs": {
                     "text": [
@@ -309,8 +309,8 @@
             {
                 "name": "console_log",
                 "info": {
-                    "x": 1352,
-                    "y": 1474,
+                    "x": 1458,
+                    "y": 1326,
                     "z": 18,
                     "color": "#5a5a5a",
                     "height": 113,
