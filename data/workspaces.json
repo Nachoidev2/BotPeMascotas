@@ -361,10 +361,10 @@
                 },
                 "outputs": {
                     "action": [
-                        "vYRPYWoOgl"
+                        "kZgsCFqywf"
                     ],
                     "result": [
-                        "ScMvGJQjNQ"
+                        "vuYIdjAUbl"
                     ]
                 }
             },
@@ -389,29 +389,48 @@
                 }
             },
             {
-                "name": "get_item_from_list",
+                "name": "filter_list",
                 "info": {
-                    "x": 1255,
-                    "y": 874,
-                    "z": 23,
+                    "x": 1367,
+                    "y": 891,
+                    "z": 24,
                     "color": "#5a5a5a",
-                    "height": 165,
-                    "width": 443
+                    "height": 144,
+                    "width": 426
                 },
                 "inputs": {
-                    "action": "vYRPYWoOgl",
-                    "list": "ScMvGJQjNQ",
-                    "custom_position": "8q1dxC1QZO"
+                    "action": "kZgsCFqywf",
+                    "list": "vuYIdjAUbl",
+                    "value": "6PUxmoCx4W"
                 },
                 "options": {
-                    "position_type": "last"
+                    "comparison_type": "equal"
                 },
                 "outputs": {
                     "action": [
                         "1yo3bHvVbH"
                     ],
-                    "value": [
+                    "list": [
                         "R2pz5J7LTd"
+                    ]
+                }
+            },
+            {
+                "name": "text",
+                "info": {
+                    "x": 1008,
+                    "y": 947,
+                    "z": 25,
+                    "color": "#5a5a5a",
+                    "height": 118,
+                    "width": 305
+                },
+                "options": {
+                    "text": "venta"
+                },
+                "outputs": {
+                    "text": [
+                        "6PUxmoCx4W"
                     ]
                 }
             }
