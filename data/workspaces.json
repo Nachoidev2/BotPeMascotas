@@ -1,6 +1,334 @@
 [
     {
         "info": {
+            "title": "BITCOIN",
+            "description": "",
+            "thumbnail": ""
+        },
+        "blocks": [
+            {
+                "name": "get_content_from_website",
+                "info": {
+                    "x": 620,
+                    "y": 461,
+                    "z": 1,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 256
+                },
+                "inputs": {
+                    "action": "3JuXW1OXue",
+                    "url": "dpBPmZVvIb"
+                },
+                "outputs": {
+                    "action": [
+                        "ops9oMlfUD"
+                    ],
+                    "content": [
+                        "HaHMWKRKR3"
+                    ]
+                }
+            },
+            {
+                "name": "text",
+                "info": {
+                    "x": 267,
+                    "y": 454,
+                    "z": 2,
+                    "color": "#5a5a5a",
+                    "height": 118,
+                    "width": 305
+                },
+                "options": {
+                    "text": "https://api-dolar-argentina.herokuapp.com/"
+                },
+                "outputs": {
+                    "text": [
+                        "dpBPmZVvIb"
+                    ]
+                }
+            },
+            {
+                "name": "bot_initialization_event",
+                "info": {
+                    "x": 80,
+                    "y": 107,
+                    "z": 3,
+                    "color": "#5a5a5a",
+                    "height": 82,
+                    "width": 242
+                },
+                "outputs": {
+                    "action": [
+                        "2l6wYuMH8C",
+                        "0YJIeU1plr"
+                    ]
+                }
+            },
+            {
+                "name": "transform_value",
+                "info": {
+                    "x": 966,
+                    "y": 518,
+                    "z": 4,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 491
+                },
+                "inputs": {
+                    "action": "ops9oMlfUD",
+                    "value": "HaHMWKRKR3"
+                },
+                "options": {
+                    "transformation_type": "jsonparse"
+                },
+                "outputs": {
+                    "action": [
+                        "2rLUG8ibh2"
+                    ],
+                    "result": [
+                        "jkQAln0eB0"
+                    ]
+                }
+            },
+            {
+                "name": "get_property_from_object",
+                "info": {
+                    "x": 848,
+                    "y": 633,
+                    "z": 7,
+                    "color": "#5a5a5a",
+                    "height": 144,
+                    "width": 253
+                },
+                "inputs": {
+                    "action": "2rLUG8ibh2",
+                    "object": "jkQAln0eB0",
+                    "key": "lNzIQcTpeB"
+                },
+                "outputs": {
+                    "action": [
+                        "h8VCToH6GL",
+                        "c8p3YL2dND"
+                    ],
+                    "value": [
+                        "cE6Z99h8MD",
+                        "LmwF12n9qg"
+                    ]
+                }
+            },
+            {
+                "name": "text",
+                "info": {
+                    "x": 470,
+                    "y": 661,
+                    "z": 8,
+                    "color": "#5a5a5a",
+                    "height": 118,
+                    "width": 305
+                },
+                "options": {
+                    "text": "/api/dolaroficial"
+                },
+                "outputs": {
+                    "text": [
+                        "lNzIQcTpeB"
+                    ]
+                }
+            },
+            {
+                "name": "get_property_from_object",
+                "info": {
+                    "x": 1352,
+                    "y": 836,
+                    "z": 9,
+                    "color": "#5a5a5a",
+                    "height": 144,
+                    "width": 253
+                },
+                "inputs": {
+                    "action": "h8VCToH6GL",
+                    "object": "cE6Z99h8MD",
+                    "key": "M13UzIFwWv"
+                },
+                "outputs": {
+                    "action": [
+                        "RuFK0jFhuT"
+                    ],
+                    "value": [
+                        "Uzz3yl7TA5"
+                    ]
+                }
+            },
+            {
+                "name": "text",
+                "info": {
+                    "x": 1092,
+                    "y": 869,
+                    "z": 10,
+                    "color": "#5a5a5a",
+                    "height": 118,
+                    "width": 305
+                },
+                "options": {
+                    "text": "USD"
+                },
+                "outputs": {
+                    "text": [
+                        "M13UzIFwWv"
+                    ]
+                }
+            },
+            {
+                "name": "get_property_from_object",
+                "info": {
+                    "x": 1485,
+                    "y": 1042,
+                    "z": 11,
+                    "color": "#5a5a5a",
+                    "height": 144,
+                    "width": 257
+                },
+                "inputs": {
+                    "action": "RuFK0jFhuT",
+                    "object": "Uzz3yl7TA5",
+                    "key": "h6f9Rl7nII"
+                },
+                "outputs": {
+                    "action": [],
+                    "value": []
+                }
+            },
+            {
+                "name": "text",
+                "info": {
+                    "x": 1055,
+                    "y": 1005,
+                    "z": 12,
+                    "color": "#5a5a5a",
+                    "height": 118,
+                    "width": 305
+                },
+                "options": {
+                    "text": "rate"
+                },
+                "outputs": {
+                    "text": [
+                        "h6f9Rl7nII"
+                    ]
+                }
+            },
+            {
+                "name": "merge_texts_advanced",
+                "info": {
+                    "x": 708,
+                    "y": 1209,
+                    "z": 13,
+                    "color": "#5a5a5a",
+                    "height": 175,
+                    "width": 418
+                },
+                "inputs": {
+                    "action": "c8p3YL2dND",
+                    "text1": "LmwF12n9qg",
+                    "text2": "NPoKqk3Oe6",
+                    "text3": "YB1v78ot4j"
+                },
+                "options": {
+                    "text": "Dolar = $${text1}"
+                },
+                "outputs": {
+                    "action": [
+                        "1yo3bHvVbH"
+                    ],
+                    "text": [
+                        "R2pz5J7LTd"
+                    ]
+                }
+            },
+            {
+                "name": "loop_time",
+                "info": {
+                    "x": 604,
+                    "y": 275,
+                    "z": 15,
+                    "color": "#5a5a5a",
+                    "height": 165,
+                    "width": 276
+                },
+                "inputs": {
+                    "action": "2l6wYuMH8C",
+                    "milliseconds": "NvLFcWbm2k",
+                    "limit": "vn7AwAqcZW"
+                },
+                "outputs": {
+                    "action": [
+                        "j6Nbapn7i8"
+                    ]
+                }
+            },
+            {
+                "name": "number",
+                "info": {
+                    "x": 240,
+                    "y": 319,
+                    "z": 16,
+                    "color": "#5a5a5a",
+                    "height": 107,
+                    "width": 343
+                },
+                "options": {
+                    "number": "3600000"
+                },
+                "outputs": {
+                    "number": [
+                        "NvLFcWbm2k"
+                    ]
+                }
+            },
+            {
+                "name": "merge_actions",
+                "info": {
+                    "x": 817,
+                    "y": 162,
+                    "z": 17,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 224
+                },
+                "inputs": {
+                    "action1": "0YJIeU1plr",
+                    "action2": "j6Nbapn7i8"
+                },
+                "outputs": {
+                    "action": [
+                        "3JuXW1OXue"
+                    ]
+                }
+            },
+            {
+                "name": "console_log",
+                "info": {
+                    "x": 1352,
+                    "y": 1474,
+                    "z": 18,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 211
+                },
+                "inputs": {
+                    "action": "1yo3bHvVbH",
+                    "value": "R2pz5J7LTd"
+                },
+                "outputs": {
+                    "action": []
+                }
+            }
+        ],
+        "notes": []
+    },
+    {
+        "info": {
             "title": "Actualizacion",
             "description": "",
             "thumbnail": ""
