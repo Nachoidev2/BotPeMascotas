@@ -22,7 +22,7 @@
                 },
                 "outputs": {
                     "action": [
-                        "degaWjMXbP"
+                        "ops9oMlfUD"
                     ],
                     "content": [
                         "HaHMWKRKR3",
@@ -69,8 +69,8 @@
             {
                 "name": "transform_value",
                 "info": {
-                    "x": 1271,
-                    "y": 606,
+                    "x": 980,
+                    "y": 472,
                     "z": 4,
                     "color": "#5a5a5a",
                     "height": 113,
@@ -84,15 +84,19 @@
                     "transformation_type": "jsonparse"
                 },
                 "outputs": {
-                    "action": [],
-                    "result": []
+                    "action": [
+                        "2rLUG8ibh2"
+                    ],
+                    "result": [
+                        "jkQAln0eB0"
+                    ]
                 }
             },
             {
                 "name": "get_property_from_object",
                 "info": {
-                    "x": 846,
-                    "y": 660,
+                    "x": 689,
+                    "y": 653,
                     "z": 7,
                     "color": "#5a5a5a",
                     "height": 144,
@@ -108,23 +112,22 @@
                         "h8VCToH6GL"
                     ],
                     "value": [
-                        "cE6Z99h8MD",
-                        "LmwF12n9qg"
+                        "cE6Z99h8MD"
                     ]
                 }
             },
             {
                 "name": "text",
                 "info": {
-                    "x": 470,
-                    "y": 661,
+                    "x": 311,
+                    "y": 658,
                     "z": 8,
                     "color": "#5a5a5a",
                     "height": 118,
                     "width": 305
                 },
                 "options": {
-                    "text": "casa"
+                    "text": "0"
                 },
                 "outputs": {
                     "text": [
@@ -149,7 +152,7 @@
                 },
                 "outputs": {
                     "action": [
-                        "c8p3YL2dND"
+                        "RuFK0jFhuT"
                     ],
                     "value": [
                         "Uzz3yl7TA5"
@@ -167,7 +170,7 @@
                     "width": 305
                 },
                 "options": {
-                    "text": "venta"
+                    "text": "casa"
                 },
                 "outputs": {
                     "text": [
@@ -178,8 +181,8 @@
             {
                 "name": "get_property_from_object",
                 "info": {
-                    "x": 1485,
-                    "y": 1042,
+                    "x": 798,
+                    "y": 973,
                     "z": 11,
                     "color": "#5a5a5a",
                     "height": 144,
@@ -191,22 +194,26 @@
                     "key": "h6f9Rl7nII"
                 },
                 "outputs": {
-                    "action": [],
-                    "value": []
+                    "action": [
+                        "c8p3YL2dND"
+                    ],
+                    "value": [
+                        "LmwF12n9qg"
+                    ]
                 }
             },
             {
                 "name": "text",
                 "info": {
-                    "x": 1131,
-                    "y": 1049,
+                    "x": 303,
+                    "y": 1063,
                     "z": 12,
                     "color": "#5a5a5a",
                     "height": 118,
                     "width": 305
                 },
                 "options": {
-                    "text": "rate"
+                    "text": "venta"
                 },
                 "outputs": {
                     "text": [
@@ -324,7 +331,7 @@
                 "name": "read_file",
                 "info": {
                     "x": 968,
-                    "y": 431,
+                    "y": 283,
                     "z": 19,
                     "color": "#5a5a5a",
                     "height": 113,
@@ -338,12 +345,8 @@
                     "conversion_type": "json"
                 },
                 "outputs": {
-                    "action": [
-                        "2rLUG8ibh2"
-                    ],
-                    "content": [
-                        "jkQAln0eB0"
-                    ]
+                    "action": [],
+                    "content": []
                 }
             }
         ],
