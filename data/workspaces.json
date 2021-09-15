@@ -40,7 +40,7 @@
                     "width": 305
                 },
                 "options": {
-                    "text": "https://api-dolar-argentina.herokuapp.com/"
+                    "text": "https://www.dolarsi.com/api/api.php?type=valoresprincipales"
                 },
                 "outputs": {
                     "text": [
@@ -94,8 +94,8 @@
             {
                 "name": "get_property_from_object",
                 "info": {
-                    "x": 848,
-                    "y": 633,
+                    "x": 846,
+                    "y": 660,
                     "z": 7,
                     "color": "#5a5a5a",
                     "height": 144,
@@ -108,8 +108,7 @@
                 },
                 "outputs": {
                     "action": [
-                        "h8VCToH6GL",
-                        "c8p3YL2dND"
+                        "h8VCToH6GL"
                     ],
                     "value": [
                         "cE6Z99h8MD",
@@ -128,7 +127,7 @@
                     "width": 305
                 },
                 "options": {
-                    "text": "dolaroficial"
+                    "text": "casa"
                 },
                 "outputs": {
                     "text": [
@@ -139,8 +138,8 @@
             {
                 "name": "get_property_from_object",
                 "info": {
-                    "x": 1352,
-                    "y": 836,
+                    "x": 701,
+                    "y": 843,
                     "z": 9,
                     "color": "#5a5a5a",
                     "height": 144,
@@ -153,7 +152,7 @@
                 },
                 "outputs": {
                     "action": [
-                        "RuFK0jFhuT"
+                        "c8p3YL2dND"
                     ],
                     "value": [
                         "Uzz3yl7TA5"
@@ -163,15 +162,15 @@
             {
                 "name": "text",
                 "info": {
-                    "x": 1092,
-                    "y": 869,
+                    "x": 311,
+                    "y": 896,
                     "z": 10,
                     "color": "#5a5a5a",
                     "height": 118,
                     "width": 305
                 },
                 "options": {
-                    "text": "USD"
+                    "text": "venta"
                 },
                 "outputs": {
                     "text": [
@@ -202,8 +201,8 @@
             {
                 "name": "text",
                 "info": {
-                    "x": 1055,
-                    "y": 1005,
+                    "x": 1131,
+                    "y": 1049,
                     "z": 12,
                     "color": "#5a5a5a",
                     "height": 118,
