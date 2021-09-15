@@ -337,7 +337,7 @@
                 },
                 "options": {
                     "method_type": "get",
-                    "data_type": "json"
+                    "data_type": "text"
                 },
                 "outputs": {
                     "action": [
