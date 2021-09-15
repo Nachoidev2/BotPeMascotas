@@ -144,11 +144,11 @@
                 },
                 "outputs": {
                     "action": [
-                        "NvIuHSp5xJ"
+                        "AgW2X15k4J"
                     ],
                     "value": [
                         "Uzz3yl7TA5",
-                        "1UHpubhxdF"
+                        "dvrz3ozMJM"
                     ]
                 }
             },
@@ -174,8 +174,8 @@
             {
                 "name": "get_property_from_object",
                 "info": {
-                    "x": 798,
-                    "y": 973,
+                    "x": 781,
+                    "y": 1029,
                     "z": 11,
                     "color": "#5a5a5a",
                     "height": 144,
@@ -187,12 +187,8 @@
                     "key": "h6f9Rl7nII"
                 },
                 "outputs": {
-                    "action": [
-                        "AgW2X15k4J"
-                    ],
-                    "value": [
-                        "dvrz3ozMJM"
-                    ]
+                    "action": [],
+                    "value": []
                 }
             },
             {
@@ -361,34 +357,14 @@
                     "object": "dvrz3ozMJM"
                 },
                 "options": {
-                    "object_info": "1"
-                },
-                "outputs": {
-                    "action": [],
-                    "result": [
-                        "LmwF12n9qg"
-                    ]
-                }
-            },
-            {
-                "name": "change_value_type_to_text",
-                "info": {
-                    "x": 1272,
-                    "y": 877,
-                    "z": 22,
-                    "color": "#5a5a5a",
-                    "height": 113,
-                    "width": 266
-                },
-                "inputs": {
-                    "action": "NvIuHSp5xJ",
-                    "value": "1UHpubhxdF"
+                    "object_info": "3"
                 },
                 "outputs": {
                     "action": [
                         "1yo3bHvVbH"
                     ],
-                    "value": [
+                    "result": [
+                        "LmwF12n9qg",
                         "R2pz5J7LTd"
                     ]
                 }
