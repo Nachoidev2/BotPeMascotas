@@ -89,8 +89,8 @@
             {
                 "name": "get_property_from_object",
                 "info": {
-                    "x": 776,
-                    "y": 616,
+                    "x": 745,
+                    "y": 600,
                     "z": 7,
                     "color": "#5a5a5a",
                     "height": 144,
@@ -103,9 +103,11 @@
                 },
                 "outputs": {
                     "action": [
-                        "h8VCToH6GL"
+                        "AgW2X15k4J"
                     ],
-                    "value": []
+                    "value": [
+                        "dvrz3ozMJM"
+                    ]
                 }
             },
             {
@@ -337,20 +339,19 @@
                 },
                 "outputs": {
                     "action": [
-                        "AgW2X15k4J"
+                        "2rLUG8ibh2"
                     ],
                     "data": [
                         "jkQAln0eB0",
-                        "cE6Z99h8MD",
-                        "dvrz3ozMJM"
+                        "cE6Z99h8MD"
                     ]
                 }
             },
             {
                 "name": "get_object_info",
                 "info": {
-                    "x": 1146,
-                    "y": 695,
+                    "x": 1159,
+                    "y": 646,
                     "z": 21,
                     "color": "#5a5a5a",
                     "height": 113,
@@ -375,8 +376,8 @@
             {
                 "name": "get_item_from_list_v2",
                 "info": {
-                    "x": 1164,
-                    "y": 837,
+                    "x": 1184,
+                    "y": 827,
                     "z": 22,
                     "color": "#5a5a5a",
                     "height": 165,
