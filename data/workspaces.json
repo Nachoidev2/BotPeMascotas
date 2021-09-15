@@ -187,10 +187,12 @@
                 },
                 "outputs": {
                     "action": [
-                        "AgW2X15k4J"
+                        "AgW2X15k4J",
+                        "NvIuHSp5xJ"
                     ],
                     "value": [
-                        "dvrz3ozMJM"
+                        "dvrz3ozMJM",
+                        "1UHpubhxdF"
                     ]
                 }
             },
@@ -216,8 +218,8 @@
             {
                 "name": "merge_texts_advanced",
                 "info": {
-                    "x": 1359,
-                    "y": 1033,
+                    "x": 1303,
+                    "y": 1103,
                     "z": 13,
                     "color": "#5a5a5a",
                     "height": 175,
@@ -348,8 +350,8 @@
             {
                 "name": "get_object_info",
                 "info": {
-                    "x": 1152,
-                    "y": 838,
+                    "x": 1184,
+                    "y": 738,
                     "z": 21,
                     "color": "#5a5a5a",
                     "height": 113,
@@ -360,14 +362,34 @@
                     "object": "dvrz3ozMJM"
                 },
                 "options": {
-                    "object_info": "4"
+                    "object_info": "1"
+                },
+                "outputs": {
+                    "action": [],
+                    "result": [
+                        "LmwF12n9qg"
+                    ]
+                }
+            },
+            {
+                "name": "change_value_type_to_text",
+                "info": {
+                    "x": 1272,
+                    "y": 877,
+                    "z": 22,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 266
+                },
+                "inputs": {
+                    "action": "NvIuHSp5xJ",
+                    "value": "1UHpubhxdF"
                 },
                 "outputs": {
                     "action": [
                         "1yo3bHvVbH"
                     ],
-                    "result": [
-                        "LmwF12n9qg",
+                    "value": [
                         "R2pz5J7LTd"
                     ]
                 }
