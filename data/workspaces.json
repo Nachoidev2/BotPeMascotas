@@ -32,8 +32,8 @@
             {
                 "name": "text",
                 "info": {
-                    "x": 267,
-                    "y": 454,
+                    "x": 383,
+                    "y": 458,
                     "z": 2,
                     "color": "#5a5a5a",
                     "height": 118,
@@ -337,7 +337,7 @@
                 },
                 "options": {
                     "method_type": "get",
-                    "data_type": "json"
+                    "data_type": "text"
                 },
                 "outputs": {
                     "action": [
