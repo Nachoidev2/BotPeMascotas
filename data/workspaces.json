@@ -144,10 +144,12 @@
                 },
                 "outputs": {
                     "action": [
-                        "RuFK0jFhuT"
+                        "RuFK0jFhuT",
+                        "NvIuHSp5xJ"
                     ],
                     "value": [
-                        "Uzz3yl7TA5"
+                        "Uzz3yl7TA5",
+                        "1UHpubhxdF"
                     ]
                 }
             },
@@ -187,12 +189,10 @@
                 },
                 "outputs": {
                     "action": [
-                        "AgW2X15k4J",
-                        "NvIuHSp5xJ"
+                        "AgW2X15k4J"
                     ],
                     "value": [
-                        "dvrz3ozMJM",
-                        "1UHpubhxdF"
+                        "dvrz3ozMJM"
                     ]
                 }
             },
