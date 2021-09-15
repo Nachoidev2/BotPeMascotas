@@ -103,11 +103,9 @@
                 },
                 "outputs": {
                     "action": [
-                        "AgW2X15k4J"
+                        "h8VCToH6GL"
                     ],
-                    "value": [
-                        "dvrz3ozMJM"
-                    ]
+                    "value": []
                 }
             },
             {
@@ -189,10 +187,10 @@
                 },
                 "outputs": {
                     "action": [
-                        "c8p3YL2dND"
+                        "AgW2X15k4J"
                     ],
                     "value": [
-                        "LmwF12n9qg"
+                        "dvrz3ozMJM"
                     ]
                 }
             },
@@ -218,8 +216,8 @@
             {
                 "name": "merge_texts_advanced",
                 "info": {
-                    "x": 1166,
-                    "y": 1037,
+                    "x": 1359,
+                    "y": 1033,
                     "z": 13,
                     "color": "#5a5a5a",
                     "height": 175,
@@ -302,8 +300,8 @@
             {
                 "name": "console_log",
                 "info": {
-                    "x": 1805,
-                    "y": 1194,
+                    "x": 1932,
+                    "y": 1110,
                     "z": 18,
                     "color": "#5a5a5a",
                     "height": 113,
@@ -350,8 +348,8 @@
             {
                 "name": "get_object_info",
                 "info": {
-                    "x": 1159,
-                    "y": 646,
+                    "x": 1152,
+                    "y": 838,
                     "z": 21,
                     "color": "#5a5a5a",
                     "height": 113,
@@ -369,31 +367,9 @@
                         "1yo3bHvVbH"
                     ],
                     "result": [
+                        "LmwF12n9qg",
                         "R2pz5J7LTd"
                     ]
-                }
-            },
-            {
-                "name": "get_item_from_list_v2",
-                "info": {
-                    "x": 1184,
-                    "y": 827,
-                    "z": 22,
-                    "color": "#5a5a5a",
-                    "height": 165,
-                    "width": 443
-                },
-                "inputs": {
-                    "action": "yLqIeLjvms",
-                    "list": "ZXdiUKxGKc",
-                    "custom_position": "NqbVArGOMv"
-                },
-                "options": {
-                    "position_type": "first"
-                },
-                "outputs": {
-                    "action": [],
-                    "value": []
                 }
             }
         ],
