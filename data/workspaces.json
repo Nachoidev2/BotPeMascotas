@@ -361,18 +361,18 @@
                 },
                 "outputs": {
                     "action": [
-                        "kZgsCFqywf"
+                        "nlE3Trt8kK"
                     ],
                     "result": [
-                        "vuYIdjAUbl"
+                        "jF0peISF9p"
                     ]
                 }
             },
             {
                 "name": "convert_list_to_text",
                 "info": {
-                    "x": 1880,
-                    "y": 1030,
+                    "x": 1472,
+                    "y": 900,
                     "z": 22,
                     "color": "#5a5a5a",
                     "height": 144,
@@ -384,33 +384,10 @@
                     "separator": "KOWVQmVXa2"
                 },
                 "outputs": {
-                    "action": [],
-                    "text": []
-                }
-            },
-            {
-                "name": "filter_list",
-                "info": {
-                    "x": 1367,
-                    "y": 891,
-                    "z": 24,
-                    "color": "#5a5a5a",
-                    "height": 144,
-                    "width": 426
-                },
-                "inputs": {
-                    "action": "kZgsCFqywf",
-                    "list": "vuYIdjAUbl",
-                    "value": "6PUxmoCx4W"
-                },
-                "options": {
-                    "comparison_type": "equal"
-                },
-                "outputs": {
                     "action": [
                         "1yo3bHvVbH"
                     ],
-                    "list": [
+                    "text": [
                         "R2pz5J7LTd"
                     ]
                 }
@@ -426,11 +403,11 @@
                     "width": 305
                 },
                 "options": {
-                    "text": "venta"
+                    "text": "compra"
                 },
                 "outputs": {
                     "text": [
-                        "6PUxmoCx4W"
+                        "KOWVQmVXa2"
                     ]
                 }
             }
