@@ -91,8 +91,8 @@
             {
                 "name": "get_property_from_object",
                 "info": {
-                    "x": 689,
-                    "y": 653,
+                    "x": 355,
+                    "y": 632,
                     "z": 7,
                     "color": "#5a5a5a",
                     "height": 144,
@@ -104,19 +104,15 @@
                     "key": "lNzIQcTpeB"
                 },
                 "outputs": {
-                    "action": [
-                        "h8VCToH6GL"
-                    ],
-                    "value": [
-                        "cE6Z99h8MD"
-                    ]
+                    "action": [],
+                    "value": []
                 }
             },
             {
                 "name": "text",
                 "info": {
-                    "x": 311,
-                    "y": 658,
+                    "x": 38,
+                    "y": 630,
                     "z": 8,
                     "color": "#5a5a5a",
                     "height": 118,
@@ -134,8 +130,8 @@
             {
                 "name": "get_property_from_object",
                 "info": {
-                    "x": 688,
-                    "y": 833,
+                    "x": 752,
+                    "y": 795,
                     "z": 9,
                     "color": "#5a5a5a",
                     "height": 144,
@@ -190,8 +186,12 @@
                     "key": "h6f9Rl7nII"
                 },
                 "outputs": {
-                    "action": [],
-                    "value": []
+                    "action": [
+                        "c8p3YL2dND"
+                    ],
+                    "value": [
+                        "LmwF12n9qg"
+                    ]
                 }
             },
             {
@@ -322,8 +322,8 @@
             {
                 "name": "request_api3",
                 "info": {
-                    "x": 1065,
-                    "y": 361,
+                    "x": 901,
+                    "y": 368,
                     "z": 20,
                     "color": "#5a5a5a",
                     "height": 175,
@@ -337,15 +337,15 @@
                 },
                 "options": {
                     "method_type": "get",
-                    "data_type": "text"
+                    "data_type": "json"
                 },
                 "outputs": {
                     "action": [
-                        "c8p3YL2dND"
+                        "h8VCToH6GL"
                     ],
                     "data": [
                         "jkQAln0eB0",
-                        "LmwF12n9qg"
+                        "cE6Z99h8MD"
                     ]
                 }
             }
