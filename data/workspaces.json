@@ -37,7 +37,7 @@
                 },
                 "outputs": {
                     "action": [
-                        "V7ml7bHu2Z"
+                        "zDYIbpDZhf"
                     ]
                 }
             },
@@ -312,8 +312,8 @@
             {
                 "name": "Chad_send_messagev2.2",
                 "info": {
-                    "x": 3033,
-                    "y": 908,
+                    "x": 3133,
+                    "y": 904,
                     "z": 34,
                     "color": "#5a5a5a",
                     "height": 299,
@@ -342,8 +342,8 @@
             {
                 "name": "find_channel",
                 "info": {
-                    "x": 2276,
-                    "y": 955,
+                    "x": 2586,
+                    "y": 679,
                     "z": 35,
                     "color": "#5a5a5a",
                     "height": 159,
@@ -370,8 +370,8 @@
             {
                 "name": "text",
                 "info": {
-                    "x": 2323,
-                    "y": 1274,
+                    "x": 2153,
+                    "y": 1284,
                     "z": 36,
                     "color": "#5a5a5a",
                     "height": 118,
@@ -383,6 +383,29 @@
                 "outputs": {
                     "text": [
                         "ft5D0BqooA"
+                    ]
+                }
+            },
+            {
+                "name": "wait_with_number",
+                "info": {
+                    "x": 376,
+                    "y": 225,
+                    "z": 37,
+                    "color": "#5a5a5a",
+                    "height": 172,
+                    "width": 418
+                },
+                "inputs": {
+                    "action": "zDYIbpDZhf"
+                },
+                "options": {
+                    "time_type": "milliseconds",
+                    "time": "40"
+                },
+                "outputs": {
+                    "action": [
+                        "V7ml7bHu2Z"
                     ]
                 }
             }
