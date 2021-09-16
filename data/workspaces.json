@@ -143,8 +143,8 @@
             {
                 "name": "get_object_info",
                 "info": {
-                    "x": 1637,
-                    "y": 738,
+                    "x": 1652,
+                    "y": 689,
                     "z": 21,
                     "color": "#5a5a5a",
                     "height": 113,
@@ -159,10 +159,12 @@
                 },
                 "outputs": {
                     "action": [
-                        "XHUwQyEB57"
+                        "XHUwQyEB57",
+                        "LeG1gqkbuS"
                     ],
                     "result": [
-                        "uLsRAGVJOQ"
+                        "uLsRAGVJOQ",
+                        "06qKbJQepz"
                     ]
                 }
             },
@@ -200,12 +202,10 @@
                 },
                 "outputs": {
                     "action": [
-                        "abOdxpFsGb",
-                        "Wdd3zb2S2f"
+                        "abOdxpFsGb"
                     ],
                     "value": [
-                        "LtFPPo1Tvq",
-                        "iFxE2CmGPF"
+                        "LtFPPo1Tvq"
                     ]
                 }
             },
@@ -225,8 +225,12 @@
                     "key": "nZbl6KVy8W"
                 },
                 "outputs": {
-                    "action": [],
-                    "value": []
+                    "action": [
+                        "Wdd3zb2S2f"
+                    ],
+                    "value": [
+                        "iFxE2CmGPF"
+                    ]
                 }
             },
             {
@@ -251,8 +255,8 @@
             {
                 "name": "convert_list_to_text",
                 "info": {
-                    "x": 2392,
-                    "y": 751,
+                    "x": 2106,
+                    "y": 875,
                     "z": 32,
                     "color": "#5a5a5a",
                     "height": 144,
@@ -267,16 +271,14 @@
                     "action": [
                         "nu6BnyIZ3b"
                     ],
-                    "text": [
-                        "06qKbJQepz"
-                    ]
+                    "text": []
                 }
             },
             {
                 "name": "text",
                 "info": {
-                    "x": 2007,
-                    "y": 1085,
+                    "x": 2227,
+                    "y": 1252,
                     "z": 33,
                     "color": "#5a5a5a",
                     "height": 118,
@@ -457,9 +459,7 @@
                     "replacement_type": "first"
                 },
                 "outputs": {
-                    "action": [
-                        "LeG1gqkbuS"
-                    ],
+                    "action": [],
                     "text": []
                 }
             },
