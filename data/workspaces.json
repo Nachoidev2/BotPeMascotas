@@ -552,7 +552,7 @@
                     "width": 305
                 },
                 "options": {
-                    "text": "http://api.openweathermap.org/data/2.5/weather?q=lima&appid=35b61b415461960f59aeb0352a720b00"
+                    "text": "http://api.openweathermap.org/data/2.5/weather?q=lima&appid=35b61b415461960f59aeb0352a720b00&units=metric"
                 },
                 "outputs": {
                     "text": [
@@ -1269,7 +1269,7 @@
             {
                 "name": "get_item_from_list_v2",
                 "info": {
-                    "x": 2849,
+                    "x": 2825,
                     "y": 1579,
                     "z": 101,
                     "color": "#5a5a5a",
@@ -1286,56 +1286,10 @@
                 },
                 "outputs": {
                     "action": [
-                        "17ubt3f42E"
-                    ],
-                    "value": [
-                        "p2YznpPBPQ"
-                    ]
-                }
-            },
-            {
-                "name": "math_operations",
-                "info": {
-                    "x": 3432,
-                    "y": 1613,
-                    "z": 102,
-                    "color": "#5a5a5a",
-                    "height": 165,
-                    "width": 484
-                },
-                "inputs": {
-                    "action": "17ubt3f42E",
-                    "number1": "p2YznpPBPQ",
-                    "number2": "82FCtldBgY"
-                },
-                "options": {
-                    "math_operation_type": "subtraction"
-                },
-                "outputs": {
-                    "action": [
                         "z0xPEYcbvD"
                     ],
-                    "number": [
+                    "value": [
                         "Wm4ZsnR1IB"
-                    ]
-                }
-            },
-            {
-                "name": "number",
-                "info": {
-                    "x": 2966,
-                    "y": 1820,
-                    "z": 103,
-                    "color": "#5a5a5a",
-                    "height": 107,
-                    "width": 343
-                },
-                "options": {
-                    "number": "273.15"
-                },
-                "outputs": {
-                    "number": [
-                        "82FCtldBgY"
                     ]
                 }
             }
