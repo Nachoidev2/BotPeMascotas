@@ -58,10 +58,10 @@
                 },
                 "outputs": {
                     "action": [
-                        "Wdd3zb2S2f"
+                        "BGY9tFIlsb"
                     ],
                     "value": [
-                        "iFxE2CmGPF"
+                        "sPOJyuuo1Z"
                     ]
                 }
             },
@@ -87,25 +87,27 @@
             {
                 "name": "text",
                 "info": {
-                    "x": 817,
-                    "y": 790,
+                    "x": 520,
+                    "y": 887,
                     "z": 10,
                     "color": "#5a5a5a",
                     "height": 118,
                     "width": 305
                 },
                 "options": {
-                    "text": "casa"
+                    "text": "venta"
                 },
                 "outputs": {
-                    "text": []
+                    "text": [
+                        "8DfVYiyRQa"
+                    ]
                 }
             },
             {
                 "name": "text",
                 "info": {
-                    "x": 1283,
-                    "y": 833,
+                    "x": 1321,
+                    "y": 896,
                     "z": 12,
                     "color": "#5a5a5a",
                     "height": 118,
@@ -147,8 +149,8 @@
             {
                 "name": "console_log",
                 "info": {
-                    "x": 2659,
-                    "y": 743,
+                    "x": 2078,
+                    "y": 585,
                     "z": 18,
                     "color": "#5a5a5a",
                     "height": 113,
@@ -210,18 +212,19 @@
                 },
                 "outputs": {
                     "action": [
-                        "LNoNV6URAQ"
+                        "1yo3bHvVbH"
                     ],
                     "result": [
-                        "mbYTtqoPUj"
+                        "mbYTtqoPUj",
+                        "R2pz5J7LTd"
                     ]
                 }
             },
             {
                 "name": "split_text",
                 "info": {
-                    "x": 1780,
-                    "y": 642,
+                    "x": 1738,
+                    "y": 804,
                     "z": 23,
                     "color": "#5a5a5a",
                     "height": 175,
@@ -245,8 +248,8 @@
             {
                 "name": "get_item_from_list_v2",
                 "info": {
-                    "x": 2070,
-                    "y": 788,
+                    "x": 2100,
+                    "y": 879,
                     "z": 24,
                     "color": "#5a5a5a",
                     "height": 165,
@@ -261,12 +264,8 @@
                     "position_type": "second"
                 },
                 "outputs": {
-                    "action": [
-                        "1yo3bHvVbH"
-                    ],
-                    "value": [
-                        "R2pz5J7LTd"
-                    ]
+                    "action": [],
+                    "value": []
                 }
             },
             {
@@ -326,6 +325,30 @@
                 "outputs": {
                     "action": [],
                     "value": []
+                }
+            },
+            {
+                "name": "get_property_from_object",
+                "info": {
+                    "x": 1031,
+                    "y": 744,
+                    "z": 28,
+                    "color": "#5a5a5a",
+                    "height": 144,
+                    "width": 259
+                },
+                "inputs": {
+                    "action": "BGY9tFIlsb",
+                    "object": "sPOJyuuo1Z",
+                    "key": "8DfVYiyRQa"
+                },
+                "outputs": {
+                    "action": [
+                        "Wdd3zb2S2f"
+                    ],
+                    "value": [
+                        "iFxE2CmGPF"
+                    ]
                 }
             }
         ],
