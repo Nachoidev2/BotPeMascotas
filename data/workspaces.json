@@ -576,8 +576,8 @@
             {
                 "name": "send_message",
                 "info": {
-                    "x": 3153,
-                    "y": 2175,
+                    "x": 3130,
+                    "y": 1956,
                     "z": 55,
                     "color": "#5a5a5a",
                     "height": 237,
@@ -666,10 +666,12 @@
                 },
                 "outputs": {
                     "action": [
-                        "Kpbmj4pHub"
+                        "Kpbmj4pHub",
+                        "dDtx6b2i6c"
                     ],
                     "value": [
-                        "1Gs7Llgwer"
+                        "1Gs7Llgwer",
+                        "2P16LOGLCF"
                     ]
                 }
             },
@@ -695,8 +697,8 @@
             {
                 "name": "replace_textsuji",
                 "info": {
-                    "x": 1858,
-                    "y": 1721,
+                    "x": 2085,
+                    "y": 1426,
                     "z": 62,
                     "color": "#5a5a5a",
                     "height": 239,
@@ -723,8 +725,8 @@
             {
                 "name": "replace_textsuji",
                 "info": {
-                    "x": 2395,
-                    "y": 1830,
+                    "x": 2635,
+                    "y": 1454,
                     "z": 63,
                     "color": "#5a5a5a",
                     "height": 239,
@@ -787,12 +789,8 @@
                     "text": "${text1}"
                 },
                 "outputs": {
-                    "action": [
-                        "dDtx6b2i6c"
-                    ],
-                    "text": [
-                        "2P16LOGLCF"
-                    ]
+                    "action": [],
+                    "text": []
                 }
             },
             {
