@@ -529,10 +529,10 @@
                 },
                 "outputs": {
                     "action": [
-                        "35xaaOXEyK"
+                        "P8Njh9f6fg"
                     ],
                     "content": [
-                        "JrksBgOh6m"
+                        "XYCleR2Iho"
                     ]
                 }
             },
@@ -616,50 +616,54 @@
                 }
             },
             {
-                "name": "convert_text_to_object",
+                "name": "text_to_list",
                 "info": {
-                    "x": 1318,
-                    "y": 1636,
-                    "z": 57,
+                    "x": 1313,
+                    "y": 1574,
+                    "z": 59,
                     "color": "#5a5a5a",
                     "height": 113,
-                    "width": 239
+                    "width": 334
                 },
                 "inputs": {
-                    "action": "35xaaOXEyK",
-                    "text": "JrksBgOh6m"
+                    "action": "P8Njh9f6fg",
+                    "text": "XYCleR2Iho"
+                },
+                "options": {
+                    "splitmode": "newLine"
                 },
                 "outputs": {
                     "action": [
-                        "zTLJMCm07s"
+                        "svz10JAbiD"
                     ],
-                    "object": [
-                        "mzDWCE8q8P"
+                    "list": [
+                        "JiVq3GTl1x"
                     ]
                 }
             },
             {
-                "name": "get_object_info",
+                "name": "get_item_from_list_v2",
                 "info": {
-                    "x": 1252,
-                    "y": 1875,
-                    "z": 58,
+                    "x": 1239,
+                    "y": 1793,
+                    "z": 60,
                     "color": "#5a5a5a",
-                    "height": 113,
-                    "width": 478
+                    "height": 165,
+                    "width": 443
                 },
                 "inputs": {
-                    "action": "zTLJMCm07s",
-                    "object": "mzDWCE8q8P"
+                    "action": "svz10JAbiD",
+                    "list": "JiVq3GTl1x",
+                    "custom_position": "M9yI9dH3qi"
                 },
                 "options": {
-                    "object_info": "4"
+                    "position_type": "random"
                 },
                 "outputs": {
                     "action": [
                         "dDtx6b2i6c"
                     ],
-                    "result": [
+                    "value": [
                         "2P16LOGLCF"
                     ]
                 }
