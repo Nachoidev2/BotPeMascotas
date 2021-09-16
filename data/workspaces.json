@@ -115,16 +115,14 @@
                     "text": "\""
                 },
                 "outputs": {
-                    "text": [
-                        "QS06yjNTea"
-                    ]
+                    "text": []
                 }
             },
             {
                 "name": "merge_texts_advanced",
                 "info": {
-                    "x": 1283,
-                    "y": 1226,
+                    "x": 1356,
+                    "y": 1233,
                     "z": 13,
                     "color": "#5a5a5a",
                     "height": 175,
@@ -220,8 +218,8 @@
             {
                 "name": "split_text",
                 "info": {
-                    "x": 1195,
-                    "y": 844,
+                    "x": 1192,
+                    "y": 797,
                     "z": 23,
                     "color": "#5a5a5a",
                     "height": 175,
@@ -258,7 +256,7 @@
                     "custom_position": "XSX9jbHfne"
                 },
                 "options": {
-                    "position_type": "custom"
+                    "position_type": "first"
                 },
                 "outputs": {
                     "action": [
@@ -272,8 +270,8 @@
             {
                 "name": "number",
                 "info": {
-                    "x": 1417,
-                    "y": 1025,
+                    "x": 1193,
+                    "y": 1058,
                     "z": 25,
                     "color": "#5a5a5a",
                     "height": 107,
