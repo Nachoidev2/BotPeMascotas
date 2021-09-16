@@ -616,37 +616,10 @@
                 }
             },
             {
-                "name": "get_item_from_list_v2",
-                "info": {
-                    "x": 1266,
-                    "y": 1946,
-                    "z": 57,
-                    "color": "#5a5a5a",
-                    "height": 165,
-                    "width": 443
-                },
-                "inputs": {
-                    "action": "qlQQKenNin",
-                    "list": "Sih60XbCYS",
-                    "custom_position": "r4ZEx6AnAz"
-                },
-                "options": {
-                    "position_type": "second"
-                },
-                "outputs": {
-                    "action": [
-                        "dDtx6b2i6c"
-                    ],
-                    "value": [
-                        "2P16LOGLCF"
-                    ]
-                }
-            },
-            {
                 "name": "slice_text_list",
                 "info": {
-                    "x": 985,
-                    "y": 1828,
+                    "x": 1354,
+                    "y": 1667,
                     "z": 58,
                     "color": "#5a5a5a",
                     "height": 175,
@@ -660,10 +633,29 @@
                 },
                 "outputs": {
                     "action": [
-                        "qlQQKenNin"
+                        "dDtx6b2i6c"
                     ],
                     "text_list": [
-                        "Sih60XbCYS"
+                        "2P16LOGLCF"
+                    ]
+                }
+            },
+            {
+                "name": "number",
+                "info": {
+                    "x": 1236,
+                    "y": 1930,
+                    "z": 59,
+                    "color": "#5a5a5a",
+                    "height": 107,
+                    "width": 343
+                },
+                "options": {
+                    "number": "6"
+                },
+                "outputs": {
+                    "number": [
+                        "Mm5yGcyYLD"
                     ]
                 }
             }
