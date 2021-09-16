@@ -529,10 +529,10 @@
                 },
                 "outputs": {
                     "action": [
-                        "wPbhvHNwdY"
+                        "35xaaOXEyK"
                     ],
                     "content": [
-                        "6z8lAtNtOn"
+                        "JrksBgOh6m"
                     ]
                 }
             },
@@ -616,46 +616,51 @@
                 }
             },
             {
-                "name": "slice_text_list",
+                "name": "convert_text_to_object",
                 "info": {
-                    "x": 1354,
-                    "y": 1667,
-                    "z": 58,
+                    "x": 1318,
+                    "y": 1636,
+                    "z": 57,
                     "color": "#5a5a5a",
-                    "height": 175,
-                    "width": 236
+                    "height": 113,
+                    "width": 239
                 },
                 "inputs": {
-                    "action": "wPbhvHNwdY",
-                    "text_list": "6z8lAtNtOn",
-                    "start": "Mm5yGcyYLD",
-                    "end": "6mIhH4qbCw"
+                    "action": "35xaaOXEyK",
+                    "text": "JrksBgOh6m"
+                },
+                "outputs": {
+                    "action": [
+                        "zTLJMCm07s"
+                    ],
+                    "object": [
+                        "mzDWCE8q8P"
+                    ]
+                }
+            },
+            {
+                "name": "get_object_info",
+                "info": {
+                    "x": 1252,
+                    "y": 1875,
+                    "z": 58,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 478
+                },
+                "inputs": {
+                    "action": "zTLJMCm07s",
+                    "object": "mzDWCE8q8P"
+                },
+                "options": {
+                    "object_info": "4"
                 },
                 "outputs": {
                     "action": [
                         "dDtx6b2i6c"
                     ],
-                    "text_list": [
+                    "result": [
                         "2P16LOGLCF"
-                    ]
-                }
-            },
-            {
-                "name": "number",
-                "info": {
-                    "x": 1236,
-                    "y": 1930,
-                    "z": 59,
-                    "color": "#5a5a5a",
-                    "height": 107,
-                    "width": 343
-                },
-                "options": {
-                    "number": "6"
-                },
-                "outputs": {
-                    "number": [
-                        "Mm5yGcyYLD"
                     ]
                 }
             }
