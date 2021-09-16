@@ -9,8 +9,8 @@
             {
                 "name": "text",
                 "info": {
-                    "x": 383,
-                    "y": 458,
+                    "x": 207,
+                    "y": 997,
                     "z": 2,
                     "color": "#5a5a5a",
                     "height": 118,
@@ -28,8 +28,8 @@
             {
                 "name": "get_property_from_object",
                 "info": {
-                    "x": 745,
-                    "y": 600,
+                    "x": 1536,
+                    "y": 613,
                     "z": 7,
                     "color": "#5a5a5a",
                     "height": 144,
@@ -52,8 +52,8 @@
             {
                 "name": "text",
                 "info": {
-                    "x": 337,
-                    "y": 690,
+                    "x": 1108,
+                    "y": 1049,
                     "z": 8,
                     "color": "#5a5a5a",
                     "height": 118,
@@ -71,8 +71,8 @@
             {
                 "name": "text",
                 "info": {
-                    "x": 520,
-                    "y": 887,
+                    "x": 1678,
+                    "y": 1141,
                     "z": 10,
                     "color": "#5a5a5a",
                     "height": 118,
@@ -88,34 +88,10 @@
                 }
             },
             {
-                "name": "merge_texts_advanced",
-                "info": {
-                    "x": 1768,
-                    "y": 1270,
-                    "z": 13,
-                    "color": "#5a5a5a",
-                    "height": 175,
-                    "width": 418
-                },
-                "inputs": {
-                    "action": "c8p3YL2dND",
-                    "text1": "LmwF12n9qg",
-                    "text2": "NPoKqk3Oe6",
-                    "text3": "YB1v78ot4j"
-                },
-                "options": {
-                    "text": "Dolar = $${text1}"
-                },
-                "outputs": {
-                    "action": [],
-                    "text": []
-                }
-            },
-            {
                 "name": "request_api3",
                 "info": {
-                    "x": 901,
-                    "y": 368,
+                    "x": 936,
+                    "y": 545,
                     "z": 20,
                     "color": "#5a5a5a",
                     "height": 175,
@@ -143,8 +119,8 @@
             {
                 "name": "get_object_info",
                 "info": {
-                    "x": 1652,
-                    "y": 689,
+                    "x": 2910,
+                    "y": 820,
                     "z": 21,
                     "color": "#5a5a5a",
                     "height": 113,
@@ -167,27 +143,10 @@
                 }
             },
             {
-                "name": "number",
-                "info": {
-                    "x": 1210,
-                    "y": 1207,
-                    "z": 25,
-                    "color": "#5a5a5a",
-                    "height": 107,
-                    "width": 343
-                },
-                "options": {
-                    "number": "5"
-                },
-                "outputs": {
-                    "number": []
-                }
-            },
-            {
                 "name": "get_property_from_object",
                 "info": {
-                    "x": 1051,
-                    "y": 740,
+                    "x": 2013,
+                    "y": 676,
                     "z": 28,
                     "color": "#5a5a5a",
                     "height": 144,
@@ -210,8 +169,8 @@
             {
                 "name": "get_property_from_object",
                 "info": {
-                    "x": 1234,
-                    "y": 959,
+                    "x": 2544,
+                    "y": 750,
                     "z": 29,
                     "color": "#5a5a5a",
                     "height": 144,
@@ -234,8 +193,8 @@
             {
                 "name": "text",
                 "info": {
-                    "x": 804,
-                    "y": 1062,
+                    "x": 2315,
+                    "y": 1083,
                     "z": 30,
                     "color": "#5a5a5a",
                     "height": 118,
@@ -251,139 +210,10 @@
                 }
             },
             {
-                "name": "text",
-                "info": {
-                    "x": 1836,
-                    "y": 920,
-                    "z": 33,
-                    "color": "#5a5a5a",
-                    "height": 118,
-                    "width": 305
-                },
-                "options": {
-                    "text": ","
-                },
-                "outputs": {
-                    "text": [
-                        "z8zK97AlyD"
-                    ]
-                }
-            },
-            {
-                "name": "Chad_send_messagev2.2",
-                "info": {
-                    "x": 3266,
-                    "y": 539,
-                    "z": 34,
-                    "color": "#5a5a5a",
-                    "height": 299,
-                    "width": 472
-                },
-                "inputs": {
-                    "action": "LeG1gqkbuS",
-                    "channel": "zFACX5UKxW",
-                    "embed": "yXNSTrqwre",
-                    "attachment": "WoQyDye9uZ",
-                    "text1": "06qKbJQepz",
-                    "text2": "XURmInDQI6",
-                    "text3": "P1FMVm3QbE",
-                    "text4": "dvz9bczDre"
-                },
-                "options": {
-                    "TTS": "false",
-                    "smsg": "false",
-                    "text": "Dolar: $${text1}"
-                },
-                "outputs": {
-                    "action": [],
-                    "message": []
-                }
-            },
-            {
-                "name": "command_event_with_text",
-                "info": {
-                    "x": 25,
-                    "y": 1405,
-                    "z": 37,
-                    "color": "#5a5a5a",
-                    "height": 401,
-                    "width": 759
-                },
-                "inputs": {
-                    "command_slowmode": "aPC5m4Rezt"
-                },
-                "options": {
-                    "command_name": "dolar",
-                    "custom_prefix": "",
-                    "command_restriction": "none",
-                    "required_member_permission": "none",
-                    "case_sensitive": "no",
-                    "command_slowmode_restriction": "none"
-                },
-                "outputs": {
-                    "action1": [
-                        "V7ml7bHu2Z"
-                    ],
-                    "action2": [],
-                    "message": [],
-                    "server": [],
-                    "channel": [
-                        "zFACX5UKxW"
-                    ],
-                    "vc": [],
-                    "user": [],
-                    "member": [],
-                    "error_message": []
-                }
-            },
-            {
-                "name": "replace_text",
-                "info": {
-                    "x": 2519,
-                    "y": 847,
-                    "z": 38,
-                    "color": "#5a5a5a",
-                    "height": 175,
-                    "width": 420
-                },
-                "inputs": {
-                    "action": "nu6BnyIZ3b",
-                    "source_text": "ybgyqLvOY3",
-                    "old_text": "z8zK97AlyD",
-                    "new_text": "sCtyvMvEwB"
-                },
-                "options": {
-                    "replacement_type": "all"
-                },
-                "outputs": {
-                    "action": [],
-                    "text": []
-                }
-            },
-            {
-                "name": "text",
-                "info": {
-                    "x": 1840,
-                    "y": 1037,
-                    "z": 39,
-                    "color": "#5a5a5a",
-                    "height": 118,
-                    "width": 305
-                },
-                "options": {
-                    "text": ""
-                },
-                "outputs": {
-                    "text": [
-                        "sCtyvMvEwB"
-                    ]
-                }
-            },
-            {
                 "name": "convert_list_to_text",
                 "info": {
-                    "x": 2172,
-                    "y": 657,
+                    "x": 3552,
+                    "y": 832,
                     "z": 40,
                     "color": "#5a5a5a",
                     "height": 144,
@@ -396,18 +226,18 @@
                 },
                 "outputs": {
                     "action": [
-                        "LeG1gqkbuS"
+                        "6KUJEu1PCE"
                     ],
                     "text": [
-                        "06qKbJQepz"
+                        "VDyPyb9zo5"
                     ]
                 }
             },
             {
                 "name": "text",
                 "info": {
-                    "x": 1821,
-                    "y": 471,
+                    "x": 3128,
+                    "y": 1217,
                     "z": 41,
                     "color": "#5a5a5a",
                     "height": 118,
@@ -419,6 +249,244 @@
                 "outputs": {
                     "text": [
                         "hO381COXLg"
+                    ]
+                }
+            },
+            {
+                "name": "bot_initialization_event",
+                "info": {
+                    "x": 3,
+                    "y": 526,
+                    "z": 42,
+                    "color": "#5a5a5a",
+                    "height": 82,
+                    "width": 248
+                },
+                "outputs": {
+                    "action": [
+                        "CIfvVpXobG"
+                    ]
+                }
+            },
+            {
+                "name": "find_channel",
+                "info": {
+                    "x": 4617,
+                    "y": 920,
+                    "z": 43,
+                    "color": "#5a5a5a",
+                    "height": 159,
+                    "width": 558
+                },
+                "inputs": {
+                    "action": "JBCO1827be",
+                    "server": "DIM5er4SjM",
+                    "search_value": "Mdei23X9Ws"
+                },
+                "options": {
+                    "channel_type": "any",
+                    "find_channel_by": "id"
+                },
+                "outputs": {
+                    "action": [
+                        "AexQkTX6Ms"
+                    ],
+                    "channel": [
+                        "2AeSildRFZ",
+                        "fjC0IJ2Nzj"
+                    ]
+                }
+            },
+            {
+                "name": "wait_with_number",
+                "info": {
+                    "x": 7467,
+                    "y": 1344,
+                    "z": 44,
+                    "color": "#5a5a5a",
+                    "height": 172,
+                    "width": 418
+                },
+                "inputs": {
+                    "action": "15RMlOihnR"
+                },
+                "options": {
+                    "time_type": "minutes",
+                    "time": "10"
+                },
+                "outputs": {
+                    "action": [
+                        "pkaGHsbFRX"
+                    ]
+                }
+            },
+            {
+                "name": "text",
+                "info": {
+                    "x": 4259,
+                    "y": 1223,
+                    "z": 45,
+                    "color": "#5a5a5a",
+                    "height": 118,
+                    "width": 305
+                },
+                "options": {
+                    "text": ""
+                },
+                "outputs": {
+                    "text": [
+                        "Mdei23X9Ws"
+                    ]
+                }
+            },
+            {
+                "name": "get_voice_channel_info",
+                "info": {
+                    "x": 5424,
+                    "y": 964,
+                    "z": 46,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 705
+                },
+                "inputs": {
+                    "action": "AexQkTX6Ms",
+                    "text_channel": "r40Zg7gEHb",
+                    "voice_channel": "2AeSildRFZ"
+                },
+                "options": {
+                    "text_channel_info": "13",
+                    "voice_channel_info": "12"
+                },
+                "outputs": {
+                    "action": [
+                        "5hom6gYl1l"
+                    ],
+                    "result": [
+                        "xPyDyy8mw6"
+                    ]
+                }
+            },
+            {
+                "name": "merge_texts_advanced",
+                "info": {
+                    "x": 3936,
+                    "y": 859,
+                    "z": 47,
+                    "color": "#5a5a5a",
+                    "height": 175,
+                    "width": 418
+                },
+                "inputs": {
+                    "action": "6KUJEu1PCE",
+                    "text1": "VDyPyb9zo5",
+                    "text2": "eUeoOeGEsO",
+                    "text3": "UBya2vtD2W"
+                },
+                "options": {
+                    "text": "💵 𝔻𝕠𝕝𝕒𝕣: $${text1}"
+                },
+                "outputs": {
+                    "action": [
+                        "JBCO1827be"
+                    ],
+                    "text": [
+                        "xNJPDI2Hnv",
+                        "oPoPuQc64r"
+                    ]
+                }
+            },
+            {
+                "name": "check_comparison",
+                "info": {
+                    "x": 6196,
+                    "y": 986,
+                    "z": 48,
+                    "color": "#5a5a5a",
+                    "height": 144,
+                    "width": 494
+                },
+                "inputs": {
+                    "action": "5hom6gYl1l",
+                    "value1": "xPyDyy8mw6",
+                    "value2": "xNJPDI2Hnv"
+                },
+                "options": {
+                    "comparison_type": "equal"
+                },
+                "outputs": {
+                    "action1": [
+                        "iJsBSKaPPS"
+                    ],
+                    "action2": [
+                        "zKvmJvESqD"
+                    ]
+                }
+            },
+            {
+                "name": "merge_actions",
+                "info": {
+                    "x": 420,
+                    "y": 519,
+                    "z": 49,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 224
+                },
+                "inputs": {
+                    "action1": "CIfvVpXobG",
+                    "action2": "pkaGHsbFRX"
+                },
+                "outputs": {
+                    "action": [
+                        "V7ml7bHu2Z"
+                    ]
+                }
+            },
+            {
+                "name": "edit_voice_channel2",
+                "info": {
+                    "x": 6815,
+                    "y": 1155,
+                    "z": 50,
+                    "color": "#5a5a5a",
+                    "height": 456,
+                    "width": 276
+                },
+                "inputs": {
+                    "action": "zKvmJvESqD",
+                    "voice_channel": "fjC0IJ2Nzj",
+                    "channel_name": "oPoPuQc64r",
+                    "channel_position": "3mfWiNhY9h",
+                    "channel_bitrate": "LxuKcftsCi",
+                    "channel_user_limit": "Wf74XJm7Az",
+                    "channel_category": "ZQ0PuXFigs",
+                    "channel_permission_synchronization": "bGyDkDmMfg",
+                    "reason": "fbCHfwxcxx"
+                },
+                "outputs": {
+                    "action": [
+                        "DemOJBFbY9"
+                    ]
+                }
+            },
+            {
+                "name": "merge_actions",
+                "info": {
+                    "x": 7173,
+                    "y": 1125,
+                    "z": 51,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 224
+                },
+                "inputs": {
+                    "action1": "iJsBSKaPPS",
+                    "action2": "DemOJBFbY9"
+                },
+                "outputs": {
+                    "action": [
+                        "15RMlOihnR"
                     ]
                 }
             }
@@ -5402,8 +5470,8 @@
             {
                 "name": "wait_with_number",
                 "info": {
-                    "x": 6461,
-                    "y": 4233,
+                    "x": 6619,
+                    "y": 4243,
                     "z": 37,
                     "color": "#5a5a5a",
                     "height": 172,
@@ -5677,8 +5745,8 @@
             {
                 "name": "text",
                 "info": {
-                    "x": 779,
-                    "y": 3449,
+                    "x": 419,
+                    "y": 3784,
                     "z": 83,
                     "color": "#5a5a5a",
                     "height": 118,
@@ -5723,8 +5791,8 @@
             {
                 "name": "number",
                 "info": {
-                    "x": 690,
-                    "y": 4205,
+                    "x": 2420,
+                    "y": 4970,
                     "z": 85,
                     "color": "#5a5a5a",
                     "height": 107,
@@ -5814,8 +5882,8 @@
             {
                 "name": "merge_actions",
                 "info": {
-                    "x": 6067,
-                    "y": 4286,
+                    "x": 6157,
+                    "y": 4291,
                     "z": 89,
                     "color": "#5a5a5a",
                     "height": 113,
@@ -6310,8 +6378,8 @@
             {
                 "name": "command_event_with_text",
                 "info": {
-                    "x": 58,
-                    "y": 3725,
+                    "x": 43,
+                    "y": 4830,
                     "z": 110,
                     "color": "#5a5a5a",
                     "height": 401,
@@ -6348,8 +6416,8 @@
             {
                 "name": "ping_host",
                 "info": {
-                    "x": 1055,
-                    "y": 3792,
+                    "x": 1135,
+                    "y": 4772,
                     "z": 112,
                     "color": "#5a5a5a",
                     "height": 144,
@@ -6372,8 +6440,8 @@
             {
                 "name": "Chad_send_messagev2.2",
                 "info": {
-                    "x": 2184,
-                    "y": 4036,
+                    "x": 1279,
+                    "y": 5001,
                     "z": 113,
                     "color": "#5a5a5a",
                     "height": 299,
@@ -6402,8 +6470,8 @@
             {
                 "name": "get_fivem_info",
                 "info": {
-                    "x": 1239,
-                    "y": 3546,
+                    "x": 1509,
+                    "y": 4791,
                     "z": 115,
                     "color": "#5a5a5a",
                     "height": 113,
@@ -6428,8 +6496,8 @@
             {
                 "name": "create_embed_message",
                 "info": {
-                    "x": 2430,
-                    "y": 3446,
+                    "x": 3485,
+                    "y": 4846,
                     "z": 116,
                     "color": "#5a5a5a",
                     "height": 517,
@@ -6462,8 +6530,8 @@
             {
                 "name": "color",
                 "info": {
-                    "x": 2049,
-                    "y": 3801,
+                    "x": 2679,
+                    "y": 5216,
                     "z": 117,
                     "color": "#5a5a5a",
                     "height": 105,
@@ -6482,8 +6550,8 @@
             {
                 "name": "merge_texts_advanced",
                 "info": {
-                    "x": 1897,
-                    "y": 3554,
+                    "x": 2887,
+                    "y": 4649,
                     "z": 118,
                     "color": "#5a5a5a",
                     "height": 175,
@@ -6510,8 +6578,8 @@
             {
                 "name": "send_message",
                 "info": {
-                    "x": 2826,
-                    "y": 3729,
+                    "x": 4136,
+                    "y": 5106,
                     "z": 119,
                     "color": "#5a5a5a",
                     "height": 237,
@@ -6533,8 +6601,8 @@
             {
                 "name": "get_fivem_info",
                 "info": {
-                    "x": 1364,
-                    "y": 4551,
+                    "x": 1589,
+                    "y": 5321,
                     "z": 120,
                     "color": "#5a5a5a",
                     "height": 113,
@@ -6559,8 +6627,8 @@
             {
                 "name": "command_event_with_text",
                 "info": {
-                    "x": 87,
-                    "y": 4426,
+                    "x": 92,
+                    "y": 5666,
                     "z": 121,
                     "color": "#5a5a5a",
                     "height": 401,
@@ -6597,8 +6665,8 @@
             {
                 "name": "ping_host",
                 "info": {
-                    "x": 959,
-                    "y": 4535,
+                    "x": 1019,
+                    "y": 5480,
                     "z": 122,
                     "color": "#5a5a5a",
                     "height": 144,
@@ -6621,8 +6689,8 @@
             {
                 "name": "merge_texts_advanced",
                 "info": {
-                    "x": 2046,
-                    "y": 4624,
+                    "x": 2321,
+                    "y": 5464,
                     "z": 123,
                     "color": "#5a5a5a",
                     "height": 175,
@@ -6649,8 +6717,8 @@
             {
                 "name": "create_embed_message",
                 "info": {
-                    "x": 2604,
-                    "y": 4547,
+                    "x": 3184,
+                    "y": 5667,
                     "z": 124,
                     "color": "#5a5a5a",
                     "height": 517,
@@ -6683,10 +6751,12 @@
             {
                 "name": "send_message",
                 "info": {
-                    "x": 3065.1145426432317,
-                    "y": 4970.922037760421,
+                    "x": 3985,
+                    "y": 5735,
                     "z": 125,
-                    "color": "#5a5a5a"
+                    "color": "#5a5a5a",
+                    "height": 237,
+                    "width": 280
                 },
                 "inputs": {
                     "action": "ZBusWpphuW",
@@ -6704,8 +6774,8 @@
             {
                 "name": "Chad_send_messagev2.2",
                 "info": {
-                    "x": 1507,
-                    "y": 4845,
+                    "x": 1732,
+                    "y": 5700,
                     "z": 126,
                     "color": "#5a5a5a",
                     "height": 299,
@@ -6734,8 +6804,8 @@
             {
                 "name": "get_fivem_info",
                 "info": {
-                    "x": 1381,
-                    "y": 3783,
+                    "x": 2126,
+                    "y": 4663,
                     "z": 127,
                     "color": "#5a5a5a",
                     "height": 113,
