@@ -265,9 +265,7 @@
                 },
                 "outputs": {
                     "text": [
-                        "z8zK97AlyD",
-                        "nYMrtIPVfv",
-                        "hDCBnyF6eO"
+                        "z8zK97AlyD"
                     ]
                 }
             },
@@ -359,11 +357,9 @@
                 },
                 "outputs": {
                     "action": [
-                        "6AMMmYlvbx",
                         "LeG1gqkbuS"
                     ],
                     "text": [
-                        "hk1lGRcrLc",
                         "06qKbJQepz"
                     ]
                 }
@@ -383,86 +379,8 @@
                 },
                 "outputs": {
                     "text": [
-                        "sCtyvMvEwB",
-                        "qbRhPNCAeR",
-                        "Lludc8mRgz"
+                        "sCtyvMvEwB"
                     ]
-                }
-            },
-            {
-                "name": "replace_text",
-                "info": {
-                    "x": 2997,
-                    "y": 1135,
-                    "z": 40,
-                    "color": "#5a5a5a",
-                    "height": 175,
-                    "width": 420
-                },
-                "inputs": {
-                    "action": "6AMMmYlvbx",
-                    "source_text": "hk1lGRcrLc",
-                    "old_text": "nYMrtIPVfv",
-                    "new_text": "qbRhPNCAeR"
-                },
-                "options": {
-                    "replacement_type": "first"
-                },
-                "outputs": {
-                    "action": [
-                        "eorv6Hl6PY"
-                    ],
-                    "text": [
-                        "iAfaTKBI5u"
-                    ]
-                }
-            },
-            {
-                "name": "replace_text",
-                "info": {
-                    "x": 2973,
-                    "y": 1385,
-                    "z": 41,
-                    "color": "#5a5a5a",
-                    "height": 175,
-                    "width": 420
-                },
-                "inputs": {
-                    "action": "eorv6Hl6PY",
-                    "source_text": "iAfaTKBI5u",
-                    "old_text": "hDCBnyF6eO",
-                    "new_text": "Lludc8mRgz"
-                },
-                "options": {
-                    "replacement_type": "first"
-                },
-                "outputs": {
-                    "action": [],
-                    "text": []
-                }
-            },
-            {
-                "name": "replace_text",
-                "info": {
-                    "x": 2965,
-                    "y": 1641,
-                    "z": 42,
-                    "color": "#5a5a5a",
-                    "height": 175,
-                    "width": 420
-                },
-                "inputs": {
-                    "action": "zaJsRt4kRV",
-                    "source_text": "2DN7jWApuu",
-                    "old_text": "9vPmfmvOb9",
-                    "new_text": "EBhgXuMfIv"
-                },
-                "options": {
-                    "replacement_type": "first"
-                },
-                "outputs": {
-                    "action": [],
-                    "text": []
                 }
             }
         ],
