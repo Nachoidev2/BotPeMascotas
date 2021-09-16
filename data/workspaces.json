@@ -300,8 +300,8 @@
             {
                 "name": "wait_with_number",
                 "info": {
-                    "x": 6835,
-                    "y": 4324,
+                    "x": 8985,
+                    "y": 4554,
                     "z": 44,
                     "color": "#5a5a5a",
                     "height": 172,
@@ -743,8 +743,8 @@
             {
                 "name": "request_api3",
                 "info": {
-                    "x": 1079,
-                    "y": 2702,
+                    "x": 831,
+                    "y": 3009,
                     "z": 71,
                     "color": "#5a5a5a",
                     "height": 175,
@@ -762,7 +762,8 @@
                     ],
                     "content": [],
                     "data": [
-                        "57MFiwParA"
+                        "57MFiwParA",
+                        "gWR7i8tU30"
                     ]
                 },
                 "options": {
@@ -773,8 +774,8 @@
             {
                 "name": "text",
                 "info": {
-                    "x": 661,
-                    "y": 3052,
+                    "x": 601,
+                    "y": 3257,
                     "z": 72,
                     "color": "#5a5a5a",
                     "height": 118,
@@ -792,8 +793,8 @@
             {
                 "name": "get_item_from_list_v2",
                 "info": {
-                    "x": 2499,
-                    "y": 2840,
+                    "x": 2446,
+                    "y": 2977,
                     "z": 77,
                     "color": "#5a5a5a",
                     "height": 165,
@@ -809,7 +810,7 @@
                 },
                 "outputs": {
                     "action": [
-                        "w5H6qsdoDC"
+                        "gEkzZ4HapU"
                     ],
                     "value": [
                         "fHHFLCqIlS"
@@ -819,8 +820,8 @@
             {
                 "name": "find_channel",
                 "info": {
-                    "x": 3740,
-                    "y": 3067,
+                    "x": 6455,
+                    "y": 3377,
                     "z": 81,
                     "color": "#5a5a5a",
                     "height": 159,
@@ -848,8 +849,8 @@
             {
                 "name": "text",
                 "info": {
-                    "x": 3312,
-                    "y": 3294,
+                    "x": 6317,
+                    "y": 3754,
                     "z": 82,
                     "color": "#5a5a5a",
                     "height": 118,
@@ -867,8 +868,8 @@
             {
                 "name": "get_voice_channel_info",
                 "info": {
-                    "x": 4478,
-                    "y": 3233,
+                    "x": 7068,
+                    "y": 3473,
                     "z": 83,
                     "color": "#5a5a5a",
                     "height": 113,
@@ -893,8 +894,8 @@
             {
                 "name": "check_comparison",
                 "info": {
-                    "x": 5353,
-                    "y": 3342,
+                    "x": 7838,
+                    "y": 3477,
                     "z": 84,
                     "color": "#5a5a5a",
                     "height": 144,
@@ -920,8 +921,8 @@
             {
                 "name": "merge_texts_advanced",
                 "info": {
-                    "x": 3015,
-                    "y": 2938,
+                    "x": 5975,
+                    "y": 3218,
                     "z": 85,
                     "color": "#5a5a5a",
                     "height": 175,
@@ -934,7 +935,7 @@
                     "text3": "JEXCP834sW"
                 },
                 "options": {
-                    "text": "𝕍𝕚𝕖𝕕𝕞𝕒: ${text1}°C"
+                    "text": "${text2} 𝕍𝕚𝕖𝕕𝕞𝕒: ${text1}°C"
                 },
                 "outputs": {
                     "action": [
@@ -949,8 +950,8 @@
             {
                 "name": "edit_voice_channel2",
                 "info": {
-                    "x": 5951,
-                    "y": 3453,
+                    "x": 8166,
+                    "y": 3618,
                     "z": 86,
                     "color": "#5a5a5a",
                     "height": 456,
@@ -976,8 +977,8 @@
             {
                 "name": "merge_actions",
                 "info": {
-                    "x": 6445,
-                    "y": 3462,
+                    "x": 8625,
+                    "y": 3502,
                     "z": 87,
                     "color": "#5a5a5a",
                     "height": 113,
@@ -1094,8 +1095,8 @@
             {
                 "name": "get_property_from_object",
                 "info": {
-                    "x": 1590,
-                    "y": 2758,
+                    "x": 1430,
+                    "y": 3023,
                     "z": 102,
                     "color": "#5a5a5a",
                     "height": 144,
@@ -1118,8 +1119,8 @@
             {
                 "name": "get_object_info",
                 "info": {
-                    "x": 1955,
-                    "y": 2807,
+                    "x": 1776,
+                    "y": 2964,
                     "z": 103,
                     "color": "#5a5a5a",
                     "height": 113,
@@ -1144,8 +1145,8 @@
             {
                 "name": "request_api3",
                 "info": {
-                    "x": 1097,
-                    "y": 3623,
+                    "x": 1110,
+                    "y": 4194,
                     "z": 104,
                     "color": "#5a5a5a",
                     "height": 175,
@@ -1166,15 +1167,16 @@
                         "CKSTdCZRrR"
                     ],
                     "data": [
-                        "M3sde5IEEH"
+                        "M3sde5IEEH",
+                        "XazfAWzoMd"
                     ]
                 }
             },
             {
                 "name": "text",
                 "info": {
-                    "x": 683,
-                    "y": 3669,
+                    "x": 669,
+                    "y": 4337,
                     "z": 105,
                     "color": "#5a5a5a",
                     "height": 118,
@@ -1192,8 +1194,8 @@
             {
                 "name": "get_object_info",
                 "info": {
-                    "x": 2233,
-                    "y": 3674,
+                    "x": 2160,
+                    "y": 4238,
                     "z": 106,
                     "color": "#5a5a5a",
                     "height": 113,
@@ -1218,8 +1220,8 @@
             {
                 "name": "get_property_from_object",
                 "info": {
-                    "x": 1728,
-                    "y": 3683,
+                    "x": 1723,
+                    "y": 4203,
                     "z": 107,
                     "color": "#5a5a5a",
                     "height": 144,
@@ -1242,8 +1244,8 @@
             {
                 "name": "merge_actions",
                 "info": {
-                    "x": 6512,
-                    "y": 4252,
+                    "x": 8542,
+                    "y": 4522,
                     "z": 108,
                     "color": "#5a5a5a",
                     "height": 113,
@@ -1262,8 +1264,8 @@
             {
                 "name": "get_item_from_list_v2",
                 "info": {
-                    "x": 2786,
-                    "y": 3740,
+                    "x": 2806,
+                    "y": 4241,
                     "z": 109,
                     "color": "#5a5a5a",
                     "height": 165,
@@ -1279,7 +1281,7 @@
                 },
                 "outputs": {
                     "action": [
-                        "3S7YUwKrrU"
+                        "8auepVXWaf"
                     ],
                     "value": [
                         "ciARYeeTr9"
@@ -1289,8 +1291,8 @@
             {
                 "name": "merge_texts_advanced",
                 "info": {
-                    "x": 3365,
-                    "y": 3875,
+                    "x": 5894,
+                    "y": 4329,
                     "z": 110,
                     "color": "#5a5a5a",
                     "height": 175,
@@ -1303,7 +1305,7 @@
                     "text3": "GJl3PAOcIM"
                 },
                 "options": {
-                    "text": "𝕊𝕒𝕟 𝕄𝕚𝕘𝕦𝕖𝕝: ${text1}°C"
+                    "text": "${text2} 𝕊𝕒𝕟 𝕄𝕚𝕘𝕦𝕖𝕝: ${text1}°C"
                 },
                 "outputs": {
                     "action": [
@@ -1318,8 +1320,8 @@
             {
                 "name": "find_channel",
                 "info": {
-                    "x": 3917,
-                    "y": 3874,
+                    "x": 6367,
+                    "y": 4384,
                     "z": 111,
                     "color": "#5a5a5a",
                     "height": 159,
@@ -1347,8 +1349,8 @@
             {
                 "name": "get_voice_channel_info",
                 "info": {
-                    "x": 4578,
-                    "y": 3945,
+                    "x": 7063,
+                    "y": 4430,
                     "z": 112,
                     "color": "#5a5a5a",
                     "height": 113,
@@ -1373,8 +1375,8 @@
             {
                 "name": "text",
                 "info": {
-                    "x": 3595,
-                    "y": 4117,
+                    "x": 6080,
+                    "y": 4702,
                     "z": 113,
                     "color": "#5a5a5a",
                     "height": 118,
@@ -1392,8 +1394,8 @@
             {
                 "name": "check_comparison",
                 "info": {
-                    "x": 5441,
-                    "y": 4042,
+                    "x": 7866,
+                    "y": 4447,
                     "z": 114,
                     "color": "#5a5a5a",
                     "height": 144,
@@ -1419,8 +1421,8 @@
             {
                 "name": "edit_voice_channel2",
                 "info": {
-                    "x": 6060,
-                    "y": 4215,
+                    "x": 8230,
+                    "y": 4765,
                     "z": 115,
                     "color": "#5a5a5a",
                     "height": 456,
@@ -1501,7 +1503,9 @@
                 },
                 "outputs": {
                     "text": [
-                        "EFTrzBS0sc"
+                        "EFTrzBS0sc",
+                        "tzqsymFoos",
+                        "Z2mHtGUlew"
                     ]
                 }
             },
@@ -1568,7 +1572,9 @@
                 },
                 "outputs": {
                     "text": [
-                        "SmL4IiWRza"
+                        "SmL4IiWRza",
+                        "tBJFJvLoJD",
+                        "Vr3fcjC9v6"
                     ]
                 }
             },
@@ -1628,8 +1634,8 @@
             {
                 "name": "control_variable",
                 "info": {
-                    "x": 4439,
-                    "y": 1547,
+                    "x": 4446,
+                    "y": 1427,
                     "z": 123,
                     "color": "#5a5a5a",
                     "height": 213,
@@ -1680,8 +1686,8 @@
             {
                 "name": "text_6x",
                 "info": {
-                    "x": 3026,
-                    "y": 1546,
+                    "x": 2966,
+                    "y": 3698,
                     "z": 125,
                     "color": "#5a5a5a",
                     "height": 453,
@@ -1697,22 +1703,34 @@
                 },
                 "outputs": {
                     "text1": [
-                        "U4sRVhFP4p"
+                        "U4sRVhFP4p",
+                        "rpOpWFF5XN",
+                        "228hpxjmiR"
                     ],
                     "text2": [
-                        "qdzYqhZkoQ"
+                        "qdzYqhZkoQ",
+                        "cCIiM8w9JJ",
+                        "jKX8U5wbcK"
                     ],
                     "text3": [
-                        "Vjp2WmBQd2"
+                        "Vjp2WmBQd2",
+                        "1T9fIDgxrt",
+                        "DleQ6aZbbg"
                     ],
                     "text4": [
-                        "xuJ7ufmPJZ"
+                        "xuJ7ufmPJZ",
+                        "x8KBrVj9LO",
+                        "ncPF5sy5wR"
                     ],
                     "text5": [
-                        "ib4vsIepIi"
+                        "ib4vsIepIi",
+                        "Uv2DIIMs1x",
+                        "DmUxCgPziU"
                     ],
                     "text6": [
-                        "Z79z31Bu8j"
+                        "Z79z31Bu8j",
+                        "fy64BA7Sic",
+                        "Xx0uCujEJa"
                     ]
                 }
             },
@@ -1775,8 +1793,8 @@
             {
                 "name": "control_variable",
                 "info": {
-                    "x": 4443,
-                    "y": 1855,
+                    "x": 4453,
+                    "y": 1659,
                     "z": 129,
                     "color": "#5a5a5a",
                     "height": 213,
@@ -1802,8 +1820,8 @@
             {
                 "name": "control_variable",
                 "info": {
-                    "x": 4458,
-                    "y": 2157,
+                    "x": 4450,
+                    "y": 1894,
                     "z": 131,
                     "color": "#5a5a5a",
                     "height": 213,
@@ -1829,8 +1847,8 @@
             {
                 "name": "control_variable",
                 "info": {
-                    "x": 4465,
-                    "y": 2444,
+                    "x": 4450,
+                    "y": 2133,
                     "z": 133,
                     "color": "#5a5a5a",
                     "height": 213,
@@ -1856,8 +1874,8 @@
             {
                 "name": "text_6x",
                 "info": {
-                    "x": 3813,
-                    "y": 2104,
+                    "x": 3426,
+                    "y": 3684,
                     "z": 135,
                     "color": "#5a5a5a",
                     "height": 453,
@@ -1873,30 +1891,42 @@
                 },
                 "outputs": {
                     "text1": [
-                        "MtVb9ea80k"
+                        "MtVb9ea80k",
+                        "aE8qC8pJKY",
+                        "glRZg0t31D"
                     ],
                     "text2": [
-                        "lhjKBJwkSl"
+                        "lhjKBJwkSl",
+                        "oE2CsxhWhC",
+                        "0z4TZjCVex"
                     ],
                     "text3": [
-                        "nTS5AfS6uZ"
+                        "nTS5AfS6uZ",
+                        "J1WftLdT04",
+                        "BQ5EKeOzMp"
                     ],
                     "text4": [
-                        "1Z6aecsYHP"
+                        "1Z6aecsYHP",
+                        "sDUKS9bDOF",
+                        "6LA0JzBuZn"
                     ],
                     "text5": [
-                        "HH33BGOJzh"
+                        "HH33BGOJzh",
+                        "CeVjxtVXGT",
+                        "10TWtSN0hN"
                     ],
                     "text6": [
-                        "YxtZE9WbeU"
+                        "YxtZE9WbeU",
+                        "xkObi3LS8h",
+                        "R6BxQAGYna"
                     ]
                 }
             },
             {
                 "name": "control_variable",
                 "info": {
-                    "x": 4464,
-                    "y": 2710,
+                    "x": 4446,
+                    "y": 2357,
                     "z": 136,
                     "color": "#5a5a5a",
                     "height": 213,
@@ -1922,8 +1952,8 @@
             {
                 "name": "control_variable",
                 "info": {
-                    "x": 4473,
-                    "y": 2954,
+                    "x": 4450,
+                    "y": 2583,
                     "z": 137,
                     "color": "#5a5a5a",
                     "height": 213,
@@ -1943,6 +1973,784 @@
                 "outputs": {
                     "action": [
                         "9r8W8OyA7B"
+                    ]
+                }
+            },
+            {
+                "name": "get_variable",
+                "info": {
+                    "x": 5353,
+                    "y": 3231,
+                    "z": 138,
+                    "color": "#5a5a5a",
+                    "height": 165,
+                    "width": 493
+                },
+                "inputs": {
+                    "action": "kOBxFAOW3L",
+                    "name": "x6xthIrUQO",
+                    "workspace_index": "Fzqf7kisul"
+                },
+                "options": {
+                    "variable_type": "temp",
+                    "variable_restriction_type": "current"
+                },
+                "outputs": {
+                    "action": [
+                        "w5H6qsdoDC"
+                    ],
+                    "value": [
+                        "OY2miAiz26"
+                    ]
+                }
+            },
+            {
+                "name": "text",
+                "info": {
+                    "x": 3536,
+                    "y": 3551,
+                    "z": 139,
+                    "color": "#5a5a5a",
+                    "height": 118,
+                    "width": 305
+                },
+                "options": {
+                    "text": "viedma"
+                },
+                "outputs": {
+                    "text": [
+                        "x6xthIrUQO",
+                        "Y1Xr42jhlW",
+                        "eVvR96YLp4",
+                        "FIqu5DEf9e",
+                        "v3DBmWG9DP",
+                        "kJhFBt6EZN",
+                        "5SOjdlcjK3"
+                    ]
+                }
+            },
+            {
+                "name": "get_property_from_object",
+                "info": {
+                    "x": 2029,
+                    "y": 3250,
+                    "z": 140,
+                    "color": "#5a5a5a",
+                    "height": 144,
+                    "width": 262
+                },
+                "inputs": {
+                    "action": "gEkzZ4HapU",
+                    "object": "gWR7i8tU30",
+                    "key": "tzqsymFoos"
+                },
+                "outputs": {
+                    "action": [
+                        "DW5QV7PFZG"
+                    ],
+                    "value": [
+                        "Gal5EFDgJp"
+                    ]
+                }
+            },
+            {
+                "name": "get_property_from_object",
+                "info": {
+                    "x": 2426,
+                    "y": 3296,
+                    "z": 141,
+                    "color": "#5a5a5a",
+                    "height": 144,
+                    "width": 259
+                },
+                "inputs": {
+                    "action": "DW5QV7PFZG",
+                    "object": "Gal5EFDgJp",
+                    "key": "tBJFJvLoJD"
+                },
+                "outputs": {
+                    "action": [
+                        "krnEmSGV3E"
+                    ],
+                    "value": [
+                        "OE4zai53Tn"
+                    ]
+                }
+            },
+            {
+                "name": "get_object_info",
+                "info": {
+                    "x": 2807,
+                    "y": 3316,
+                    "z": 142,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 478
+                },
+                "inputs": {
+                    "action": "krnEmSGV3E",
+                    "object": "OE4zai53Tn"
+                },
+                "options": {
+                    "object_info": "2"
+                },
+                "outputs": {
+                    "action": [
+                        "ZqeWpxNtc5"
+                    ],
+                    "result": [
+                        "C6mQThKe53"
+                    ]
+                }
+            },
+            {
+                "name": "get_item_from_list_v2",
+                "info": {
+                    "x": 3419,
+                    "y": 3313,
+                    "z": 143,
+                    "color": "#5a5a5a",
+                    "height": 165,
+                    "width": 443
+                },
+                "inputs": {
+                    "action": "ZqeWpxNtc5",
+                    "list": "C6mQThKe53",
+                    "custom_position": "Cii8o8gwSz"
+                },
+                "options": {
+                    "position_type": "second"
+                },
+                "outputs": {
+                    "action": [
+                        "AYeYxEOBOB"
+                    ],
+                    "value": [
+                        "QBKaRRJhRX"
+                    ]
+                }
+            },
+            {
+                "name": "Switch_conditional",
+                "info": {
+                    "x": 3510,
+                    "y": 2946,
+                    "z": 144,
+                    "color": "#5a5a5a",
+                    "height": 299,
+                    "width": 440
+                },
+                "inputs": {
+                    "action": "AYeYxEOBOB",
+                    "value1": "QBKaRRJhRX",
+                    "sw0": "rpOpWFF5XN",
+                    "sw1": "cCIiM8w9JJ",
+                    "sw2": "1T9fIDgxrt",
+                    "sw3": "x8KBrVj9LO",
+                    "sw4": "Uv2DIIMs1x",
+                    "sw5": "fy64BA7Sic"
+                },
+                "options": {
+                    "operation": "includes"
+                },
+                "outputs": {
+                    "swo0": [
+                        "buOuf3NHFz"
+                    ],
+                    "swo1": [
+                        "leLVbBgvYb"
+                    ],
+                    "swo2": [
+                        "CFbS8X2RGH"
+                    ],
+                    "swo3": [
+                        "1mXimR5cij"
+                    ],
+                    "swo4": [
+                        "hjFT0wS9Zj"
+                    ],
+                    "swo5": [
+                        "fsJt0JS3Zg"
+                    ],
+                    "swo6": []
+                }
+            },
+            {
+                "name": "control_variable",
+                "info": {
+                    "x": 4303,
+                    "y": 2879,
+                    "z": 145,
+                    "color": "#5a5a5a",
+                    "height": 213,
+                    "width": 493
+                },
+                "inputs": {
+                    "action": "buOuf3NHFz",
+                    "name": "Y1Xr42jhlW",
+                    "value": "aE8qC8pJKY",
+                    "workspace_index": "MTjnP8YI0Q"
+                },
+                "options": {
+                    "action_type": "set",
+                    "variable_type": "temp",
+                    "variable_restriction_type": "current"
+                },
+                "outputs": {
+                    "action": [
+                        "AMbM0QJ7jW"
+                    ]
+                }
+            },
+            {
+                "name": "control_variable",
+                "info": {
+                    "x": 4300,
+                    "y": 3110,
+                    "z": 146,
+                    "color": "#5a5a5a",
+                    "height": 213,
+                    "width": 493
+                },
+                "inputs": {
+                    "action": "leLVbBgvYb",
+                    "name": "eVvR96YLp4",
+                    "value": "oE2CsxhWhC",
+                    "workspace_index": "n6LF7MyhjZ"
+                },
+                "options": {
+                    "action_type": "set",
+                    "variable_type": "temp",
+                    "variable_restriction_type": "current"
+                },
+                "outputs": {
+                    "action": [
+                        "rM1vULR7cr"
+                    ]
+                }
+            },
+            {
+                "name": "control_variable",
+                "info": {
+                    "x": 4305,
+                    "y": 3345,
+                    "z": 147,
+                    "color": "#5a5a5a",
+                    "height": 213,
+                    "width": 493
+                },
+                "inputs": {
+                    "action": "CFbS8X2RGH",
+                    "name": "FIqu5DEf9e",
+                    "value": "J1WftLdT04",
+                    "workspace_index": "xBWh7Ke9Mw"
+                },
+                "options": {
+                    "action_type": "set",
+                    "variable_type": "temp",
+                    "variable_restriction_type": "current"
+                },
+                "outputs": {
+                    "action": [
+                        "vOoDJTCXJE"
+                    ]
+                }
+            },
+            {
+                "name": "control_variable",
+                "info": {
+                    "x": 4298,
+                    "y": 3567,
+                    "z": 148,
+                    "color": "#5a5a5a",
+                    "height": 213,
+                    "width": 493
+                },
+                "inputs": {
+                    "action": "1mXimR5cij",
+                    "name": "v3DBmWG9DP",
+                    "value": "sDUKS9bDOF",
+                    "workspace_index": "ifx2DDeXsL"
+                },
+                "options": {
+                    "action_type": "set",
+                    "variable_type": "temp",
+                    "variable_restriction_type": "current"
+                },
+                "outputs": {
+                    "action": [
+                        "mz3UB6wWD8"
+                    ]
+                }
+            },
+            {
+                "name": "control_variable",
+                "info": {
+                    "x": 4298,
+                    "y": 3791,
+                    "z": 149,
+                    "color": "#5a5a5a",
+                    "height": 213,
+                    "width": 493
+                },
+                "inputs": {
+                    "action": "hjFT0wS9Zj",
+                    "name": "kJhFBt6EZN",
+                    "value": "CeVjxtVXGT",
+                    "workspace_index": "kc1MYtPNPb"
+                },
+                "options": {
+                    "action_type": "set",
+                    "variable_type": "temp",
+                    "variable_restriction_type": "current"
+                },
+                "outputs": {
+                    "action": [
+                        "DrmN7HdPVp"
+                    ]
+                }
+            },
+            {
+                "name": "control_variable",
+                "info": {
+                    "x": 4295,
+                    "y": 4023,
+                    "z": 150,
+                    "color": "#5a5a5a",
+                    "height": 213,
+                    "width": 493
+                },
+                "inputs": {
+                    "action": "fsJt0JS3Zg",
+                    "name": "5SOjdlcjK3",
+                    "value": "xkObi3LS8h",
+                    "workspace_index": "wVjgV87NJw"
+                },
+                "options": {
+                    "action_type": "set",
+                    "variable_type": "temp",
+                    "variable_restriction_type": "current"
+                },
+                "outputs": {
+                    "action": [
+                        "JULhscNp0t"
+                    ]
+                }
+            },
+            {
+                "name": "merge_actions_10x",
+                "info": {
+                    "x": 5020,
+                    "y": 2964,
+                    "z": 151,
+                    "color": "#5a5a5a",
+                    "height": 361,
+                    "width": 233
+                },
+                "inputs": {
+                    "action1": "AMbM0QJ7jW",
+                    "action2": "rM1vULR7cr",
+                    "action3": "vOoDJTCXJE",
+                    "action4": "mz3UB6wWD8",
+                    "action5": "DrmN7HdPVp",
+                    "action6": "JULhscNp0t",
+                    "action7": "0x5NK00NLW",
+                    "action8": "IYjTupe4qu",
+                    "action9": "giYJZPQqTJ",
+                    "action10": "qPj3qywGo5"
+                },
+                "outputs": {
+                    "action": [
+                        "kOBxFAOW3L"
+                    ]
+                }
+            },
+            {
+                "name": "get_variable",
+                "info": {
+                    "x": 5281,
+                    "y": 4267,
+                    "z": 152,
+                    "color": "#5a5a5a",
+                    "height": 165,
+                    "width": 493
+                },
+                "inputs": {
+                    "action": "2CPXyNW0tG",
+                    "name": "ZgLIhYiEYn",
+                    "workspace_index": "EjUvglfqGD"
+                },
+                "options": {
+                    "variable_type": "temp",
+                    "variable_restriction_type": "current"
+                },
+                "outputs": {
+                    "action": [
+                        "3S7YUwKrrU"
+                    ],
+                    "value": [
+                        "Xz1Dtj1X8L"
+                    ]
+                }
+            },
+            {
+                "name": "merge_actions_10x",
+                "info": {
+                    "x": 5175,
+                    "y": 4396,
+                    "z": 153,
+                    "color": "#5a5a5a",
+                    "height": 361,
+                    "width": 233
+                },
+                "inputs": {
+                    "action1": "sDrpZApmxA",
+                    "action2": "E6n1Mboa2b",
+                    "action3": "hfDxdGzyZR",
+                    "action4": "FB2UAHXQBH",
+                    "action5": "F7CHIp8FQ0",
+                    "action6": "9RS6KOsweh",
+                    "action7": "I8GegFjL3q",
+                    "action8": "D7nUJ2ftul",
+                    "action9": "EHj8NIsPmU",
+                    "action10": "ZHtWj3TZqX"
+                },
+                "outputs": {
+                    "action": [
+                        "2CPXyNW0tG"
+                    ]
+                }
+            },
+            {
+                "name": "text",
+                "info": {
+                    "x": 3668,
+                    "y": 4791,
+                    "z": 154,
+                    "color": "#5a5a5a",
+                    "height": 118,
+                    "width": 305
+                },
+                "options": {
+                    "text": "sanmiguel"
+                },
+                "outputs": {
+                    "text": [
+                        "ZgLIhYiEYn",
+                        "AonQ2dt68k",
+                        "Srg9c27CLb",
+                        "XKlm24OgRu",
+                        "T2EUJHeggb",
+                        "6sB1Wls1HV",
+                        "pZx0VMoSr2"
+                    ]
+                }
+            },
+            {
+                "name": "get_property_from_object",
+                "info": {
+                    "x": 1964,
+                    "y": 4507,
+                    "z": 155,
+                    "color": "#5a5a5a",
+                    "height": 144,
+                    "width": 262
+                },
+                "inputs": {
+                    "action": "8auepVXWaf",
+                    "object": "XazfAWzoMd",
+                    "key": "Z2mHtGUlew"
+                },
+                "outputs": {
+                    "action": [
+                        "rshn54BMmd"
+                    ],
+                    "value": [
+                        "lXSEELCNjz"
+                    ]
+                }
+            },
+            {
+                "name": "get_property_from_object",
+                "info": {
+                    "x": 2290,
+                    "y": 4513,
+                    "z": 156,
+                    "color": "#5a5a5a",
+                    "height": 144,
+                    "width": 262
+                },
+                "inputs": {
+                    "action": "rshn54BMmd",
+                    "object": "lXSEELCNjz",
+                    "key": "Vr3fcjC9v6"
+                },
+                "outputs": {
+                    "action": [
+                        "p2EE29OYCb"
+                    ],
+                    "value": [
+                        "CvmkEsP5IJ"
+                    ]
+                }
+            },
+            {
+                "name": "get_object_info",
+                "info": {
+                    "x": 2701,
+                    "y": 4557,
+                    "z": 157,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 478
+                },
+                "inputs": {
+                    "action": "p2EE29OYCb",
+                    "object": "CvmkEsP5IJ"
+                },
+                "options": {
+                    "object_info": "2"
+                },
+                "outputs": {
+                    "action": [
+                        "Djcr5rXih8"
+                    ],
+                    "result": [
+                        "qZRlAPrFGe"
+                    ]
+                }
+            },
+            {
+                "name": "get_item_from_list_v2",
+                "info": {
+                    "x": 3355,
+                    "y": 4566,
+                    "z": 158,
+                    "color": "#5a5a5a",
+                    "height": 165,
+                    "width": 443
+                },
+                "inputs": {
+                    "action": "Djcr5rXih8",
+                    "list": "qZRlAPrFGe",
+                    "custom_position": "ZK5RifXp8P"
+                },
+                "options": {
+                    "position_type": "second"
+                },
+                "outputs": {
+                    "action": [
+                        "mZ0WLOf7vD"
+                    ],
+                    "value": [
+                        "pqG19fL07e"
+                    ]
+                }
+            },
+            {
+                "name": "Switch_conditional",
+                "info": {
+                    "x": 3845,
+                    "y": 4173,
+                    "z": 159,
+                    "color": "#5a5a5a",
+                    "height": 299,
+                    "width": 440
+                },
+                "inputs": {
+                    "action": "mZ0WLOf7vD",
+                    "value1": "pqG19fL07e",
+                    "sw0": "228hpxjmiR",
+                    "sw1": "jKX8U5wbcK",
+                    "sw2": "DleQ6aZbbg",
+                    "sw3": "ncPF5sy5wR",
+                    "sw4": "DmUxCgPziU",
+                    "sw5": "Xx0uCujEJa"
+                },
+                "options": {
+                    "operation": "includes"
+                },
+                "outputs": {
+                    "swo0": [
+                        "rDZ4B43Ru4"
+                    ],
+                    "swo1": [
+                        "GOUpSAgUKE"
+                    ],
+                    "swo2": [
+                        "uNT7mAnPPs"
+                    ],
+                    "swo3": [
+                        "Ba5VWLcDH0"
+                    ],
+                    "swo4": [
+                        "WZFFVbAuar"
+                    ],
+                    "swo5": [
+                        "6G6G4ILigD"
+                    ],
+                    "swo6": []
+                }
+            },
+            {
+                "name": "control_variable",
+                "info": {
+                    "x": 4396,
+                    "y": 4278,
+                    "z": 160,
+                    "color": "#5a5a5a",
+                    "height": 213,
+                    "width": 493
+                },
+                "inputs": {
+                    "action": "rDZ4B43Ru4",
+                    "name": "AonQ2dt68k",
+                    "value": "glRZg0t31D",
+                    "workspace_index": "OZjglOHoBo"
+                },
+                "options": {
+                    "action_type": "set",
+                    "variable_type": "temp",
+                    "variable_restriction_type": "current"
+                },
+                "outputs": {
+                    "action": [
+                        "sDrpZApmxA"
+                    ]
+                }
+            },
+            {
+                "name": "control_variable",
+                "info": {
+                    "x": 4388,
+                    "y": 4516,
+                    "z": 161,
+                    "color": "#5a5a5a",
+                    "height": 213,
+                    "width": 493
+                },
+                "inputs": {
+                    "action": "GOUpSAgUKE",
+                    "name": "Srg9c27CLb",
+                    "value": "0z4TZjCVex",
+                    "workspace_index": "eEK81uvoZk"
+                },
+                "options": {
+                    "action_type": "set",
+                    "variable_type": "temp",
+                    "variable_restriction_type": "current"
+                },
+                "outputs": {
+                    "action": [
+                        "E6n1Mboa2b"
+                    ]
+                }
+            },
+            {
+                "name": "control_variable",
+                "info": {
+                    "x": 4379,
+                    "y": 4749,
+                    "z": 162,
+                    "color": "#5a5a5a",
+                    "height": 213,
+                    "width": 493
+                },
+                "inputs": {
+                    "action": "uNT7mAnPPs",
+                    "name": "T2EUJHeggb",
+                    "value": "BQ5EKeOzMp",
+                    "workspace_index": "rXNmpvA3Oy"
+                },
+                "options": {
+                    "action_type": "set",
+                    "variable_type": "temp",
+                    "variable_restriction_type": "current"
+                },
+                "outputs": {
+                    "action": [
+                        "hfDxdGzyZR"
+                    ]
+                }
+            },
+            {
+                "name": "control_variable",
+                "info": {
+                    "x": 4375,
+                    "y": 4989,
+                    "z": 163,
+                    "color": "#5a5a5a",
+                    "height": 213,
+                    "width": 493
+                },
+                "inputs": {
+                    "action": "Ba5VWLcDH0",
+                    "name": "XKlm24OgRu",
+                    "value": "6LA0JzBuZn",
+                    "workspace_index": "lABVMHtZXI"
+                },
+                "options": {
+                    "action_type": "set",
+                    "variable_type": "temp",
+                    "variable_restriction_type": "current"
+                },
+                "outputs": {
+                    "action": [
+                        "FB2UAHXQBH"
+                    ]
+                }
+            },
+            {
+                "name": "control_variable",
+                "info": {
+                    "x": 4383,
+                    "y": 5230,
+                    "z": 164,
+                    "color": "#5a5a5a",
+                    "height": 213,
+                    "width": 493
+                },
+                "inputs": {
+                    "action": "WZFFVbAuar",
+                    "name": "6sB1Wls1HV",
+                    "value": "10TWtSN0hN",
+                    "workspace_index": "a3h31kG0nH"
+                },
+                "options": {
+                    "action_type": "set",
+                    "variable_type": "temp",
+                    "variable_restriction_type": "current"
+                },
+                "outputs": {
+                    "action": [
+                        "F7CHIp8FQ0"
+                    ]
+                }
+            },
+            {
+                "name": "control_variable",
+                "info": {
+                    "x": 4368,
+                    "y": 5486,
+                    "z": 165,
+                    "color": "#5a5a5a",
+                    "height": 213,
+                    "width": 493
+                },
+                "inputs": {
+                    "action": "6G6G4ILigD",
+                    "name": "pZx0VMoSr2",
+                    "value": "R6BxQAGYna",
+                    "workspace_index": "0DT55X4zFE"
+                },
+                "options": {
+                    "action_type": "set",
+                    "variable_type": "temp",
+                    "variable_restriction_type": "current"
+                },
+                "outputs": {
+                    "action": [
+                        "9RS6KOsweh"
                     ]
                 }
             }
