@@ -293,7 +293,7 @@
                     "z": 28,
                     "color": "#5a5a5a",
                     "height": 144,
-                    "width": 259
+                    "width": 260
                 },
                 "inputs": {
                     "action": "BGY9tFIlsb",
@@ -302,18 +302,20 @@
                 },
                 "outputs": {
                     "action": [
-                        "abOdxpFsGb"
+                        "abOdxpFsGb",
+                        "Wdd3zb2S2f"
                     ],
                     "value": [
-                        "LtFPPo1Tvq"
+                        "LtFPPo1Tvq",
+                        "iFxE2CmGPF"
                     ]
                 }
             },
             {
                 "name": "get_property_from_object",
                 "info": {
-                    "x": 1470,
-                    "y": 825,
+                    "x": 1473,
+                    "y": 895,
                     "z": 29,
                     "color": "#5a5a5a",
                     "height": 144,
@@ -325,12 +327,8 @@
                     "key": "nZbl6KVy8W"
                 },
                 "outputs": {
-                    "action": [
-                        "Wdd3zb2S2f"
-                    ],
-                    "value": [
-                        "iFxE2CmGPF"
-                    ]
+                    "action": [],
+                    "value": []
                 }
             },
             {
