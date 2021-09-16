@@ -426,8 +426,8 @@
             {
                 "name": "merge_actions",
                 "info": {
-                    "x": 500,
-                    "y": 556,
+                    "x": 536,
+                    "y": 572,
                     "z": 49,
                     "color": "#5a5a5a",
                     "height": 113,
@@ -508,7 +508,9 @@
                     "time": "40"
                 },
                 "outputs": {
-                    "action": []
+                    "action": [
+                        "CIfvVpXobG"
+                    ]
                 }
             },
             {
@@ -1015,7 +1017,7 @@
                     "source_text": "SaBophzCwL"
                 },
                 "options": {
-                    "replacement_type": "first",
+                    "replacement_type": "all",
                     "old_text": "<br><span class=\"campo\">HUMEDAD:</span>  59 %<br><span class=\"campo\">VIENTO:</span> Direcciones Variables  3 km/h<br><span class=\"campo\">TERMICA:</span> No se calcula<br><span class=\"campo\">PRESION:</span> 1016.2 hPa<br><br><a href=\"index.php\" class=\"volver\">Volver</a><p style=\"border-top:1px solid #595959; font-size:14px; text-align:center;\"><a href=\"https://github.com/matiast-gh/smn-json\" target=\"_blank\">https://github.com/matiast-gh/smn-json</a></p>",
                     "new_text": ""
                 },
@@ -1209,7 +1211,7 @@
                 "name": "command_event_with_text",
                 "info": {
                     "x": 0,
-                    "y": 2166,
+                    "y": 2472,
                     "z": 88,
                     "color": "#5a5a5a",
                     "height": 401,
@@ -1227,9 +1229,7 @@
                     "command_slowmode_restriction": "none"
                 },
                 "outputs": {
-                    "action1": [
-                        "CIfvVpXobG"
-                    ],
+                    "action1": [],
                     "action2": [],
                     "message": [],
                     "server": [],
