@@ -1132,9 +1132,7 @@
                     "action2": [],
                     "message": [],
                     "server": [],
-                    "channel": [
-                        "WVhaDAa2yo"
-                    ],
+                    "channel": [],
                     "vc": [],
                     "user": [],
                     "member": [],
@@ -1185,40 +1183,10 @@
                 }
             },
             {
-                "name": "Chad_send_messagev2.2",
-                "info": {
-                    "x": 2704,
-                    "y": 1438,
-                    "z": 94,
-                    "color": "#5a5a5a",
-                    "height": 299,
-                    "width": 472
-                },
-                "inputs": {
-                    "action": "Q3QBH7oEne",
-                    "channel": "WVhaDAa2yo",
-                    "embed": "e5uN13A7SA",
-                    "attachment": "pByJq6hFHh",
-                    "text1": "T7S1XhFRIp",
-                    "text2": "uZNEuy7Bec",
-                    "text3": "gdejX51OoZ",
-                    "text4": "tgXfKeG2G3"
-                },
-                "options": {
-                    "TTS": "false",
-                    "smsg": "false",
-                    "text": "${text1}"
-                },
-                "outputs": {
-                    "action": [],
-                    "message": []
-                }
-            },
-            {
                 "name": "get_object_info",
                 "info": {
-                    "x": 1897,
-                    "y": 1300,
+                    "x": 1908,
+                    "y": 1584,
                     "z": 96,
                     "color": "#5a5a5a",
                     "height": 113,
@@ -1233,35 +1201,29 @@
                 },
                 "outputs": {
                     "action": [
-                        "4XkDup7rdq"
+                        "z0xPEYcbvD"
                     ],
                     "result": [
-                        "6XiYdj2r8p"
+                        "Wm4ZsnR1IB"
                     ]
                 }
             },
             {
-                "name": "convert_list_to_text",
+                "name": "console_log",
                 "info": {
-                    "x": 2449,
-                    "y": 1292,
-                    "z": 97,
+                    "x": 2520,
+                    "y": 1601,
+                    "z": 98,
                     "color": "#5a5a5a",
-                    "height": 144,
-                    "width": 234
+                    "height": 113,
+                    "width": 211
                 },
                 "inputs": {
-                    "action": "4XkDup7rdq",
-                    "list": "6XiYdj2r8p",
-                    "separator": "SeuTMECKKM"
+                    "action": "z0xPEYcbvD",
+                    "value": "Wm4ZsnR1IB"
                 },
                 "outputs": {
-                    "action": [
-                        "Q3QBH7oEne"
-                    ],
-                    "text": [
-                        "T7S1XhFRIp"
-                    ]
+                    "action": []
                 }
             }
         ],
