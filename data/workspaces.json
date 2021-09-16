@@ -485,9 +485,7 @@
                     "action2": "DemOJBFbY9"
                 },
                 "outputs": {
-                    "action": [
-                        "HB152BVgGx"
-                    ]
+                    "action": []
                 }
             },
             {
@@ -514,172 +512,51 @@
                 }
             },
             {
-                "name": "get_content_from_website",
+                "name": "request_api3",
                 "info": {
-                    "x": 967,
-                    "y": 1639,
+                    "x": 969,
+                    "y": 1457,
                     "z": 53,
                     "color": "#5a5a5a",
-                    "height": 113,
-                    "width": 267
+                    "height": 175,
+                    "width": 392
                 },
                 "inputs": {
                     "action": "HB152BVgGx",
-                    "url": "ItHLQBg2oD"
+                    "url": "ItHLQBg2oD",
+                    "headers": "cAr8zQ3AkI",
+                    "body": "8niu0tPHFq"
                 },
                 "outputs": {
                     "action": [
-                        "P8Njh9f6fg"
+                        "GpUbOVwcUQ"
                     ],
-                    "content": [
-                        "XYCleR2Iho"
+                    "content": [],
+                    "data": [
+                        "FmAa9Kc9fB"
                     ]
+                },
+                "options": {
+                    "method_type": "get",
+                    "data_type": "json"
                 }
             },
             {
                 "name": "text",
                 "info": {
-                    "x": 561,
-                    "y": 1803,
+                    "x": 246,
+                    "y": 1661,
                     "z": 56,
                     "color": "#5a5a5a",
                     "height": 118,
                     "width": 305
                 },
                 "options": {
-                    "text": "https://www.devs.com.ar/smn/?ciudad=buenos.aires"
+                    "text": "http://api.openweathermap.org/data/2.5/weather?q=lima&appid=35b61b415461960f59aeb0352a720b00"
                 },
                 "outputs": {
                     "text": [
                         "ItHLQBg2oD"
-                    ]
-                }
-            },
-            {
-                "name": "text_to_list",
-                "info": {
-                    "x": 1313,
-                    "y": 1574,
-                    "z": 59,
-                    "color": "#5a5a5a",
-                    "height": 113,
-                    "width": 334
-                },
-                "inputs": {
-                    "action": "P8Njh9f6fg",
-                    "text": "XYCleR2Iho"
-                },
-                "options": {
-                    "splitmode": "newLine"
-                },
-                "outputs": {
-                    "action": [
-                        "svz10JAbiD"
-                    ],
-                    "list": [
-                        "JiVq3GTl1x"
-                    ]
-                }
-            },
-            {
-                "name": "get_item_from_list_v2",
-                "info": {
-                    "x": 1505,
-                    "y": 1779,
-                    "z": 60,
-                    "color": "#5a5a5a",
-                    "height": 165,
-                    "width": 443
-                },
-                "inputs": {
-                    "action": "svz10JAbiD",
-                    "list": "JiVq3GTl1x",
-                    "custom_position": "M9yI9dH3qi"
-                },
-                "options": {
-                    "position_type": "custom"
-                },
-                "outputs": {
-                    "action": [
-                        "Kpbmj4pHub"
-                    ],
-                    "value": [
-                        "1Gs7Llgwer"
-                    ]
-                }
-            },
-            {
-                "name": "number",
-                "info": {
-                    "x": 945,
-                    "y": 1933,
-                    "z": 61,
-                    "color": "#5a5a5a",
-                    "height": 107,
-                    "width": 343
-                },
-                "options": {
-                    "number": "17"
-                },
-                "outputs": {
-                    "number": [
-                        "M9yI9dH3qi"
-                    ]
-                }
-            },
-            {
-                "name": "replace_textsuji",
-                "info": {
-                    "x": 2082,
-                    "y": 1703,
-                    "z": 62,
-                    "color": "#5a5a5a",
-                    "height": 239,
-                    "width": 454
-                },
-                "inputs": {
-                    "action": "Kpbmj4pHub",
-                    "source_text": "1Gs7Llgwer"
-                },
-                "options": {
-                    "replacement_type": "all",
-                    "old_text": "<h3>Estado del tiempo SMN</h3><span class=\"campo\">CIUDAD:</span> BUENOS AIRES<br><span class=\"campo\">ESTADO:</span> Despejado<br><span class=\"campo\">VISIBILIDAD:</span> 10 km<br><span class=\"campo\">TEMPERATURA:</span> ",
-                    "new_text": ""
-                },
-                "outputs": {
-                    "action": [
-                        "bJWSLPmo39"
-                    ],
-                    "text": [
-                        "hxOStDWiO8"
-                    ]
-                }
-            },
-            {
-                "name": "replace_textsuji",
-                "info": {
-                    "x": 2605,
-                    "y": 1842,
-                    "z": 63,
-                    "color": "#5a5a5a",
-                    "height": 239,
-                    "width": 454
-                },
-                "inputs": {
-                    "action": "bJWSLPmo39",
-                    "source_text": "hxOStDWiO8"
-                },
-                "options": {
-                    "replacement_type": "all",
-                    "old_text": "<br><span class=\"campo\">HUMEDAD:</span>  46 %<br><span class=\"campo\">VIENTO:</span> Oeste  5 km/h<br><span class=\"campo\">TERMICA:</span> No se calcula<br><span class=\"campo\">PRESION:</span> 1020.4 hPa<br><br><a href=\"index.php\" class=\"volver\">Volver</a><p style=\"border-top:1px solid #595959; font-size:14px; text-align:center;\"><a href=\"https://github.com/matiast-gh/smn-json\" target=\"_blank\">https://github.com/matiast-gh/smn-json</a></p>",
-                    "new_text": ""
-                },
-                "outputs": {
-                    "action": [
-                        "BTUUm3c8W7"
-                    ],
-                    "text": [
-                        "pLTCaHwAX2"
                     ]
                 }
             },
@@ -807,8 +684,8 @@
             {
                 "name": "merge_texts_advanced",
                 "info": {
-                    "x": 3172,
-                    "y": 2005,
+                    "x": 1967,
+                    "y": 1819,
                     "z": 69,
                     "color": "#5a5a5a",
                     "height": 175,
@@ -931,8 +808,8 @@
             {
                 "name": "replace_textsuji",
                 "info": {
-                    "x": 2548,
-                    "y": 2732,
+                    "x": 2559,
+                    "y": 2775,
                     "z": 76,
                     "color": "#5a5a5a",
                     "height": 239,
@@ -1208,39 +1085,6 @@
                 }
             },
             {
-                "name": "command_event_with_text",
-                "info": {
-                    "x": 0,
-                    "y": 2472,
-                    "z": 88,
-                    "color": "#5a5a5a",
-                    "height": 401,
-                    "width": 759
-                },
-                "inputs": {
-                    "command_slowmode": "hg3fcrmI0H"
-                },
-                "options": {
-                    "command_name": "holu",
-                    "custom_prefix": "",
-                    "command_restriction": "none",
-                    "required_member_permission": "none",
-                    "case_sensitive": "no",
-                    "command_slowmode_restriction": "none"
-                },
-                "outputs": {
-                    "action1": [],
-                    "action2": [],
-                    "message": [],
-                    "server": [],
-                    "channel": [],
-                    "vc": [],
-                    "user": [],
-                    "member": [],
-                    "error_message": []
-                }
-            },
-            {
                 "name": "merge_actions",
                 "info": {
                     "x": 1190,
@@ -1257,6 +1101,209 @@
                 "outputs": {
                     "action": [
                         "7eFo9Kk12l"
+                    ]
+                }
+            },
+            {
+                "name": "command_event_with_text",
+                "info": {
+                    "x": 0,
+                    "y": 1255,
+                    "z": 90,
+                    "color": "#5a5a5a",
+                    "height": 401,
+                    "width": 759
+                },
+                "inputs": {
+                    "command_slowmode": "2ozakjPqzK"
+                },
+                "options": {
+                    "command_name": "holi",
+                    "custom_prefix": "",
+                    "command_restriction": "none",
+                    "required_member_permission": "none",
+                    "case_sensitive": "no",
+                    "command_slowmode_restriction": "none"
+                },
+                "outputs": {
+                    "action1": [
+                        "HB152BVgGx"
+                    ],
+                    "action2": [],
+                    "message": [],
+                    "server": [],
+                    "channel": [
+                        "WVhaDAa2yo"
+                    ],
+                    "vc": [],
+                    "user": [],
+                    "member": [],
+                    "error_message": []
+                }
+            },
+            {
+                "name": "get_property_from_object",
+                "info": {
+                    "x": 1481,
+                    "y": 1547,
+                    "z": 91,
+                    "color": "#5a5a5a",
+                    "height": 144,
+                    "width": 262
+                },
+                "inputs": {
+                    "action": "GpUbOVwcUQ",
+                    "object": "FmAa9Kc9fB",
+                    "key": "DH2HcuplE9"
+                },
+                "outputs": {
+                    "action": [
+                        "qbGuyul3z8"
+                    ],
+                    "value": [
+                        "DHHxMhOpwC"
+                    ]
+                }
+            },
+            {
+                "name": "text",
+                "info": {
+                    "x": 988,
+                    "y": 1692,
+                    "z": 92,
+                    "color": "#5a5a5a",
+                    "height": 118,
+                    "width": 305
+                },
+                "options": {
+                    "text": "main"
+                },
+                "outputs": {
+                    "text": [
+                        "DH2HcuplE9"
+                    ]
+                }
+            },
+            {
+                "name": "get_property_from_object",
+                "info": {
+                    "x": 1815,
+                    "y": 1599,
+                    "z": 93,
+                    "color": "#5a5a5a",
+                    "height": 144,
+                    "width": 262
+                },
+                "inputs": {
+                    "action": "qbGuyul3z8",
+                    "object": "DHHxMhOpwC",
+                    "key": "RI4jZEjkvQ"
+                },
+                "outputs": {
+                    "action": [
+                        "ddrG1GJ1ds"
+                    ],
+                    "value": [
+                        "Te7hVzeIoQ"
+                    ]
+                }
+            },
+            {
+                "name": "Chad_send_messagev2.2",
+                "info": {
+                    "x": 2704,
+                    "y": 1438,
+                    "z": 94,
+                    "color": "#5a5a5a",
+                    "height": 299,
+                    "width": 472
+                },
+                "inputs": {
+                    "action": "Q3QBH7oEne",
+                    "channel": "WVhaDAa2yo",
+                    "embed": "e5uN13A7SA",
+                    "attachment": "pByJq6hFHh",
+                    "text1": "T7S1XhFRIp",
+                    "text2": "uZNEuy7Bec",
+                    "text3": "gdejX51OoZ",
+                    "text4": "tgXfKeG2G3"
+                },
+                "options": {
+                    "TTS": "false",
+                    "smsg": "false",
+                    "text": "${text1}"
+                },
+                "outputs": {
+                    "action": [],
+                    "message": []
+                }
+            },
+            {
+                "name": "text",
+                "info": {
+                    "x": 1497,
+                    "y": 1765,
+                    "z": 95,
+                    "color": "#5a5a5a",
+                    "height": 118,
+                    "width": 305
+                },
+                "options": {
+                    "text": "temp"
+                },
+                "outputs": {
+                    "text": [
+                        "RI4jZEjkvQ"
+                    ]
+                }
+            },
+            {
+                "name": "get_object_info",
+                "info": {
+                    "x": 1897,
+                    "y": 1300,
+                    "z": 96,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 478
+                },
+                "inputs": {
+                    "action": "ddrG1GJ1ds",
+                    "object": "Te7hVzeIoQ"
+                },
+                "options": {
+                    "object_info": "2"
+                },
+                "outputs": {
+                    "action": [
+                        "4XkDup7rdq"
+                    ],
+                    "result": [
+                        "6XiYdj2r8p"
+                    ]
+                }
+            },
+            {
+                "name": "convert_list_to_text",
+                "info": {
+                    "x": 2449,
+                    "y": 1292,
+                    "z": 97,
+                    "color": "#5a5a5a",
+                    "height": 144,
+                    "width": 234
+                },
+                "inputs": {
+                    "action": "4XkDup7rdq",
+                    "list": "6XiYdj2r8p",
+                    "separator": "SeuTMECKKM"
+                },
+                "outputs": {
+                    "action": [
+                        "Q3QBH7oEne"
+                    ],
+                    "text": [
+                        "T7S1XhFRIp"
                     ]
                 }
             }
