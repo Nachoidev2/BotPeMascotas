@@ -159,10 +159,10 @@
                 },
                 "outputs": {
                     "action": [
-                        "nu6BnyIZ3b"
+                        "TJXl4Ttjgm"
                     ],
                     "result": [
-                        "ybgyqLvOY3"
+                        "EwrrovxUhJ"
                     ]
                 }
             },
@@ -380,6 +380,29 @@
                 "outputs": {
                     "text": [
                         "sCtyvMvEwB"
+                    ]
+                }
+            },
+            {
+                "name": "change_value_type_to_text",
+                "info": {
+                    "x": 2190,
+                    "y": 636,
+                    "z": 40,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 265
+                },
+                "inputs": {
+                    "action": "TJXl4Ttjgm",
+                    "value": "EwrrovxUhJ"
+                },
+                "outputs": {
+                    "action": [
+                        "nu6BnyIZ3b"
+                    ],
+                    "value": [
+                        "ybgyqLvOY3"
                     ]
                 }
             }
