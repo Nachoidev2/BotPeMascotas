@@ -642,7 +642,7 @@
                     "source_text": "1Gs7Llgwer"
                 },
                 "options": {
-                    "replacement_type": "first",
+                    "replacement_type": "all",
                     "old_text": "<h3>Estado del tiempo SMN</h3><span class=\"campo\">CIUDAD:</span> BUENOS AIRES<br><span class=\"campo\">ESTADO:</span> Despejado<br><span class=\"campo\">VISIBILIDAD:</span> 10 km<br><span class=\"campo\">TEMPERATURA:</span> ",
                     "new_text": ""
                 },
@@ -943,7 +943,7 @@
                     "source_text": "8IMunOfQKJ"
                 },
                 "options": {
-                    "replacement_type": "first",
+                    "replacement_type": "all",
                     "old_text": "<h3>Estado del tiempo SMN</h3><span class=\"campo\">CIUDAD:</span> VIEDMA<br><span class=\"campo\">ESTADO:</span> Algo nublado<br><span class=\"campo\">VISIBILIDAD:</span> 30 km<br><span class=\"campo\">TEMPERATURA:</span> ",
                     "new_text": ""
                 },
