@@ -102,12 +102,9 @@
                 },
                 "outputs": {
                     "action": [
-                        "h8VCToH6GL",
-                        "Wdd3zb2S2f"
+                        "h8VCToH6GL"
                     ],
-                    "value": [
-                        "iFxE2CmGPF"
-                    ]
+                    "value": []
                 }
             },
             {
@@ -145,9 +142,12 @@
                     "key": "M13UzIFwWv"
                 },
                 "outputs": {
-                    "action": [],
+                    "action": [
+                        "Wdd3zb2S2f"
+                    ],
                     "value": [
-                        "Uzz3yl7TA5"
+                        "Uzz3yl7TA5",
+                        "iFxE2CmGPF"
                     ]
                 }
             },
@@ -284,8 +284,8 @@
             {
                 "name": "get_object_info",
                 "info": {
-                    "x": 1198,
-                    "y": 740,
+                    "x": 1356,
+                    "y": 814,
                     "z": 21,
                     "color": "#5a5a5a",
                     "height": 113,
@@ -300,106 +300,10 @@
                 },
                 "outputs": {
                     "action": [
-                        "1yo3bHvVbH",
-                        "GM9XZvaYvm"
+                        "1yo3bHvVbH"
                     ],
                     "result": [
-                        "R2pz5J7LTd",
-                        "hpMZjquO4C"
-                    ]
-                }
-            },
-            {
-                "name": "send_message",
-                "info": {
-                    "x": 2308,
-                    "y": 1077,
-                    "z": 22,
-                    "color": "#5a5a5a",
-                    "height": 237,
-                    "width": 280
-                },
-                "inputs": {
-                    "action": "7eGT5b4KG7",
-                    "channel": "UEuPkbmSv7",
-                    "text": "oXzB5qKEvA",
-                    "embed": "RMkXaM47dp",
-                    "attachment": "D1aVkkHEyl",
-                    "split_message": "dFBLjREOGP"
-                },
-                "outputs": {
-                    "action": [],
-                    "message": []
-                }
-            },
-            {
-                "name": "find_channel",
-                "info": {
-                    "x": 1654,
-                    "y": 912,
-                    "z": 23,
-                    "color": "#5a5a5a",
-                    "height": 159,
-                    "width": 558
-                },
-                "inputs": {
-                    "action": "GM9XZvaYvm",
-                    "server": "jNJBrVUVHa",
-                    "search_value": "qybCcX8kmu"
-                },
-                "options": {
-                    "channel_type": "any",
-                    "find_channel_by": "id"
-                },
-                "outputs": {
-                    "action": [
-                        "e8lPmKVHMo"
-                    ],
-                    "channel": [
-                        "UEuPkbmSv7"
-                    ]
-                }
-            },
-            {
-                "name": "text",
-                "info": {
-                    "x": 1172,
-                    "y": 1047,
-                    "z": 24,
-                    "color": "#5a5a5a",
-                    "height": 118,
-                    "width": 305
-                },
-                "options": {
-                    "text": "818499575630266368"
-                },
-                "outputs": {
-                    "text": [
-                        "qybCcX8kmu"
-                    ]
-                }
-            },
-            {
-                "name": "convert_list_to_text",
-                "info": {
-                    "x": 1913,
-                    "y": 1104,
-                    "z": 25,
-                    "color": "#5a5a5a",
-                    "height": 144,
-                    "width": 234
-                },
-                "inputs": {
-                    "action": "e8lPmKVHMo",
-                    "list": "hpMZjquO4C",
-                    "separator": "PIFVB8cV7s"
-                },
-                "outputs": {
-                    "action": [
-                        "7eGT5b4KG7"
-                    ],
-                    "text": [
-                        "oXzB5qKEvA"
+                        "R2pz5J7LTd"
                     ]
                 }
             }
