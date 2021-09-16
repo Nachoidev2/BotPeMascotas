@@ -984,8 +984,8 @@
             {
                 "name": "replace_textsuji",
                 "info": {
-                    "x": 2025,
-                    "y": 3134,
+                    "x": 2143,
+                    "y": 3139,
                     "z": 76,
                     "color": "#5a5a5a",
                     "height": 239,
@@ -1001,12 +1001,8 @@
                     "new_text": ""
                 },
                 "outputs": {
-                    "action": [
-                        "zQ4KLffp2o"
-                    ],
-                    "text": [
-                        "JABEgQdATU"
-                    ]
+                    "action": [],
+                    "text": []
                 }
             },
             {
@@ -1029,10 +1025,11 @@
                 },
                 "outputs": {
                     "action": [
-                        "9nJJTlRkw7"
+                        "zQ4KLffp2o"
                     ],
                     "value": [
-                        "8IMunOfQKJ"
+                        "8IMunOfQKJ",
+                        "JABEgQdATU"
                     ]
                 }
             },
@@ -1047,7 +1044,7 @@
                     "width": 343
                 },
                 "options": {
-                    "number": "17"
+                    "number": "15"
                 },
                 "outputs": {
                     "number": [
