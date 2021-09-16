@@ -576,8 +576,8 @@
             {
                 "name": "send_message",
                 "info": {
-                    "x": 3438,
-                    "y": 2180,
+                    "x": 3153,
+                    "y": 2175,
                     "z": 55,
                     "color": "#5a5a5a",
                     "height": 237,
@@ -592,7 +592,9 @@
                     "split_message": "NR5CU0j5Sa"
                 },
                 "outputs": {
-                    "action": [],
+                    "action": [
+                        "Ptb4U5CGT5"
+                    ],
                     "message": []
                 }
             },
@@ -639,7 +641,8 @@
                     ],
                     "list": [
                         "JiVq3GTl1x",
-                        "Jv20E1aEXB"
+                        "Jv20E1aEXB",
+                        "mePOqBBdEU"
                     ]
                 }
             },
@@ -790,6 +793,24 @@
                     "text": [
                         "2P16LOGLCF"
                     ]
+                }
+            },
+            {
+                "name": "console_log",
+                "info": {
+                    "x": 3654,
+                    "y": 2419,
+                    "z": 66,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 211
+                },
+                "inputs": {
+                    "action": "Ptb4U5CGT5",
+                    "value": "mePOqBBdEU"
+                },
+                "outputs": {
+                    "action": []
                 }
             }
         ],
