@@ -1158,10 +1158,10 @@
                 },
                 "outputs": {
                     "action": [
-                        "qbGuyul3z8"
+                        "ddrG1GJ1ds"
                     ],
                     "value": [
-                        "DHHxMhOpwC"
+                        "Te7hVzeIoQ"
                     ]
                 }
             },
@@ -1181,30 +1181,6 @@
                 "outputs": {
                     "text": [
                         "DH2HcuplE9"
-                    ]
-                }
-            },
-            {
-                "name": "get_property_from_object",
-                "info": {
-                    "x": 1815,
-                    "y": 1599,
-                    "z": 93,
-                    "color": "#5a5a5a",
-                    "height": 144,
-                    "width": 262
-                },
-                "inputs": {
-                    "action": "qbGuyul3z8",
-                    "object": "DHHxMhOpwC",
-                    "key": "RI4jZEjkvQ"
-                },
-                "outputs": {
-                    "action": [
-                        "ddrG1GJ1ds"
-                    ],
-                    "value": [
-                        "Te7hVzeIoQ"
                     ]
                 }
             },
@@ -1236,25 +1212,6 @@
                 "outputs": {
                     "action": [],
                     "message": []
-                }
-            },
-            {
-                "name": "text",
-                "info": {
-                    "x": 1497,
-                    "y": 1765,
-                    "z": 95,
-                    "color": "#5a5a5a",
-                    "height": 118,
-                    "width": 305
-                },
-                "options": {
-                    "text": "temp"
-                },
-                "outputs": {
-                    "text": [
-                        "RI4jZEjkvQ"
-                    ]
                 }
             },
             {
