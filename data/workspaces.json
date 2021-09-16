@@ -940,8 +940,8 @@
             {
                 "name": "console_log",
                 "info": {
-                    "x": 2009,
-                    "y": 2824,
+                    "x": 2836,
+                    "y": 2945,
                     "z": 74,
                     "color": "#5a5a5a",
                     "height": 113,
@@ -974,10 +974,84 @@
                 },
                 "outputs": {
                     "action": [
-                        "zQ4KLffp2o"
+                        "PrcpLgtdgJ"
                     ],
                     "list": [
+                        "fWJiR8BfCL"
+                    ]
+                }
+            },
+            {
+                "name": "replace_textsuji",
+                "info": {
+                    "x": 2025,
+                    "y": 3134,
+                    "z": 76,
+                    "color": "#5a5a5a",
+                    "height": 239,
+                    "width": 454
+                },
+                "inputs": {
+                    "action": "9nJJTlRkw7",
+                    "source_text": "8IMunOfQKJ"
+                },
+                "options": {
+                    "replacement_type": "first",
+                    "old_text": "<h3>Estado del tiempo SMN</h3><span class=\"campo\">CIUDAD:</span> VIEDMA<br><span class=\"campo\">ESTADO:</span> Algo nublado<br><span class=\"campo\">VISIBILIDAD:</span> 30 km<br><span class=\"campo\">TEMPERATURA:</span> ",
+                    "new_text": ""
+                },
+                "outputs": {
+                    "action": [
+                        "zQ4KLffp2o"
+                    ],
+                    "text": [
                         "JABEgQdATU"
+                    ]
+                }
+            },
+            {
+                "name": "get_item_from_list_v2",
+                "info": {
+                    "x": 1911,
+                    "y": 2789,
+                    "z": 77,
+                    "color": "#5a5a5a",
+                    "height": 165,
+                    "width": 443
+                },
+                "inputs": {
+                    "action": "PrcpLgtdgJ",
+                    "list": "fWJiR8BfCL",
+                    "custom_position": "4UuqySM5t5"
+                },
+                "options": {
+                    "position_type": "first"
+                },
+                "outputs": {
+                    "action": [
+                        "9nJJTlRkw7"
+                    ],
+                    "value": [
+                        "8IMunOfQKJ"
+                    ]
+                }
+            },
+            {
+                "name": "number",
+                "info": {
+                    "x": 1268,
+                    "y": 2971,
+                    "z": 78,
+                    "color": "#5a5a5a",
+                    "height": 107,
+                    "width": 343
+                },
+                "options": {
+                    "number": "17"
+                },
+                "outputs": {
+                    "number": [
+                        "4UuqySM5t5"
                     ]
                 }
             }
