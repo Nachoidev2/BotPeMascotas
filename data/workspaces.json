@@ -300,8 +300,8 @@
             {
                 "name": "wait_with_number",
                 "info": {
-                    "x": 6759,
-                    "y": 3526,
+                    "x": 6796,
+                    "y": 2692,
                     "z": 44,
                     "color": "#5a5a5a",
                     "height": 172,
@@ -800,7 +800,8 @@
                 },
                 "outputs": {
                     "action": [
-                        "7eFo9Kk12l"
+                        "7eFo9Kk12l",
+                        "15RMlOihnR"
                     ]
                 }
             },
@@ -1202,9 +1203,7 @@
                     "action2": "vVwgVBRAnJ"
                 },
                 "outputs": {
-                    "action": [
-                        "15RMlOihnR"
-                    ]
+                    "action": []
                 }
             }
         ],
