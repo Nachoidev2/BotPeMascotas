@@ -112,7 +112,7 @@
                     "width": 305
                 },
                 "options": {
-                    "text": "\n"
+                    "text": "%0A"
                 },
                 "outputs": {
                     "text": [
