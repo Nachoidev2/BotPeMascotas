@@ -112,7 +112,7 @@
                     "width": 305
                 },
                 "options": {
-                    "text": ""
+                    "text": "\""
                 },
                 "outputs": {
                     "text": [
@@ -206,7 +206,7 @@
                     "object": "iFxE2CmGPF"
                 },
                 "options": {
-                    "object_info": "1"
+                    "object_info": "5"
                 },
                 "outputs": {
                     "action": [
