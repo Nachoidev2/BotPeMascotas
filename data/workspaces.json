@@ -90,8 +90,8 @@
             {
                 "name": "merge_texts_advanced",
                 "info": {
-                    "x": 1356,
-                    "y": 1233,
+                    "x": 1768,
+                    "y": 1270,
                     "z": 13,
                     "color": "#5a5a5a",
                     "height": 175,
@@ -253,8 +253,8 @@
             {
                 "name": "convert_list_to_text",
                 "info": {
-                    "x": 2227,
-                    "y": 761,
+                    "x": 2447,
+                    "y": 786,
                     "z": 32,
                     "color": "#5a5a5a",
                     "height": 144,
@@ -277,8 +277,8 @@
             {
                 "name": "text",
                 "info": {
-                    "x": 1822,
-                    "y": 966,
+                    "x": 1783,
+                    "y": 1077,
                     "z": 33,
                     "color": "#5a5a5a",
                     "height": 118,
@@ -316,7 +316,7 @@
                 "options": {
                     "TTS": "false",
                     "smsg": "false",
-                    "text": ""
+                    "text": "Dolar: $${text1}"
                 },
                 "outputs": {
                     "action": [],
