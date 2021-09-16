@@ -886,8 +886,8 @@
             {
                 "name": "text",
                 "info": {
-                    "x": 498,
-                    "y": 2442,
+                    "x": 890,
+                    "y": 3174,
                     "z": 72,
                     "color": "#5a5a5a",
                     "height": 118,
@@ -930,29 +930,13 @@
                     "action2": [],
                     "message": [],
                     "server": [],
-                    "channel": [],
+                    "channel": [
+                        "jfxmNScLpe"
+                    ],
                     "vc": [],
                     "user": [],
                     "member": [],
                     "error_message": []
-                }
-            },
-            {
-                "name": "console_log",
-                "info": {
-                    "x": 2836,
-                    "y": 2945,
-                    "z": 74,
-                    "color": "#5a5a5a",
-                    "height": 113,
-                    "width": 211
-                },
-                "inputs": {
-                    "action": "zQ4KLffp2o",
-                    "value": "JABEgQdATU"
-                },
-                "outputs": {
-                    "action": []
                 }
             },
             {
@@ -984,8 +968,8 @@
             {
                 "name": "replace_textsuji",
                 "info": {
-                    "x": 2143,
-                    "y": 3139,
+                    "x": 2548,
+                    "y": 2732,
                     "z": 76,
                     "color": "#5a5a5a",
                     "height": 239,
@@ -1001,8 +985,12 @@
                     "new_text": ""
                 },
                 "outputs": {
-                    "action": [],
-                    "text": []
+                    "action": [
+                        "sF1fL28loU"
+                    ],
+                    "text": [
+                        "SaBophzCwL"
+                    ]
                 }
             },
             {
@@ -1025,11 +1013,10 @@
                 },
                 "outputs": {
                     "action": [
-                        "zQ4KLffp2o"
+                        "9nJJTlRkw7"
                     ],
                     "value": [
-                        "8IMunOfQKJ",
-                        "JABEgQdATU"
+                        "8IMunOfQKJ"
                     ]
                 }
             },
@@ -1050,6 +1037,57 @@
                     "number": [
                         "4UuqySM5t5"
                     ]
+                }
+            },
+            {
+                "name": "replace_textsuji",
+                "info": {
+                    "x": 3083,
+                    "y": 2878,
+                    "z": 79,
+                    "color": "#5a5a5a",
+                    "height": 239,
+                    "width": 454
+                },
+                "inputs": {
+                    "action": "sF1fL28loU",
+                    "source_text": "SaBophzCwL"
+                },
+                "options": {
+                    "replacement_type": "first",
+                    "old_text": "<br><span class=\"campo\">HUMEDAD:</span>  59 %<br><span class=\"campo\">VIENTO:</span> Direcciones Variables  3 km/h<br><span class=\"campo\">TERMICA:</span> No se calcula<br><span class=\"campo\">PRESION:</span> 1016.2 hPa<br><br><a href=\"index.php\" class=\"volver\">Volver</a><p style=\"border-top:1px solid #595959; font-size:14px; text-align:center;\"><a href=\"https://github.com/matiast-gh/smn-json\" target=\"_blank\">https://github.com/matiast-gh/smn-json</a></p>",
+                    "new_text": ""
+                },
+                "outputs": {
+                    "action": [
+                        "tANOBEQUfQ"
+                    ],
+                    "text": [
+                        "L9kovggyv2"
+                    ]
+                }
+            },
+            {
+                "name": "send_message",
+                "info": {
+                    "x": 3694,
+                    "y": 3206,
+                    "z": 80,
+                    "color": "#5a5a5a",
+                    "height": 237,
+                    "width": 280
+                },
+                "inputs": {
+                    "action": "tANOBEQUfQ",
+                    "channel": "jfxmNScLpe",
+                    "text": "L9kovggyv2",
+                    "embed": "59jBk9Qoep",
+                    "attachment": "ZvP3AvrZoE",
+                    "split_message": "7o68qbBniX"
+                },
+                "outputs": {
+                    "action": [],
+                    "message": []
                 }
             }
         ],
