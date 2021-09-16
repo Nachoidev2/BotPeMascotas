@@ -666,12 +666,10 @@
                 },
                 "outputs": {
                     "action": [
-                        "Kpbmj4pHub",
-                        "dDtx6b2i6c"
+                        "Kpbmj4pHub"
                     ],
                     "value": [
-                        "1Gs7Llgwer",
-                        "2P16LOGLCF"
+                        "1Gs7Llgwer"
                     ]
                 }
             },
@@ -697,8 +695,8 @@
             {
                 "name": "replace_textsuji",
                 "info": {
-                    "x": 2085,
-                    "y": 1426,
+                    "x": 2082,
+                    "y": 1703,
                     "z": 62,
                     "color": "#5a5a5a",
                     "height": 239,
@@ -725,8 +723,8 @@
             {
                 "name": "replace_textsuji",
                 "info": {
-                    "x": 2635,
-                    "y": 1454,
+                    "x": 2622,
+                    "y": 1769,
                     "z": 63,
                     "color": "#5a5a5a",
                     "height": 239,
@@ -742,8 +740,12 @@
                     "new_text": ""
                 },
                 "outputs": {
-                    "action": [],
-                    "text": []
+                    "action": [
+                        "dDtx6b2i6c"
+                    ],
+                    "text": [
+                        "2P16LOGLCF"
+                    ]
                 }
             },
             {
