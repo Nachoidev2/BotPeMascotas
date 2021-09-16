@@ -886,8 +886,8 @@
             {
                 "name": "text",
                 "info": {
-                    "x": 890,
-                    "y": 3174,
+                    "x": 661,
+                    "y": 3052,
                     "z": 72,
                     "color": "#5a5a5a",
                     "height": 118,
@@ -1081,8 +1081,8 @@
             {
                 "name": "get_voice_channel_info",
                 "info": {
-                    "x": 4475,
-                    "y": 3284,
+                    "x": 4478,
+                    "y": 3233,
                     "z": 83,
                     "color": "#5a5a5a",
                     "height": 113,
@@ -1134,8 +1134,8 @@
             {
                 "name": "merge_texts_advanced",
                 "info": {
-                    "x": 3286,
-                    "y": 3186,
+                    "x": 3264,
+                    "y": 3196,
                     "z": 85,
                     "color": "#5a5a5a",
                     "height": 175,
