@@ -159,12 +159,10 @@
                 },
                 "outputs": {
                     "action": [
-                        "XHUwQyEB57",
-                        "LeG1gqkbuS"
+                        "nu6BnyIZ3b"
                     ],
                     "result": [
-                        "uLsRAGVJOQ",
-                        "06qKbJQepz"
+                        "ybgyqLvOY3"
                     ]
                 }
             },
@@ -253,32 +251,10 @@
                 }
             },
             {
-                "name": "convert_list_to_text",
-                "info": {
-                    "x": 2106,
-                    "y": 875,
-                    "z": 32,
-                    "color": "#5a5a5a",
-                    "height": 144,
-                    "width": 234
-                },
-                "inputs": {
-                    "action": "XHUwQyEB57",
-                    "list": "uLsRAGVJOQ",
-                    "separator": "EWdVeO3pFr"
-                },
-                "outputs": {
-                    "action": [
-                        "nu6BnyIZ3b"
-                    ],
-                    "text": []
-                }
-            },
-            {
                 "name": "text",
                 "info": {
-                    "x": 2227,
-                    "y": 1252,
+                    "x": 1830,
+                    "y": 872,
                     "z": 33,
                     "color": "#5a5a5a",
                     "height": 118,
@@ -365,8 +341,8 @@
             {
                 "name": "replace_text",
                 "info": {
-                    "x": 2828,
-                    "y": 1027,
+                    "x": 2505,
+                    "y": 587,
                     "z": 38,
                     "color": "#5a5a5a",
                     "height": 175,
@@ -379,22 +355,24 @@
                     "new_text": "sCtyvMvEwB"
                 },
                 "options": {
-                    "replacement_type": "first"
+                    "replacement_type": "all"
                 },
                 "outputs": {
                     "action": [
-                        "6AMMmYlvbx"
+                        "6AMMmYlvbx",
+                        "LeG1gqkbuS"
                     ],
                     "text": [
-                        "hk1lGRcrLc"
+                        "hk1lGRcrLc",
+                        "06qKbJQepz"
                     ]
                 }
             },
             {
                 "name": "text",
                 "info": {
-                    "x": 2508,
-                    "y": 1240,
+                    "x": 1840,
+                    "y": 1037,
                     "z": 39,
                     "color": "#5a5a5a",
                     "height": 118,
