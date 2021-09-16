@@ -576,8 +576,8 @@
             {
                 "name": "send_message",
                 "info": {
-                    "x": 3145,
-                    "y": 1800,
+                    "x": 3438,
+                    "y": 2180,
                     "z": 55,
                     "color": "#5a5a5a",
                     "height": 237,
@@ -634,10 +634,12 @@
                 },
                 "outputs": {
                     "action": [
-                        "svz10JAbiD"
+                        "svz10JAbiD",
+                        "98TY2eZTi7"
                     ],
                     "list": [
-                        "JiVq3GTl1x"
+                        "JiVq3GTl1x",
+                        "Jv20E1aEXB"
                     ]
                 }
             },
@@ -718,8 +720,8 @@
             {
                 "name": "replace_textsuji",
                 "info": {
-                    "x": 2416,
-                    "y": 1764,
+                    "x": 2395,
+                    "y": 1830,
                     "z": 63,
                     "color": "#5a5a5a",
                     "height": 239,
@@ -733,6 +735,53 @@
                     "replacement_type": "first",
                     "old_text": "<br><span class=\"campo\">HUMEDAD:</span>  46 %<br><span ",
                     "new_text": ""
+                },
+                "outputs": {
+                    "action": [],
+                    "text": []
+                }
+            },
+            {
+                "name": "get_list_length",
+                "info": {
+                    "x": 1507,
+                    "y": 2043,
+                    "z": 64,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 224
+                },
+                "inputs": {
+                    "action": "98TY2eZTi7",
+                    "list": "Jv20E1aEXB"
+                },
+                "outputs": {
+                    "action": [
+                        "KqQDofVrpG"
+                    ],
+                    "number": [
+                        "Ao7m1U6lQ2"
+                    ]
+                }
+            },
+            {
+                "name": "merge_texts_advanced",
+                "info": {
+                    "x": 2361,
+                    "y": 2257,
+                    "z": 65,
+                    "color": "#5a5a5a",
+                    "height": 175,
+                    "width": 418
+                },
+                "inputs": {
+                    "action": "KqQDofVrpG",
+                    "text1": "Ao7m1U6lQ2",
+                    "text2": "ashMH6X2Rl",
+                    "text3": "q0AVNNP9YD"
+                },
+                "options": {
+                    "text": "${text1}"
                 },
                 "outputs": {
                     "action": [
