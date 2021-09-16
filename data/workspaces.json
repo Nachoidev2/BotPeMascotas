@@ -147,8 +147,8 @@
             {
                 "name": "console_log",
                 "info": {
-                    "x": 2257,
-                    "y": 621,
+                    "x": 2316,
+                    "y": 916,
                     "z": 18,
                     "color": "#5a5a5a",
                     "height": 113,
@@ -210,12 +210,10 @@
                 },
                 "outputs": {
                     "action": [
-                        "LNoNV6URAQ",
-                        "1yo3bHvVbH"
+                        "LNoNV6URAQ"
                     ],
                     "result": [
-                        "mbYTtqoPUj",
-                        "R2pz5J7LTd"
+                        "mbYTtqoPUj"
                     ]
                 }
             },
@@ -263,8 +261,12 @@
                     "position_type": "custom"
                 },
                 "outputs": {
-                    "action": [],
-                    "value": []
+                    "action": [
+                        "1yo3bHvVbH"
+                    ],
+                    "value": [
+                        "R2pz5J7LTd"
+                    ]
                 }
             },
             {
