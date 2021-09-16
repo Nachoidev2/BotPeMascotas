@@ -708,23 +708,25 @@
                 },
                 "options": {
                     "replacement_type": "first",
-                    "old_text": "class=\"campo\">VISIBILIDAD:</span> 10 km<br><span class=\"campo\">TEMPERATURA:</span> ",
+                    "old_text": "<h3>Estado del tiempo SMN</h3><span class=\"campo\">CIUDAD:</span> BUENOS AIRES<br><span class=\"campo\">ESTADO:</span> Despejado<br><span class=\"campo\">VISIBILIDAD:</span> 10 km<br><span class=\"campo\">TEMPERATURA:</span> ",
                     "new_text": ""
                 },
                 "outputs": {
                     "action": [
-                        "bJWSLPmo39"
+                        "bJWSLPmo39",
+                        "dDtx6b2i6c"
                     ],
                     "text": [
-                        "hxOStDWiO8"
+                        "hxOStDWiO8",
+                        "2P16LOGLCF"
                     ]
                 }
             },
             {
                 "name": "replace_textsuji",
                 "info": {
-                    "x": 2622,
-                    "y": 1769,
+                    "x": 2677,
+                    "y": 1598,
                     "z": 63,
                     "color": "#5a5a5a",
                     "height": 239,
@@ -740,12 +742,8 @@
                     "new_text": ""
                 },
                 "outputs": {
-                    "action": [
-                        "dDtx6b2i6c"
-                    ],
-                    "text": [
-                        "2P16LOGLCF"
-                    ]
+                    "action": [],
+                    "text": []
                 }
             },
             {
