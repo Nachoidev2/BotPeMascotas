@@ -60,7 +60,7 @@
                     "width": 305
                 },
                 "options": {
-                    "text": "0"
+                    "text": "3"
                 },
                 "outputs": {
                     "text": [
@@ -201,7 +201,7 @@
                     "width": 305
                 },
                 "options": {
-                    "text": "venta"
+                    "text": "compra"
                 },
                 "outputs": {
                     "text": [
@@ -1761,15 +1761,15 @@
             {
                 "name": "text",
                 "info": {
-                    "x": 2455,
-                    "y": 1277,
+                    "x": 2385,
+                    "y": 1269,
                     "z": 14,
                     "color": "#5a5a5a",
                     "height": 118,
                     "width": 305
                 },
                 "options": {
-                    "text": "818499575630266368"
+                    "text": "887904815831740426"
                 },
                 "outputs": {
                     "text": [
