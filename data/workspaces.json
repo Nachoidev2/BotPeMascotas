@@ -76,7 +76,7 @@
                     "width": 305
                 },
                 "options": {
-                    "text": "0"
+                    "text": "compra"
                 },
                 "outputs": {
                     "text": [
@@ -112,7 +112,7 @@
                     "width": 305
                 },
                 "options": {
-                    "text": ""
+                    "text": "\""
                 },
                 "outputs": {
                     "text": [
@@ -147,8 +147,8 @@
             {
                 "name": "console_log",
                 "info": {
-                    "x": 2352,
-                    "y": 873,
+                    "x": 2257,
+                    "y": 621,
                     "z": 18,
                     "color": "#5a5a5a",
                     "height": 113,
@@ -206,22 +206,24 @@
                     "object": "iFxE2CmGPF"
                 },
                 "options": {
-                    "object_info": "5"
+                    "object_info": "1"
                 },
                 "outputs": {
                     "action": [
-                        "LNoNV6URAQ"
+                        "LNoNV6URAQ",
+                        "1yo3bHvVbH"
                     ],
                     "result": [
-                        "mbYTtqoPUj"
+                        "mbYTtqoPUj",
+                        "R2pz5J7LTd"
                     ]
                 }
             },
             {
                 "name": "split_text",
                 "info": {
-                    "x": 1265,
-                    "y": 805,
+                    "x": 1195,
+                    "y": 844,
                     "z": 23,
                     "color": "#5a5a5a",
                     "height": 175,
@@ -261,12 +263,8 @@
                     "position_type": "custom"
                 },
                 "outputs": {
-                    "action": [
-                        "1yo3bHvVbH"
-                    ],
-                    "value": [
-                        "R2pz5J7LTd"
-                    ]
+                    "action": [],
+                    "value": []
                 }
             },
             {
