@@ -76,7 +76,7 @@
                     "width": 305
                 },
                 "options": {
-                    "text": "compra"
+                    "text": "0"
                 },
                 "outputs": {
                     "text": [
@@ -206,7 +206,7 @@
                     "object": "iFxE2CmGPF"
                 },
                 "options": {
-                    "object_info": "1"
+                    "object_info": "5"
                 },
                 "outputs": {
                     "action": [
@@ -16525,8 +16525,8 @@
             {
                 "name": "text",
                 "info": {
-                    "x": 4151,
-                    "y": 4547,
+                    "x": 4130,
+                    "y": 4540,
                     "z": 295,
                     "color": "#5a5a5a",
                     "height": 118,
