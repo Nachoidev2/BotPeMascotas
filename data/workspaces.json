@@ -208,7 +208,7 @@
                     "object": "iFxE2CmGPF"
                 },
                 "options": {
-                    "object_info": "4"
+                    "object_info": "1"
                 },
                 "outputs": {
                     "action": [
@@ -330,8 +330,8 @@
             {
                 "name": "get_property_from_object",
                 "info": {
-                    "x": 1031,
-                    "y": 744,
+                    "x": 1051,
+                    "y": 740,
                     "z": 28,
                     "color": "#5a5a5a",
                     "height": 144,
