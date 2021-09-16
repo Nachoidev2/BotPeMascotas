@@ -267,18 +267,18 @@
                 },
                 "outputs": {
                     "action": [
-                        "LeG1gqkbuS"
+                        "nu6BnyIZ3b"
                     ],
                     "text": [
-                        "06qKbJQepz"
+                        "ybgyqLvOY3"
                     ]
                 }
             },
             {
                 "name": "text",
                 "info": {
-                    "x": 1783,
-                    "y": 1077,
+                    "x": 2040,
+                    "y": 990,
                     "z": 33,
                     "color": "#5a5a5a",
                     "height": 118,
@@ -289,7 +289,8 @@
                 },
                 "outputs": {
                     "text": [
-                        "EWdVeO3pFr"
+                        "EWdVeO3pFr",
+                        "z8zK97AlyD"
                     ]
                 }
             },
@@ -358,6 +359,53 @@
                     "user": [],
                     "member": [],
                     "error_message": []
+                }
+            },
+            {
+                "name": "replace_text",
+                "info": {
+                    "x": 2860,
+                    "y": 744,
+                    "z": 38,
+                    "color": "#5a5a5a",
+                    "height": 175,
+                    "width": 420
+                },
+                "inputs": {
+                    "action": "nu6BnyIZ3b",
+                    "source_text": "ybgyqLvOY3",
+                    "old_text": "z8zK97AlyD",
+                    "new_text": "sCtyvMvEwB"
+                },
+                "options": {
+                    "replacement_type": "all"
+                },
+                "outputs": {
+                    "action": [
+                        "LeG1gqkbuS"
+                    ],
+                    "text": [
+                        "06qKbJQepz"
+                    ]
+                }
+            },
+            {
+                "name": "text",
+                "info": {
+                    "x": 2644,
+                    "y": 986,
+                    "z": 39,
+                    "color": "#5a5a5a",
+                    "height": 118,
+                    "width": 305
+                },
+                "options": {
+                    "text": ""
+                },
+                "outputs": {
+                    "text": [
+                        "sCtyvMvEwB"
+                    ]
                 }
             }
         ],
