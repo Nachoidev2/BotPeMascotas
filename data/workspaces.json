@@ -426,8 +426,8 @@
             {
                 "name": "merge_actions",
                 "info": {
-                    "x": 608,
-                    "y": 522,
+                    "x": 474,
+                    "y": 562,
                     "z": 49,
                     "color": "#5a5a5a",
                     "height": 113,
@@ -800,7 +800,7 @@
                 },
                 "outputs": {
                     "action": [
-                        "7eFo9Kk12l"
+                        "6AeKLK9EWe"
                     ]
                 }
             },
@@ -1204,6 +1204,61 @@
                 "outputs": {
                     "action": [
                         "15RMlOihnR"
+                    ]
+                }
+            },
+            {
+                "name": "command_event_with_text",
+                "info": {
+                    "x": 88,
+                    "y": 2438,
+                    "z": 88,
+                    "color": "#5a5a5a",
+                    "height": 401,
+                    "width": 759
+                },
+                "inputs": {
+                    "command_slowmode": "hg3fcrmI0H"
+                },
+                "options": {
+                    "command_name": "holu",
+                    "custom_prefix": "",
+                    "command_restriction": "none",
+                    "required_member_permission": "none",
+                    "case_sensitive": "no",
+                    "command_slowmode_restriction": "none"
+                },
+                "outputs": {
+                    "action1": [
+                        "g0d1Vmlr8e"
+                    ],
+                    "action2": [],
+                    "message": [],
+                    "server": [],
+                    "channel": [],
+                    "vc": [],
+                    "user": [],
+                    "member": [],
+                    "error_message": []
+                }
+            },
+            {
+                "name": "merge_actions",
+                "info": {
+                    "x": 1158,
+                    "y": 2487,
+                    "z": 89,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 224
+                },
+                "inputs": {
+                    "action1": "6AeKLK9EWe",
+                    "action2": "g0d1Vmlr8e"
+                },
+                "outputs": {
+                    "action": [
+                        "7eFo9Kk12l"
                     ]
                 }
             }
