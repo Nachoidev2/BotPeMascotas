@@ -756,7 +756,9 @@
                     "body": "dsawVwDboo"
                 },
                 "outputs": {
-                    "action": [],
+                    "action": [
+                        "Ajt4GkGRai"
+                    ],
                     "content": [],
                     "data": [
                         "57MFiwParA"
@@ -917,8 +919,8 @@
             {
                 "name": "merge_texts_advanced",
                 "info": {
-                    "x": 2994,
-                    "y": 2933,
+                    "x": 3015,
+                    "y": 2938,
                     "z": 85,
                     "color": "#5a5a5a",
                     "height": 175,
