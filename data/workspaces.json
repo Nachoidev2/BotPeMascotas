@@ -300,8 +300,8 @@
             {
                 "name": "wait_with_number",
                 "info": {
-                    "x": 6855,
-                    "y": 2209,
+                    "x": 7015,
+                    "y": 3212,
                     "z": 44,
                     "color": "#5a5a5a",
                     "height": 172,
@@ -857,6 +857,127 @@
                 "outputs": {
                     "action": [
                         "fRlgtH32dt"
+                    ]
+                }
+            },
+            {
+                "name": "get_content_from_website",
+                "info": {
+                    "x": 1078,
+                    "y": 2702,
+                    "z": 71,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 267
+                },
+                "inputs": {
+                    "action": "7eFo9Kk12l",
+                    "url": "LjDiFGGKRT"
+                },
+                "outputs": {
+                    "action": [
+                        "LThoHF59Xi"
+                    ],
+                    "content": [
+                        "SJmkgLXiB6"
+                    ]
+                }
+            },
+            {
+                "name": "text",
+                "info": {
+                    "x": 498,
+                    "y": 2442,
+                    "z": 72,
+                    "color": "#5a5a5a",
+                    "height": 118,
+                    "width": 305
+                },
+                "options": {
+                    "text": "https://www.devs.com.ar/smn/index.php?ciudad=viedma"
+                },
+                "outputs": {
+                    "text": [
+                        "LjDiFGGKRT"
+                    ]
+                }
+            },
+            {
+                "name": "command_event_with_text",
+                "info": {
+                    "x": 131,
+                    "y": 2710,
+                    "z": 73,
+                    "color": "#5a5a5a",
+                    "height": 401,
+                    "width": 759
+                },
+                "inputs": {
+                    "command_slowmode": "pTmgyuj43Z"
+                },
+                "options": {
+                    "command_name": "holu",
+                    "custom_prefix": "",
+                    "command_restriction": "none",
+                    "required_member_permission": "none",
+                    "case_sensitive": "no",
+                    "command_slowmode_restriction": "none"
+                },
+                "outputs": {
+                    "action1": [
+                        "7eFo9Kk12l"
+                    ],
+                    "action2": [],
+                    "message": [],
+                    "server": [],
+                    "channel": [],
+                    "vc": [],
+                    "user": [],
+                    "member": [],
+                    "error_message": []
+                }
+            },
+            {
+                "name": "console_log",
+                "info": {
+                    "x": 2009,
+                    "y": 2824,
+                    "z": 74,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 211
+                },
+                "inputs": {
+                    "action": "zQ4KLffp2o",
+                    "value": "JABEgQdATU"
+                },
+                "outputs": {
+                    "action": []
+                }
+            },
+            {
+                "name": "text_to_list",
+                "info": {
+                    "x": 1456,
+                    "y": 2793,
+                    "z": 75,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 334
+                },
+                "inputs": {
+                    "action": "LThoHF59Xi",
+                    "text": "SJmkgLXiB6"
+                },
+                "options": {
+                    "splitmode": "newLine"
+                },
+                "outputs": {
+                    "action": [
+                        "zQ4KLffp2o"
+                    ],
+                    "list": [
+                        "JABEgQdATU"
                     ]
                 }
             }
