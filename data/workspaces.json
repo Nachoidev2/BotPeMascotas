@@ -112,7 +112,7 @@
                     "width": 305
                 },
                 "options": {
-                    "text": ":"
+                    "text": "^"
                 },
                 "outputs": {
                     "text": [
@@ -245,8 +245,8 @@
             {
                 "name": "get_item_from_list_v2",
                 "info": {
-                    "x": 2115,
-                    "y": 664,
+                    "x": 2104,
+                    "y": 708,
                     "z": 24,
                     "color": "#5a5a5a",
                     "height": 165,
@@ -283,16 +283,14 @@
                     "number": "5"
                 },
                 "outputs": {
-                    "number": [
-                        "XSX9jbHfne"
-                    ]
+                    "number": []
                 }
             },
             {
                 "name": "get_object_info",
                 "info": {
-                    "x": 1183,
-                    "y": 1096,
+                    "x": 1860,
+                    "y": 1038,
                     "z": 26,
                     "color": "#5a5a5a",
                     "height": 113,
