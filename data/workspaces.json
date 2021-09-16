@@ -26,22 +26,6 @@
                 }
             },
             {
-                "name": "bot_initialization_event",
-                "info": {
-                    "x": 80,
-                    "y": 107,
-                    "z": 3,
-                    "color": "#5a5a5a",
-                    "height": 82,
-                    "width": 242
-                },
-                "outputs": {
-                    "action": [
-                        "zDYIbpDZhf"
-                    ]
-                }
-            },
-            {
                 "name": "get_property_from_object",
                 "info": {
                     "x": 745,
@@ -283,7 +267,7 @@
                 },
                 "outputs": {
                     "action": [
-                        "bjmdAJ4fRg"
+                        "LeG1gqkbuS"
                     ],
                     "text": [
                         "06qKbJQepz"
@@ -312,8 +296,8 @@
             {
                 "name": "Chad_send_messagev2.2",
                 "info": {
-                    "x": 3133,
-                    "y": 904,
+                    "x": 3323,
+                    "y": 882,
                     "z": 34,
                     "color": "#5a5a5a",
                     "height": 299,
@@ -340,73 +324,40 @@
                 }
             },
             {
-                "name": "find_channel",
+                "name": "command_event_with_text",
                 "info": {
-                    "x": 2586,
-                    "y": 679,
-                    "z": 35,
-                    "color": "#5a5a5a",
-                    "height": 159,
-                    "width": 558
-                },
-                "inputs": {
-                    "action": "bjmdAJ4fRg",
-                    "server": "h3lKuus0rh",
-                    "search_value": "ft5D0BqooA"
-                },
-                "options": {
-                    "channel_type": "any",
-                    "find_channel_by": "id"
-                },
-                "outputs": {
-                    "action": [
-                        "LeG1gqkbuS"
-                    ],
-                    "channel": [
-                        "zFACX5UKxW"
-                    ]
-                }
-            },
-            {
-                "name": "text",
-                "info": {
-                    "x": 2153,
-                    "y": 1284,
-                    "z": 36,
-                    "color": "#5a5a5a",
-                    "height": 118,
-                    "width": 305
-                },
-                "options": {
-                    "text": "818499575630266368"
-                },
-                "outputs": {
-                    "text": [
-                        "ft5D0BqooA"
-                    ]
-                }
-            },
-            {
-                "name": "wait_with_number",
-                "info": {
-                    "x": 376,
-                    "y": 225,
+                    "x": 25,
+                    "y": 1405,
                     "z": 37,
                     "color": "#5a5a5a",
-                    "height": 172,
-                    "width": 418
+                    "height": 401,
+                    "width": 759
                 },
                 "inputs": {
-                    "action": "zDYIbpDZhf"
+                    "command_slowmode": "aPC5m4Rezt"
                 },
                 "options": {
-                    "time_type": "milliseconds",
-                    "time": "40"
+                    "command_name": "dolar",
+                    "custom_prefix": "",
+                    "command_restriction": "none",
+                    "required_member_permission": "none",
+                    "case_sensitive": "no",
+                    "command_slowmode_restriction": "none"
                 },
                 "outputs": {
-                    "action": [
+                    "action1": [
                         "V7ml7bHu2Z"
-                    ]
+                    ],
+                    "action2": [],
+                    "message": [],
+                    "server": [],
+                    "channel": [
+                        "zFACX5UKxW"
+                    ],
+                    "vc": [],
+                    "user": [],
+                    "member": [],
+                    "error_message": []
                 }
             }
         ],
