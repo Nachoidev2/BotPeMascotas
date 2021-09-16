@@ -713,20 +713,18 @@
                 },
                 "outputs": {
                     "action": [
-                        "bJWSLPmo39",
-                        "dDtx6b2i6c"
+                        "bJWSLPmo39"
                     ],
                     "text": [
-                        "hxOStDWiO8",
-                        "2P16LOGLCF"
+                        "hxOStDWiO8"
                     ]
                 }
             },
             {
                 "name": "replace_textsuji",
                 "info": {
-                    "x": 2677,
-                    "y": 1598,
+                    "x": 2605,
+                    "y": 1842,
                     "z": 63,
                     "color": "#5a5a5a",
                     "height": 239,
@@ -737,13 +735,17 @@
                     "source_text": "hxOStDWiO8"
                 },
                 "options": {
-                    "replacement_type": "first",
-                    "old_text": "<br><span class=\"campo\">HUMEDAD:</span>  46 %<br><span ",
+                    "replacement_type": "all",
+                    "old_text": "<br><span class=\"campo\">HUMEDAD:</span>  46 %<br><span class=\"campo\">VIENTO:</span> Oeste  5 km/h<br><span class=\"campo\">TERMICA:</span> No se calcula<br><span class=\"campo\">PRESION:</span> 1020.4 hPa<br><br><a href=\"index.php\" class=\"volver\">Volver</a><p style=\"border-top:1px solid #595959; font-size:14px; text-align:center;\"><a href=\"https://github.com/matiast-gh/smn-json\" target=\"_blank\">https://github.com/matiast-gh/smn-json</a></p>",
                     "new_text": ""
                 },
                 "outputs": {
-                    "action": [],
-                    "text": []
+                    "action": [
+                        "dDtx6b2i6c"
+                    ],
+                    "text": [
+                        "2P16LOGLCF"
+                    ]
                 }
             },
             {
