@@ -290,15 +290,17 @@
                 "outputs": {
                     "text": [
                         "EWdVeO3pFr",
-                        "z8zK97AlyD"
+                        "z8zK97AlyD",
+                        "nYMrtIPVfv",
+                        "hDCBnyF6eO"
                     ]
                 }
             },
             {
                 "name": "Chad_send_messagev2.2",
                 "info": {
-                    "x": 3482,
-                    "y": 852,
+                    "x": 3712,
+                    "y": 974,
                     "z": 34,
                     "color": "#5a5a5a",
                     "height": 299,
@@ -364,8 +366,8 @@
             {
                 "name": "replace_text",
                 "info": {
-                    "x": 2860,
-                    "y": 744,
+                    "x": 2844,
+                    "y": 820,
                     "z": 38,
                     "color": "#5a5a5a",
                     "height": 175,
@@ -382,10 +384,10 @@
                 },
                 "outputs": {
                     "action": [
-                        "LeG1gqkbuS"
+                        "6AMMmYlvbx"
                     ],
                     "text": [
-                        "06qKbJQepz"
+                        "hk1lGRcrLc"
                     ]
                 }
             },
@@ -404,7 +406,65 @@
                 },
                 "outputs": {
                     "text": [
-                        "sCtyvMvEwB"
+                        "sCtyvMvEwB",
+                        "qbRhPNCAeR",
+                        "Lludc8mRgz"
+                    ]
+                }
+            },
+            {
+                "name": "replace_text",
+                "info": {
+                    "x": 2997,
+                    "y": 1135,
+                    "z": 40,
+                    "color": "#5a5a5a",
+                    "height": 175,
+                    "width": 420
+                },
+                "inputs": {
+                    "action": "6AMMmYlvbx",
+                    "source_text": "hk1lGRcrLc",
+                    "old_text": "nYMrtIPVfv",
+                    "new_text": "qbRhPNCAeR"
+                },
+                "options": {
+                    "replacement_type": "first"
+                },
+                "outputs": {
+                    "action": [
+                        "eorv6Hl6PY"
+                    ],
+                    "text": [
+                        "iAfaTKBI5u"
+                    ]
+                }
+            },
+            {
+                "name": "replace_text",
+                "info": {
+                    "x": 2973,
+                    "y": 1385,
+                    "z": 41,
+                    "color": "#5a5a5a",
+                    "height": 175,
+                    "width": 420
+                },
+                "inputs": {
+                    "action": "eorv6Hl6PY",
+                    "source_text": "iAfaTKBI5u",
+                    "old_text": "hDCBnyF6eO",
+                    "new_text": "Lludc8mRgz"
+                },
+                "options": {
+                    "replacement_type": "first"
+                },
+                "outputs": {
+                    "action": [
+                        "LeG1gqkbuS"
+                    ],
+                    "text": [
+                        "06qKbJQepz"
                     ]
                 }
             }
