@@ -174,11 +174,9 @@
                     "object_info": "2"
                 },
                 "outputs": {
-                    "action": [
-                        "XHUwQyEB57"
-                    ],
+                    "action": [],
                     "result": [
-                        "uLsRAGVJOQ"
+                        "BQfRxc6To3"
                     ]
                 }
             },
@@ -269,8 +267,8 @@
             {
                 "name": "console_log",
                 "info": {
-                    "x": 2407,
-                    "y": 832,
+                    "x": 2607,
+                    "y": 810,
                     "z": 31,
                     "color": "#5a5a5a",
                     "height": 113,
@@ -287,8 +285,8 @@
             {
                 "name": "convert_list_to_text",
                 "info": {
-                    "x": 2094,
-                    "y": 831,
+                    "x": 2310,
+                    "y": 702,
                     "z": 32,
                     "color": "#5a5a5a",
                     "height": 144,
@@ -311,8 +309,8 @@
             {
                 "name": "text",
                 "info": {
-                    "x": 1761,
-                    "y": 965,
+                    "x": 1729,
+                    "y": 1027,
                     "z": 33,
                     "color": "#5a5a5a",
                     "height": 118,
@@ -323,7 +321,34 @@
                 },
                 "outputs": {
                     "text": [
-                        "EWdVeO3pFr"
+                        "XM6XQuazGY"
+                    ]
+                }
+            },
+            {
+                "name": "filter_list",
+                "info": {
+                    "x": 2026,
+                    "y": 902,
+                    "z": 34,
+                    "color": "#5a5a5a",
+                    "height": 144,
+                    "width": 426
+                },
+                "inputs": {
+                    "action": "3CjJPhNmDf",
+                    "list": "BQfRxc6To3",
+                    "value": "XM6XQuazGY"
+                },
+                "options": {
+                    "comparison_type": "equal"
+                },
+                "outputs": {
+                    "action": [
+                        "XHUwQyEB57"
+                    ],
+                    "list": [
+                        "uLsRAGVJOQ"
                     ]
                 }
             }
