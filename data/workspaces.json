@@ -174,9 +174,11 @@
                     "object_info": "2"
                 },
                 "outputs": {
-                    "action": [],
+                    "action": [
+                        "XHUwQyEB57"
+                    ],
                     "result": [
-                        "BQfRxc6To3"
+                        "uLsRAGVJOQ"
                     ]
                 }
             },
@@ -309,46 +311,19 @@
             {
                 "name": "text",
                 "info": {
-                    "x": 1729,
-                    "y": 1027,
+                    "x": 1952,
+                    "y": 927,
                     "z": 33,
                     "color": "#5a5a5a",
                     "height": 118,
                     "width": 305
                 },
                 "options": {
-                    "text": ","
+                    "text": ",,"
                 },
                 "outputs": {
                     "text": [
-                        "XM6XQuazGY"
-                    ]
-                }
-            },
-            {
-                "name": "filter_list",
-                "info": {
-                    "x": 2026,
-                    "y": 902,
-                    "z": 34,
-                    "color": "#5a5a5a",
-                    "height": 144,
-                    "width": 426
-                },
-                "inputs": {
-                    "action": "3CjJPhNmDf",
-                    "list": "BQfRxc6To3",
-                    "value": "XM6XQuazGY"
-                },
-                "options": {
-                    "comparison_type": "equal"
-                },
-                "outputs": {
-                    "action": [
-                        "XHUwQyEB57"
-                    ],
-                    "list": [
-                        "uLsRAGVJOQ"
+                        "EWdVeO3pFr"
                     ]
                 }
             }
