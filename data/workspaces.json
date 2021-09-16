@@ -7,27 +7,6 @@
         },
         "blocks": [
             {
-                "name": "get_content_from_website",
-                "info": {
-                    "x": 1760,
-                    "y": 361,
-                    "z": 1,
-                    "color": "#5a5a5a",
-                    "height": 113,
-                    "width": 256
-                },
-                "inputs": {
-                    "action": "3JuXW1OXue",
-                    "url": "dpBPmZVvIb"
-                },
-                "outputs": {
-                    "action": [],
-                    "content": [
-                        "HaHMWKRKR3"
-                    ]
-                }
-            },
-            {
                 "name": "text",
                 "info": {
                     "x": 383,
@@ -42,7 +21,6 @@
                 },
                 "outputs": {
                     "text": [
-                        "dpBPmZVvIb",
                         "8DjJMf4lK7"
                     ]
                 }
@@ -61,28 +39,6 @@
                     "action": [
                         "V7ml7bHu2Z"
                     ]
-                }
-            },
-            {
-                "name": "transform_value",
-                "info": {
-                    "x": 1898,
-                    "y": 580,
-                    "z": 4,
-                    "color": "#5a5a5a",
-                    "height": 113,
-                    "width": 491
-                },
-                "inputs": {
-                    "action": "ops9oMlfUD",
-                    "value": "HaHMWKRKR3"
-                },
-                "options": {
-                    "transformation_type": "jsonparse"
-                },
-                "outputs": {
-                    "action": [],
-                    "result": []
                 }
             },
             {
@@ -148,8 +104,8 @@
             {
                 "name": "text",
                 "info": {
-                    "x": 842,
-                    "y": 954,
+                    "x": 815,
+                    "y": 927,
                     "z": 12,
                     "color": "#5a5a5a",
                     "height": 118,
@@ -302,7 +258,7 @@
                     "custom_position": "XSX9jbHfne"
                 },
                 "options": {
-                    "position_type": "second"
+                    "position_type": "custom"
                 },
                 "outputs": {
                     "action": [
@@ -310,6 +266,25 @@
                     ],
                     "value": [
                         "R2pz5J7LTd"
+                    ]
+                }
+            },
+            {
+                "name": "number",
+                "info": {
+                    "x": 1417,
+                    "y": 1025,
+                    "z": 25,
+                    "color": "#5a5a5a",
+                    "height": 107,
+                    "width": 343
+                },
+                "options": {
+                    "number": "4"
+                },
+                "outputs": {
+                    "number": [
+                        "XSX9jbHfne"
                     ]
                 }
             }
