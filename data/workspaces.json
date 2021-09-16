@@ -529,12 +529,10 @@
                 },
                 "outputs": {
                     "action": [
-                        "P8Njh9f6fg",
-                        "dDtx6b2i6c"
+                        "P8Njh9f6fg"
                     ],
                     "content": [
-                        "XYCleR2Iho",
-                        "2P16LOGLCF"
+                        "XYCleR2Iho"
                     ]
                 }
             },
@@ -578,8 +576,8 @@
             {
                 "name": "send_message",
                 "info": {
-                    "x": 1816,
-                    "y": 1686,
+                    "x": 3145,
+                    "y": 1800,
                     "z": 55,
                     "color": "#5a5a5a",
                     "height": 237,
@@ -646,8 +644,8 @@
             {
                 "name": "get_item_from_list_v2",
                 "info": {
-                    "x": 1091,
-                    "y": 1862,
+                    "x": 1325,
+                    "y": 1763,
                     "z": 60,
                     "color": "#5a5a5a",
                     "height": 165,
@@ -659,11 +657,90 @@
                     "custom_position": "M9yI9dH3qi"
                 },
                 "options": {
-                    "position_type": "first"
+                    "position_type": "custom"
                 },
                 "outputs": {
-                    "action": [],
-                    "value": []
+                    "action": [
+                        "Kpbmj4pHub"
+                    ],
+                    "value": [
+                        "1Gs7Llgwer"
+                    ]
+                }
+            },
+            {
+                "name": "number",
+                "info": {
+                    "x": 945,
+                    "y": 1933,
+                    "z": 61,
+                    "color": "#5a5a5a",
+                    "height": 107,
+                    "width": 343
+                },
+                "options": {
+                    "number": "18"
+                },
+                "outputs": {
+                    "number": [
+                        "M9yI9dH3qi"
+                    ]
+                }
+            },
+            {
+                "name": "replace_textsuji",
+                "info": {
+                    "x": 1858,
+                    "y": 1721,
+                    "z": 62,
+                    "color": "#5a5a5a",
+                    "height": 239,
+                    "width": 454
+                },
+                "inputs": {
+                    "action": "Kpbmj4pHub",
+                    "source_text": "1Gs7Llgwer"
+                },
+                "options": {
+                    "replacement_type": "first",
+                    "old_text": "class=\"campo\">VISIBILIDAD:</span> 10 km<br><span class=\"campo\">TEMPERATURA:</span> ",
+                    "new_text": ""
+                },
+                "outputs": {
+                    "action": [
+                        "bJWSLPmo39"
+                    ],
+                    "text": [
+                        "hxOStDWiO8"
+                    ]
+                }
+            },
+            {
+                "name": "replace_textsuji",
+                "info": {
+                    "x": 2416,
+                    "y": 1764,
+                    "z": 63,
+                    "color": "#5a5a5a",
+                    "height": 239,
+                    "width": 454
+                },
+                "inputs": {
+                    "action": "bJWSLPmo39",
+                    "source_text": "hxOStDWiO8"
+                },
+                "options": {
+                    "replacement_type": "first",
+                    "old_text": "<br><span class=\"campo\">HUMEDAD:</span>  46 %<br><span ",
+                    "new_text": ""
+                },
+                "outputs": {
+                    "action": [
+                        "dDtx6b2i6c"
+                    ],
+                    "text": [
+                        "2P16LOGLCF"
+                    ]
                 }
             }
         ],
