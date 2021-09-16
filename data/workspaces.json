@@ -485,7 +485,9 @@
                     "action2": "DemOJBFbY9"
                 },
                 "outputs": {
-                    "action": []
+                    "action": [
+                        "HB152BVgGx"
+                    ]
                 }
             },
             {
@@ -563,8 +565,8 @@
             {
                 "name": "find_channel",
                 "info": {
-                    "x": 3822,
-                    "y": 2068,
+                    "x": 4253,
+                    "y": 1616,
                     "z": 64,
                     "color": "#5a5a5a",
                     "height": 159,
@@ -592,15 +594,15 @@
             {
                 "name": "text",
                 "info": {
-                    "x": 3263,
-                    "y": 2307,
+                    "x": 3911,
+                    "y": 1869,
                     "z": 65,
                     "color": "#5a5a5a",
                     "height": 118,
                     "width": 305
                 },
                 "options": {
-                    "text": "887901167324114974"
+                    "text": "887908406948687932"
                 },
                 "outputs": {
                     "text": [
@@ -611,8 +613,8 @@
             {
                 "name": "get_voice_channel_info",
                 "info": {
-                    "x": 4624,
-                    "y": 2159,
+                    "x": 5030,
+                    "y": 1615,
                     "z": 66,
                     "color": "#5a5a5a",
                     "height": 113,
@@ -637,8 +639,8 @@
             {
                 "name": "check_comparison",
                 "info": {
-                    "x": 5529,
-                    "y": 2172,
+                    "x": 5835,
+                    "y": 1638,
                     "z": 67,
                     "color": "#5a5a5a",
                     "height": 144,
@@ -664,8 +666,8 @@
             {
                 "name": "merge_actions",
                 "info": {
-                    "x": 6517,
-                    "y": 2231,
+                    "x": 6971,
+                    "y": 2087,
                     "z": 68,
                     "color": "#5a5a5a",
                     "height": 113,
@@ -677,15 +679,15 @@
                 },
                 "outputs": {
                     "action": [
-                        "6AeKLK9EWe"
+                        "7eFo9Kk12l"
                     ]
                 }
             },
             {
                 "name": "merge_texts_advanced",
                 "info": {
-                    "x": 1967,
-                    "y": 1819,
+                    "x": 3625,
+                    "y": 1592,
                     "z": 69,
                     "color": "#5a5a5a",
                     "height": 175,
@@ -698,7 +700,7 @@
                     "text3": "ZAeqgOsYJO"
                 },
                 "options": {
-                    "text": "𝔹𝕦𝕖𝕟𝕠𝕤 𝔸𝕚𝕣𝕖𝕤: ${text1}"
+                    "text": "𝕃𝕚𝕞𝕒: ${text1}"
                 },
                 "outputs": {
                     "action": [
@@ -713,8 +715,8 @@
             {
                 "name": "edit_voice_channel2",
                 "info": {
-                    "x": 6179,
-                    "y": 2508,
+                    "x": 6437,
+                    "y": 2046,
                     "z": 70,
                     "color": "#5a5a5a",
                     "height": 456,
@@ -738,26 +740,31 @@
                 }
             },
             {
-                "name": "get_content_from_website",
+                "name": "request_api3",
                 "info": {
-                    "x": 1078,
+                    "x": 1079,
                     "y": 2702,
                     "z": 71,
                     "color": "#5a5a5a",
-                    "height": 113,
-                    "width": 267
+                    "height": 175,
+                    "width": 392
                 },
                 "inputs": {
                     "action": "7eFo9Kk12l",
-                    "url": "LjDiFGGKRT"
+                    "url": "LjDiFGGKRT",
+                    "headers": "wKuyJbmyKv",
+                    "body": "dsawVwDboo"
                 },
                 "outputs": {
-                    "action": [
-                        "LThoHF59Xi"
-                    ],
-                    "content": [
-                        "SJmkgLXiB6"
+                    "action": [],
+                    "content": [],
+                    "data": [
+                        "57MFiwParA"
                     ]
+                },
+                "options": {
+                    "method_type": "get",
+                    "data_type": "json"
                 }
             },
             {
@@ -771,7 +778,7 @@
                     "width": 305
                 },
                 "options": {
-                    "text": "https://www.devs.com.ar/smn/index.php?ciudad=viedma"
+                    "text": "http://api.openweathermap.org/data/2.5/weather?q=viedma&appid=35b61b415461960f59aeb0352a720b00&units=metric"
                 },
                 "outputs": {
                     "text": [
@@ -780,64 +787,10 @@
                 }
             },
             {
-                "name": "text_to_list",
-                "info": {
-                    "x": 1456,
-                    "y": 2793,
-                    "z": 75,
-                    "color": "#5a5a5a",
-                    "height": 113,
-                    "width": 334
-                },
-                "inputs": {
-                    "action": "LThoHF59Xi",
-                    "text": "SJmkgLXiB6"
-                },
-                "options": {
-                    "splitmode": "newLine"
-                },
-                "outputs": {
-                    "action": [
-                        "PrcpLgtdgJ"
-                    ],
-                    "list": [
-                        "fWJiR8BfCL"
-                    ]
-                }
-            },
-            {
-                "name": "replace_textsuji",
-                "info": {
-                    "x": 2559,
-                    "y": 2775,
-                    "z": 76,
-                    "color": "#5a5a5a",
-                    "height": 239,
-                    "width": 454
-                },
-                "inputs": {
-                    "action": "9nJJTlRkw7",
-                    "source_text": "8IMunOfQKJ"
-                },
-                "options": {
-                    "replacement_type": "all",
-                    "old_text": "<h3>Estado del tiempo SMN</h3><span class=\"campo\">CIUDAD:</span> VIEDMA<br><span class=\"campo\">ESTADO:</span> Algo nublado<br><span class=\"campo\">VISIBILIDAD:</span> 30 km<br><span class=\"campo\">TEMPERATURA:</span> ",
-                    "new_text": ""
-                },
-                "outputs": {
-                    "action": [
-                        "sF1fL28loU"
-                    ],
-                    "text": [
-                        "SaBophzCwL"
-                    ]
-                }
-            },
-            {
                 "name": "get_item_from_list_v2",
                 "info": {
-                    "x": 1911,
-                    "y": 2789,
+                    "x": 2499,
+                    "y": 2840,
                     "z": 77,
                     "color": "#5a5a5a",
                     "height": 165,
@@ -849,60 +802,13 @@
                     "custom_position": "4UuqySM5t5"
                 },
                 "options": {
-                    "position_type": "custom"
-                },
-                "outputs": {
-                    "action": [
-                        "9nJJTlRkw7"
-                    ],
-                    "value": [
-                        "8IMunOfQKJ"
-                    ]
-                }
-            },
-            {
-                "name": "number",
-                "info": {
-                    "x": 1268,
-                    "y": 2971,
-                    "z": 78,
-                    "color": "#5a5a5a",
-                    "height": 107,
-                    "width": 343
-                },
-                "options": {
-                    "number": "17"
-                },
-                "outputs": {
-                    "number": [
-                        "4UuqySM5t5"
-                    ]
-                }
-            },
-            {
-                "name": "replace_textsuji",
-                "info": {
-                    "x": 3088,
-                    "y": 2878,
-                    "z": 79,
-                    "color": "#5a5a5a",
-                    "height": 239,
-                    "width": 454
-                },
-                "inputs": {
-                    "action": "sF1fL28loU",
-                    "source_text": "SaBophzCwL"
-                },
-                "options": {
-                    "replacement_type": "all",
-                    "old_text": "<br><span class=\"campo\">HUMEDAD:</span>  59 %<br><span class=\"campo\">VIENTO:</span> Direcciones Variables  3 km/h<br><span class=\"campo\">TERMICA:</span> No se calcula<br><span class=\"campo\">PRESION:</span> 1016.2 hPa<br><br><a href=\"index.php\" class=\"volver\">Volver</a><p style=\"border-top:1px solid #595959; font-size:14px; text-align:center;\"><a href=\"https://github.com/matiast-gh/smn-json\" target=\"_blank\">https://github.com/matiast-gh/smn-json</a></p>",
-                    "new_text": ""
+                    "position_type": "first"
                 },
                 "outputs": {
                     "action": [
                         "w5H6qsdoDC"
                     ],
-                    "text": [
+                    "value": [
                         "fHHFLCqIlS"
                     ]
                 }
@@ -910,8 +816,8 @@
             {
                 "name": "find_channel",
                 "info": {
-                    "x": 3809,
-                    "y": 3193,
+                    "x": 3740,
+                    "y": 3067,
                     "z": 81,
                     "color": "#5a5a5a",
                     "height": 159,
@@ -1011,8 +917,8 @@
             {
                 "name": "merge_texts_advanced",
                 "info": {
-                    "x": 3264,
-                    "y": 3196,
+                    "x": 2994,
+                    "y": 2933,
                     "z": 85,
                     "color": "#5a5a5a",
                     "height": 175,
@@ -1085,65 +991,10 @@
                 }
             },
             {
-                "name": "merge_actions",
-                "info": {
-                    "x": 1190,
-                    "y": 2520,
-                    "z": 89,
-                    "color": "#5a5a5a",
-                    "height": 113,
-                    "width": 224
-                },
-                "inputs": {
-                    "action1": "6AeKLK9EWe",
-                    "action2": "g0d1Vmlr8e"
-                },
-                "outputs": {
-                    "action": [
-                        "7eFo9Kk12l"
-                    ]
-                }
-            },
-            {
-                "name": "command_event_with_text",
-                "info": {
-                    "x": 0,
-                    "y": 1255,
-                    "z": 90,
-                    "color": "#5a5a5a",
-                    "height": 401,
-                    "width": 759
-                },
-                "inputs": {
-                    "command_slowmode": "2ozakjPqzK"
-                },
-                "options": {
-                    "command_name": "holu",
-                    "custom_prefix": "",
-                    "command_restriction": "none",
-                    "required_member_permission": "none",
-                    "case_sensitive": "no",
-                    "command_slowmode_restriction": "none"
-                },
-                "outputs": {
-                    "action1": [
-                        "HB152BVgGx"
-                    ],
-                    "action2": [],
-                    "message": [],
-                    "server": [],
-                    "channel": [],
-                    "vc": [],
-                    "user": [],
-                    "member": [],
-                    "error_message": []
-                }
-            },
-            {
                 "name": "get_property_from_object",
                 "info": {
-                    "x": 1481,
-                    "y": 1547,
+                    "x": 1772,
+                    "y": 1554,
                     "z": 91,
                     "color": "#5a5a5a",
                     "height": 144,
@@ -1159,7 +1010,6 @@
                         "ddrG1GJ1ds"
                     ],
                     "value": [
-                        "T0mCPXPONj",
                         "Te7hVzeIoQ"
                     ]
                 }
@@ -1167,8 +1017,8 @@
             {
                 "name": "text",
                 "info": {
-                    "x": 988,
-                    "y": 1692,
+                    "x": 1009,
+                    "y": 2127,
                     "z": 92,
                     "color": "#5a5a5a",
                     "height": 118,
@@ -1179,7 +1029,8 @@
                 },
                 "outputs": {
                     "text": [
-                        "DH2HcuplE9"
+                        "DH2HcuplE9",
+                        "vavTbDGcT6"
                     ]
                 }
             },
@@ -1210,67 +1061,10 @@
                 }
             },
             {
-                "name": "console_log",
-                "info": {
-                    "x": 4048,
-                    "y": 1613,
-                    "z": 98,
-                    "color": "#5a5a5a",
-                    "height": 113,
-                    "width": 211
-                },
-                "inputs": {
-                    "action": "z0xPEYcbvD",
-                    "value": "Wm4ZsnR1IB"
-                },
-                "outputs": {
-                    "action": []
-                }
-            },
-            {
-                "name": "get_property_from_object",
-                "info": {
-                    "x": 1926,
-                    "y": 1637,
-                    "z": 99,
-                    "color": "#5a5a5a",
-                    "height": 144,
-                    "width": 262
-                },
-                "inputs": {
-                    "action": "RRCjKELqbU",
-                    "object": "T0mCPXPONj",
-                    "key": "4Pf7ZF4Rx6"
-                },
-                "outputs": {
-                    "action": [],
-                    "value": []
-                }
-            },
-            {
-                "name": "text",
-                "info": {
-                    "x": 1524,
-                    "y": 1734,
-                    "z": 100,
-                    "color": "#5a5a5a",
-                    "height": 118,
-                    "width": 305
-                },
-                "options": {
-                    "text": "temp"
-                },
-                "outputs": {
-                    "text": [
-                        "4Pf7ZF4Rx6"
-                    ]
-                }
-            },
-            {
                 "name": "get_item_from_list_v2",
                 "info": {
-                    "x": 2825,
-                    "y": 1579,
+                    "x": 3090,
+                    "y": 1574,
                     "z": 101,
                     "color": "#5a5a5a",
                     "height": 165,
@@ -1286,10 +1080,60 @@
                 },
                 "outputs": {
                     "action": [
-                        "z0xPEYcbvD"
+                        "BTUUm3c8W7"
                     ],
                     "value": [
-                        "Wm4ZsnR1IB"
+                        "pLTCaHwAX2"
+                    ]
+                }
+            },
+            {
+                "name": "get_property_from_object",
+                "info": {
+                    "x": 1590,
+                    "y": 2758,
+                    "z": 102,
+                    "color": "#5a5a5a",
+                    "height": 144,
+                    "width": 262
+                },
+                "inputs": {
+                    "action": "Ajt4GkGRai",
+                    "object": "57MFiwParA",
+                    "key": "vavTbDGcT6"
+                },
+                "outputs": {
+                    "action": [
+                        "U7sgiiAHzh"
+                    ],
+                    "value": [
+                        "bFJVtlTKHA"
+                    ]
+                }
+            },
+            {
+                "name": "get_object_info",
+                "info": {
+                    "x": 1955,
+                    "y": 2807,
+                    "z": 103,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 478
+                },
+                "inputs": {
+                    "action": "U7sgiiAHzh",
+                    "object": "bFJVtlTKHA"
+                },
+                "options": {
+                    "object_info": "2"
+                },
+                "outputs": {
+                    "action": [
+                        "PrcpLgtdgJ"
+                    ],
+                    "result": [
+                        "fWJiR8BfCL"
                     ]
                 }
             }
