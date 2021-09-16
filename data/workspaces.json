@@ -300,8 +300,8 @@
             {
                 "name": "wait_with_number",
                 "info": {
-                    "x": 6722,
-                    "y": 3504,
+                    "x": 6835,
+                    "y": 4324,
                     "z": 44,
                     "color": "#5a5a5a",
                     "height": 172,
@@ -700,7 +700,7 @@
                     "text3": "ZAeqgOsYJO"
                 },
                 "options": {
-                    "text": "𝕃𝕚𝕞𝕒: ${text1}"
+                    "text": "𝕃𝕚𝕞𝕒: ${text1}°C"
                 },
                 "outputs": {
                     "action": [
@@ -933,7 +933,7 @@
                     "text3": "JEXCP834sW"
                 },
                 "options": {
-                    "text": "𝕍𝕚𝕖𝕕𝕞𝕒: ${text1}"
+                    "text": "𝕍𝕚𝕖𝕕𝕞𝕒: ${text1}°C"
                 },
                 "outputs": {
                     "action": [
@@ -988,7 +988,7 @@
                 },
                 "outputs": {
                     "action": [
-                        "15RMlOihnR"
+                        "kjRYvLe5X2"
                     ]
                 }
             },
@@ -1032,7 +1032,8 @@
                 "outputs": {
                     "text": [
                         "DH2HcuplE9",
-                        "vavTbDGcT6"
+                        "vavTbDGcT6",
+                        "Gk6lqBL5kX"
                     ]
                 }
             },
@@ -1136,6 +1137,308 @@
                     ],
                     "result": [
                         "fWJiR8BfCL"
+                    ]
+                }
+            },
+            {
+                "name": "request_api3",
+                "info": {
+                    "x": 1097,
+                    "y": 3623,
+                    "z": 104,
+                    "color": "#5a5a5a",
+                    "height": 175,
+                    "width": 392
+                },
+                "inputs": {
+                    "action": "kjRYvLe5X2",
+                    "url": "bJQdMz9mr7",
+                    "headers": "rMpId8gtS4",
+                    "body": "NUtLzu8edD"
+                },
+                "options": {
+                    "method_type": "get",
+                    "data_type": "json"
+                },
+                "outputs": {
+                    "action": [
+                        "CKSTdCZRrR"
+                    ],
+                    "data": [
+                        "M3sde5IEEH"
+                    ]
+                }
+            },
+            {
+                "name": "text",
+                "info": {
+                    "x": 683,
+                    "y": 3669,
+                    "z": 105,
+                    "color": "#5a5a5a",
+                    "height": 118,
+                    "width": 305
+                },
+                "options": {
+                    "text": "http://api.openweathermap.org/data/2.5/weather?q=mu%C3%B1iz&appid=35b61b415461960f59aeb0352a720b00&units=metric"
+                },
+                "outputs": {
+                    "text": [
+                        "bJQdMz9mr7"
+                    ]
+                }
+            },
+            {
+                "name": "get_object_info",
+                "info": {
+                    "x": 2233,
+                    "y": 3674,
+                    "z": 106,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 478
+                },
+                "inputs": {
+                    "action": "GoaM2F8faJ",
+                    "object": "zezwHGJ1lr"
+                },
+                "options": {
+                    "object_info": "2"
+                },
+                "outputs": {
+                    "action": [
+                        "k65RFAmMRu"
+                    ],
+                    "result": [
+                        "N7TD3MUN3e"
+                    ]
+                }
+            },
+            {
+                "name": "get_property_from_object",
+                "info": {
+                    "x": 1728,
+                    "y": 3683,
+                    "z": 107,
+                    "color": "#5a5a5a",
+                    "height": 144,
+                    "width": 259
+                },
+                "inputs": {
+                    "action": "CKSTdCZRrR",
+                    "object": "M3sde5IEEH",
+                    "key": "Gk6lqBL5kX"
+                },
+                "outputs": {
+                    "action": [
+                        "GoaM2F8faJ"
+                    ],
+                    "value": [
+                        "zezwHGJ1lr"
+                    ]
+                }
+            },
+            {
+                "name": "merge_actions",
+                "info": {
+                    "x": 6512,
+                    "y": 4252,
+                    "z": 108,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 224
+                },
+                "inputs": {
+                    "action1": "kJEIO0iOaQ",
+                    "action2": "1Ty2Vg3pRL"
+                },
+                "outputs": {
+                    "action": [
+                        "15RMlOihnR"
+                    ]
+                }
+            },
+            {
+                "name": "get_item_from_list_v2",
+                "info": {
+                    "x": 2786,
+                    "y": 3740,
+                    "z": 109,
+                    "color": "#5a5a5a",
+                    "height": 165,
+                    "width": 443
+                },
+                "inputs": {
+                    "action": "k65RFAmMRu",
+                    "list": "N7TD3MUN3e",
+                    "custom_position": "2cbGAuiJrs"
+                },
+                "options": {
+                    "position_type": "first"
+                },
+                "outputs": {
+                    "action": [
+                        "3S7YUwKrrU"
+                    ],
+                    "value": [
+                        "ciARYeeTr9"
+                    ]
+                }
+            },
+            {
+                "name": "merge_texts_advanced",
+                "info": {
+                    "x": 3365,
+                    "y": 3875,
+                    "z": 110,
+                    "color": "#5a5a5a",
+                    "height": 175,
+                    "width": 418
+                },
+                "inputs": {
+                    "action": "3S7YUwKrrU",
+                    "text1": "ciARYeeTr9",
+                    "text2": "Xz1Dtj1X8L",
+                    "text3": "GJl3PAOcIM"
+                },
+                "options": {
+                    "text": "𝕊𝕒𝕟 𝕄𝕚𝕘𝕦𝕖𝕝: ${text1}°C"
+                },
+                "outputs": {
+                    "action": [
+                        "zqCzuXvIl6"
+                    ],
+                    "text": [
+                        "NwCqn2YsAu",
+                        "OdawZZzWeh"
+                    ]
+                }
+            },
+            {
+                "name": "find_channel",
+                "info": {
+                    "x": 3917,
+                    "y": 3874,
+                    "z": 111,
+                    "color": "#5a5a5a",
+                    "height": 159,
+                    "width": 558
+                },
+                "inputs": {
+                    "action": "zqCzuXvIl6",
+                    "server": "WJh14tXHRz",
+                    "search_value": "zz99FFKmeZ"
+                },
+                "options": {
+                    "channel_type": "any",
+                    "find_channel_by": "id"
+                },
+                "outputs": {
+                    "action": [
+                        "Zsb6Ez2oKN"
+                    ],
+                    "channel": [
+                        "NGQuAxDEcS",
+                        "ozPq7Zd8ve"
+                    ]
+                }
+            },
+            {
+                "name": "get_voice_channel_info",
+                "info": {
+                    "x": 4578,
+                    "y": 3945,
+                    "z": 112,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 705
+                },
+                "inputs": {
+                    "action": "Zsb6Ez2oKN",
+                    "voice_channel": "NGQuAxDEcS"
+                },
+                "options": {
+                    "voice_channel_info": "12"
+                },
+                "outputs": {
+                    "action": [
+                        "nYi80ZINXy"
+                    ],
+                    "result": [
+                        "OjaRZEfc7R"
+                    ]
+                }
+            },
+            {
+                "name": "text",
+                "info": {
+                    "x": 3595,
+                    "y": 4117,
+                    "z": 113,
+                    "color": "#5a5a5a",
+                    "height": 118,
+                    "width": 305
+                },
+                "options": {
+                    "text": "888109330744881232"
+                },
+                "outputs": {
+                    "text": [
+                        "zz99FFKmeZ"
+                    ]
+                }
+            },
+            {
+                "name": "check_comparison",
+                "info": {
+                    "x": 5441,
+                    "y": 4042,
+                    "z": 114,
+                    "color": "#5a5a5a",
+                    "height": 144,
+                    "width": 494
+                },
+                "inputs": {
+                    "action": "nYi80ZINXy",
+                    "value1": "OjaRZEfc7R",
+                    "value2": "NwCqn2YsAu"
+                },
+                "options": {
+                    "comparison_type": "equal"
+                },
+                "outputs": {
+                    "action1": [
+                        "kJEIO0iOaQ"
+                    ],
+                    "action2": [
+                        "GRTyjkGqau"
+                    ]
+                }
+            },
+            {
+                "name": "edit_voice_channel2",
+                "info": {
+                    "x": 6060,
+                    "y": 4215,
+                    "z": 115,
+                    "color": "#5a5a5a",
+                    "height": 456,
+                    "width": 276
+                },
+                "inputs": {
+                    "action": "GRTyjkGqau",
+                    "voice_channel": "ozPq7Zd8ve",
+                    "channel_name": "OdawZZzWeh",
+                    "channel_position": "6KdcjyAG5p",
+                    "channel_bitrate": "QHuktInRJh",
+                    "channel_user_limit": "nXczbJ0U0Y",
+                    "channel_category": "JRRfi9I9JV",
+                    "channel_permission_synchronization": "yyrMnysniO",
+                    "reason": "xZaZTbyNpl"
+                },
+                "outputs": {
+                    "action": [
+                        "1Ty2Vg3pRL"
                     ]
                 }
             }
