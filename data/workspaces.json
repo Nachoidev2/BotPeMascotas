@@ -529,10 +529,10 @@
                 },
                 "outputs": {
                     "action": [
-                        "dDtx6b2i6c"
+                        "wPbhvHNwdY"
                     ],
                     "content": [
-                        "2P16LOGLCF"
+                        "6z8lAtNtOn"
                     ]
                 }
             },
@@ -576,8 +576,8 @@
             {
                 "name": "send_message",
                 "info": {
-                    "x": 1460,
-                    "y": 1699,
+                    "x": 1816,
+                    "y": 1686,
                     "z": 55,
                     "color": "#5a5a5a",
                     "height": 237,
@@ -599,8 +599,8 @@
             {
                 "name": "text",
                 "info": {
-                    "x": 841,
-                    "y": 1927,
+                    "x": 601,
+                    "y": 2007,
                     "z": 56,
                     "color": "#5a5a5a",
                     "height": 118,
@@ -612,6 +612,58 @@
                 "outputs": {
                     "text": [
                         "ItHLQBg2oD"
+                    ]
+                }
+            },
+            {
+                "name": "get_item_from_list_v2",
+                "info": {
+                    "x": 1266,
+                    "y": 1946,
+                    "z": 57,
+                    "color": "#5a5a5a",
+                    "height": 165,
+                    "width": 443
+                },
+                "inputs": {
+                    "action": "qlQQKenNin",
+                    "list": "Sih60XbCYS",
+                    "custom_position": "r4ZEx6AnAz"
+                },
+                "options": {
+                    "position_type": "second"
+                },
+                "outputs": {
+                    "action": [
+                        "dDtx6b2i6c"
+                    ],
+                    "value": [
+                        "2P16LOGLCF"
+                    ]
+                }
+            },
+            {
+                "name": "slice_text_list",
+                "info": {
+                    "x": 985,
+                    "y": 1828,
+                    "z": 58,
+                    "color": "#5a5a5a",
+                    "height": 175,
+                    "width": 236
+                },
+                "inputs": {
+                    "action": "wPbhvHNwdY",
+                    "text_list": "6z8lAtNtOn",
+                    "start": "Mm5yGcyYLD",
+                    "end": "6mIhH4qbCw"
+                },
+                "outputs": {
+                    "action": [
+                        "qlQQKenNin"
+                    ],
+                    "text_list": [
+                        "Sih60XbCYS"
                     ]
                 }
             }
