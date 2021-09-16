@@ -649,8 +649,8 @@
             {
                 "name": "get_item_from_list_v2",
                 "info": {
-                    "x": 1325,
-                    "y": 1763,
+                    "x": 1505,
+                    "y": 1779,
                     "z": 60,
                     "color": "#5a5a5a",
                     "height": 165,
@@ -686,7 +686,7 @@
                     "width": 343
                 },
                 "options": {
-                    "number": "18"
+                    "number": "16"
                 },
                 "outputs": {
                     "number": [
