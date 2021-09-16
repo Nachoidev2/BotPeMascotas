@@ -1156,10 +1156,11 @@
                 },
                 "outputs": {
                     "action": [
-                        "RRCjKELqbU"
+                        "ddrG1GJ1ds"
                     ],
                     "value": [
-                        "T0mCPXPONj"
+                        "T0mCPXPONj",
+                        "Te7hVzeIoQ"
                     ]
                 }
             },
@@ -1229,8 +1230,8 @@
             {
                 "name": "get_property_from_object",
                 "info": {
-                    "x": 1999,
-                    "y": 1569,
+                    "x": 1926,
+                    "y": 1637,
                     "z": 99,
                     "color": "#5a5a5a",
                     "height": 144,
@@ -1242,12 +1243,8 @@
                     "key": "4Pf7ZF4Rx6"
                 },
                 "outputs": {
-                    "action": [
-                        "ddrG1GJ1ds"
-                    ],
-                    "value": [
-                        "Te7hVzeIoQ"
-                    ]
+                    "action": [],
+                    "value": []
                 }
             },
             {
