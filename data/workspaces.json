@@ -102,9 +102,11 @@
                 },
                 "outputs": {
                     "action": [
-                        "h8VCToH6GL"
+                        "Wdd3zb2S2f"
                     ],
-                    "value": []
+                    "value": [
+                        "iFxE2CmGPF"
+                    ]
                 }
             },
             {
@@ -129,8 +131,8 @@
             {
                 "name": "get_property_from_object",
                 "info": {
-                    "x": 757,
-                    "y": 806,
+                    "x": 1292,
+                    "y": 843,
                     "z": 9,
                     "color": "#5a5a5a",
                     "height": 144,
@@ -143,11 +145,11 @@
                 },
                 "outputs": {
                     "action": [
-                        "Wdd3zb2S2f"
+                        "E8NAtsTW5D"
                     ],
                     "value": [
                         "Uzz3yl7TA5",
-                        "iFxE2CmGPF"
+                        "KfzjWtOeT7"
                     ]
                 }
             },
@@ -191,8 +193,8 @@
             {
                 "name": "text",
                 "info": {
-                    "x": 263,
-                    "y": 906,
+                    "x": 796,
+                    "y": 842,
                     "z": 12,
                     "color": "#5a5a5a",
                     "height": 118,
@@ -275,16 +277,15 @@
                         "2rLUG8ibh2"
                     ],
                     "data": [
-                        "jkQAln0eB0",
-                        "cE6Z99h8MD"
+                        "jkQAln0eB0"
                     ]
                 }
             },
             {
                 "name": "get_object_info",
                 "info": {
-                    "x": 1356,
-                    "y": 814,
+                    "x": 1329,
+                    "y": 704,
                     "z": 21,
                     "color": "#5a5a5a",
                     "height": 113,
@@ -296,6 +297,32 @@
                 },
                 "options": {
                     "object_info": "2"
+                },
+                "outputs": {
+                    "action": [
+                        "h8VCToH6GL"
+                    ],
+                    "result": [
+                        "cE6Z99h8MD"
+                    ]
+                }
+            },
+            {
+                "name": "get_object_info",
+                "info": {
+                    "x": 1653,
+                    "y": 943,
+                    "z": 22,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 478
+                },
+                "inputs": {
+                    "action": "E8NAtsTW5D",
+                    "object": "KfzjWtOeT7"
+                },
+                "options": {
+                    "object_info": "1"
                 },
                 "outputs": {
                     "action": [
