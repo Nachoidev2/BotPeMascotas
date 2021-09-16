@@ -307,6 +307,25 @@
                         "A8L82S92ay"
                     ]
                 }
+            },
+            {
+                "name": "text",
+                "info": {
+                    "x": 1761,
+                    "y": 965,
+                    "z": 33,
+                    "color": "#5a5a5a",
+                    "height": 118,
+                    "width": 305
+                },
+                "options": {
+                    "text": ","
+                },
+                "outputs": {
+                    "text": [
+                        "EWdVeO3pFr"
+                    ]
+                }
             }
         ],
         "notes": []
