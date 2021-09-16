@@ -171,7 +171,7 @@
                     "object": "iFxE2CmGPF"
                 },
                 "options": {
-                    "object_info": "4"
+                    "object_info": "2"
                 },
                 "outputs": {
                     "action": [
@@ -267,28 +267,10 @@
                 }
             },
             {
-                "name": "console_log",
-                "info": {
-                    "x": 2607,
-                    "y": 810,
-                    "z": 31,
-                    "color": "#5a5a5a",
-                    "height": 113,
-                    "width": 211
-                },
-                "inputs": {
-                    "action": "0NiY5pTlSy",
-                    "value": "A8L82S92ay"
-                },
-                "outputs": {
-                    "action": []
-                }
-            },
-            {
                 "name": "convert_list_to_text",
                 "info": {
-                    "x": 2310,
-                    "y": 702,
+                    "x": 2227,
+                    "y": 761,
                     "z": 32,
                     "color": "#5a5a5a",
                     "height": 144,
@@ -301,18 +283,18 @@
                 },
                 "outputs": {
                     "action": [
-                        "0NiY5pTlSy"
+                        "bjmdAJ4fRg"
                     ],
                     "text": [
-                        "A8L82S92ay"
+                        "06qKbJQepz"
                     ]
                 }
             },
             {
                 "name": "text",
                 "info": {
-                    "x": 1952,
-                    "y": 927,
+                    "x": 1822,
+                    "y": 966,
                     "z": 33,
                     "color": "#5a5a5a",
                     "height": 118,
@@ -324,6 +306,83 @@
                 "outputs": {
                     "text": [
                         "EWdVeO3pFr"
+                    ]
+                }
+            },
+            {
+                "name": "Chad_send_messagev2.2",
+                "info": {
+                    "x": 3033,
+                    "y": 908,
+                    "z": 34,
+                    "color": "#5a5a5a",
+                    "height": 299,
+                    "width": 472
+                },
+                "inputs": {
+                    "action": "LeG1gqkbuS",
+                    "channel": "zFACX5UKxW",
+                    "embed": "yXNSTrqwre",
+                    "attachment": "WoQyDye9uZ",
+                    "text1": "06qKbJQepz",
+                    "text2": "XURmInDQI6",
+                    "text3": "P1FMVm3QbE",
+                    "text4": "dvz9bczDre"
+                },
+                "options": {
+                    "TTS": "false",
+                    "smsg": "false",
+                    "text": ""
+                },
+                "outputs": {
+                    "action": [],
+                    "message": []
+                }
+            },
+            {
+                "name": "find_channel",
+                "info": {
+                    "x": 2276,
+                    "y": 955,
+                    "z": 35,
+                    "color": "#5a5a5a",
+                    "height": 159,
+                    "width": 558
+                },
+                "inputs": {
+                    "action": "bjmdAJ4fRg",
+                    "server": "h3lKuus0rh",
+                    "search_value": "ft5D0BqooA"
+                },
+                "options": {
+                    "channel_type": "any",
+                    "find_channel_by": "id"
+                },
+                "outputs": {
+                    "action": [
+                        "LeG1gqkbuS"
+                    ],
+                    "channel": [
+                        "zFACX5UKxW"
+                    ]
+                }
+            },
+            {
+                "name": "text",
+                "info": {
+                    "x": 2323,
+                    "y": 1274,
+                    "z": 36,
+                    "color": "#5a5a5a",
+                    "height": 118,
+                    "width": 305
+                },
+                "options": {
+                    "text": "818499575630266368"
+                },
+                "outputs": {
+                    "text": [
+                        "ft5D0BqooA"
                     ]
                 }
             }
