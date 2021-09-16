@@ -426,8 +426,8 @@
             {
                 "name": "merge_actions",
                 "info": {
-                    "x": 474,
-                    "y": 562,
+                    "x": 500,
+                    "y": 556,
                     "z": 49,
                     "color": "#5a5a5a",
                     "height": 113,
@@ -508,9 +508,7 @@
                     "time": "40"
                 },
                 "outputs": {
-                    "action": [
-                        "CIfvVpXobG"
-                    ]
+                    "action": []
                 }
             },
             {
@@ -1210,8 +1208,8 @@
             {
                 "name": "command_event_with_text",
                 "info": {
-                    "x": 88,
-                    "y": 2438,
+                    "x": 0,
+                    "y": 2166,
                     "z": 88,
                     "color": "#5a5a5a",
                     "height": 401,
@@ -1230,7 +1228,7 @@
                 },
                 "outputs": {
                     "action1": [
-                        "g0d1Vmlr8e"
+                        "CIfvVpXobG"
                     ],
                     "action2": [],
                     "message": [],
@@ -1245,8 +1243,8 @@
             {
                 "name": "merge_actions",
                 "info": {
-                    "x": 1158,
-                    "y": 2487,
+                    "x": 1190,
+                    "y": 2520,
                     "z": 89,
                     "color": "#5a5a5a",
                     "height": 113,
