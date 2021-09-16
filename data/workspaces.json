@@ -277,8 +277,8 @@
             {
                 "name": "text",
                 "info": {
-                    "x": 2040,
-                    "y": 990,
+                    "x": 2055,
+                    "y": 1011,
                     "z": 33,
                     "color": "#5a5a5a",
                     "height": 118,
@@ -297,8 +297,8 @@
             {
                 "name": "Chad_send_messagev2.2",
                 "info": {
-                    "x": 3323,
-                    "y": 882,
+                    "x": 3482,
+                    "y": 852,
                     "z": 34,
                     "color": "#5a5a5a",
                     "height": 299,
@@ -378,7 +378,7 @@
                     "new_text": "sCtyvMvEwB"
                 },
                 "options": {
-                    "replacement_type": "all"
+                    "replacement_type": "first"
                 },
                 "outputs": {
                     "action": [
@@ -392,8 +392,8 @@
             {
                 "name": "text",
                 "info": {
-                    "x": 2644,
-                    "y": 986,
+                    "x": 2534,
+                    "y": 1057,
                     "z": 39,
                     "color": "#5a5a5a",
                     "height": 118,
