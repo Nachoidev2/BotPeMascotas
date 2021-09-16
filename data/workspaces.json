@@ -159,10 +159,10 @@
                 },
                 "outputs": {
                     "action": [
-                        "TJXl4Ttjgm"
+                        "GfY2UqBFjl"
                     ],
                     "result": [
-                        "EwrrovxUhJ"
+                        "aD6pIUVqtS"
                     ]
                 }
             },
@@ -253,8 +253,8 @@
             {
                 "name": "text",
                 "info": {
-                    "x": 1830,
-                    "y": 872,
+                    "x": 1836,
+                    "y": 920,
                     "z": 33,
                     "color": "#5a5a5a",
                     "height": 118,
@@ -272,8 +272,8 @@
             {
                 "name": "Chad_send_messagev2.2",
                 "info": {
-                    "x": 3722,
-                    "y": 575,
+                    "x": 3266,
+                    "y": 539,
                     "z": 34,
                     "color": "#5a5a5a",
                     "height": 299,
@@ -339,8 +339,8 @@
             {
                 "name": "replace_text",
                 "info": {
-                    "x": 2505,
-                    "y": 587,
+                    "x": 2519,
+                    "y": 847,
                     "z": 38,
                     "color": "#5a5a5a",
                     "height": 175,
@@ -356,12 +356,8 @@
                     "replacement_type": "all"
                 },
                 "outputs": {
-                    "action": [
-                        "LeG1gqkbuS"
-                    ],
-                    "text": [
-                        "06qKbJQepz"
-                    ]
+                    "action": [],
+                    "text": []
                 }
             },
             {
@@ -384,25 +380,45 @@
                 }
             },
             {
-                "name": "change_value_type_to_text",
+                "name": "convert_list_to_text",
                 "info": {
-                    "x": 2190,
-                    "y": 636,
+                    "x": 2172,
+                    "y": 657,
                     "z": 40,
                     "color": "#5a5a5a",
-                    "height": 113,
-                    "width": 265
+                    "height": 144,
+                    "width": 234
                 },
                 "inputs": {
-                    "action": "TJXl4Ttjgm",
-                    "value": "EwrrovxUhJ"
+                    "action": "GfY2UqBFjl",
+                    "list": "aD6pIUVqtS",
+                    "separator": "hO381COXLg"
                 },
                 "outputs": {
                     "action": [
-                        "nu6BnyIZ3b"
+                        "LeG1gqkbuS"
                     ],
-                    "value": [
-                        "ybgyqLvOY3"
+                    "text": [
+                        "06qKbJQepz"
+                    ]
+                }
+            },
+            {
+                "name": "text",
+                "info": {
+                    "x": 1821,
+                    "y": 471,
+                    "z": 41,
+                    "color": "#5a5a5a",
+                    "height": 118,
+                    "width": 305
+                },
+                "options": {
+                    "text": ",,,"
+                },
+                "outputs": {
+                    "text": [
+                        "hO381COXLg"
                     ]
                 }
             }
