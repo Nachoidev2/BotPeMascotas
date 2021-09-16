@@ -112,7 +112,7 @@
                     "width": 305
                 },
                 "options": {
-                    "text": "\""
+                    "text": ""
                 },
                 "outputs": {
                     "text": [
@@ -280,7 +280,7 @@
                     "width": 343
                 },
                 "options": {
-                    "number": "4"
+                    "number": "5"
                 },
                 "outputs": {
                     "number": [
