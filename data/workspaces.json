@@ -1118,7 +1118,7 @@
                     "command_slowmode": "2ozakjPqzK"
                 },
                 "options": {
-                    "command_name": "holi",
+                    "command_name": "holu",
                     "custom_prefix": "",
                     "command_restriction": "none",
                     "required_member_permission": "none",
@@ -1156,10 +1156,10 @@
                 },
                 "outputs": {
                     "action": [
-                        "ddrG1GJ1ds"
+                        "RRCjKELqbU"
                     ],
                     "value": [
-                        "Te7hVzeIoQ"
+                        "T0mCPXPONj"
                     ]
                 }
             },
@@ -1185,8 +1185,8 @@
             {
                 "name": "get_object_info",
                 "info": {
-                    "x": 1908,
-                    "y": 1584,
+                    "x": 2389,
+                    "y": 1585,
                     "z": 96,
                     "color": "#5a5a5a",
                     "height": 113,
@@ -1211,8 +1211,8 @@
             {
                 "name": "console_log",
                 "info": {
-                    "x": 2520,
-                    "y": 1601,
+                    "x": 2921,
+                    "y": 1603,
                     "z": 98,
                     "color": "#5a5a5a",
                     "height": 113,
@@ -1224,6 +1224,49 @@
                 },
                 "outputs": {
                     "action": []
+                }
+            },
+            {
+                "name": "get_property_from_object",
+                "info": {
+                    "x": 1999,
+                    "y": 1569,
+                    "z": 99,
+                    "color": "#5a5a5a",
+                    "height": 144,
+                    "width": 262
+                },
+                "inputs": {
+                    "action": "RRCjKELqbU",
+                    "object": "T0mCPXPONj",
+                    "key": "4Pf7ZF4Rx6"
+                },
+                "outputs": {
+                    "action": [
+                        "ddrG1GJ1ds"
+                    ],
+                    "value": [
+                        "Te7hVzeIoQ"
+                    ]
+                }
+            },
+            {
+                "name": "text",
+                "info": {
+                    "x": 1524,
+                    "y": 1734,
+                    "z": 100,
+                    "color": "#5a5a5a",
+                    "height": 118,
+                    "width": 305
+                },
+                "options": {
+                    "text": "temp"
+                },
+                "outputs": {
+                    "text": [
+                        "4Pf7ZF4Rx6"
+                    ]
                 }
             }
         ],
