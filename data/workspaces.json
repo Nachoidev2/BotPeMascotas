@@ -15640,8 +15640,8 @@
             {
                 "name": "Chad_send_messagev2.2",
                 "info": {
-                    "x": 6872,
-                    "y": 440,
+                    "x": 7135,
+                    "y": 442,
                     "z": 1,
                     "color": "#5a5a5a",
                     "height": 299,
@@ -15660,7 +15660,7 @@
                 "options": {
                     "TTS": "false",
                     "smsg": "false",
-                    "text": "${text1}"
+                    "text": "${text2} ${text1}"
                 },
                 "outputs": {
                     "action": [],
@@ -16029,7 +16029,7 @@
                 },
                 "outputs": {
                     "action": [
-                        "Z1pojtqY3x"
+                        "DrboLdseql"
                     ],
                     "value": [
                         "MxWo87SU1L"
@@ -16297,7 +16297,9 @@
                     ],
                     "vc": [],
                     "user": [],
-                    "member": [],
+                    "member": [
+                        "DVXCMFnWQU"
+                    ],
                     "error_message": []
                 }
             },
@@ -16343,6 +16345,53 @@
                 "outputs": {
                     "text": [
                         "YCaqODmN0n"
+                    ]
+                }
+            },
+            {
+                "name": "get_bot_info",
+                "info": {
+                    "x": 1062,
+                    "y": 2943,
+                    "z": 125,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 579
+                },
+                "inputs": {
+                    "action": "akPLRHM0KS"
+                },
+                "options": {
+                    "bot_info": "1"
+                },
+                "outputs": {
+                    "action": [],
+                    "result": []
+                }
+            },
+            {
+                "name": "get_member_info",
+                "info": {
+                    "x": 6298,
+                    "y": 611,
+                    "z": 126,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 740
+                },
+                "inputs": {
+                    "action": "DrboLdseql",
+                    "member": "DVXCMFnWQU"
+                },
+                "options": {
+                    "member_info": "31"
+                },
+                "outputs": {
+                    "action": [
+                        "Z1pojtqY3x"
+                    ],
+                    "result": [
+                        "0F5WgsYbU6"
                     ]
                 }
             }
