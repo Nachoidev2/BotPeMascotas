@@ -1,7 +1,7 @@
 [
     {
         "info": {
-            "title": "BITCOIN",
+            "title": "Dolar",
             "description": "",
             "thumbnail": ""
         },
@@ -510,6 +510,108 @@
                 "outputs": {
                     "action": [
                         "CIfvVpXobG"
+                    ]
+                }
+            },
+            {
+                "name": "get_content_from_website",
+                "info": {
+                    "x": 967,
+                    "y": 1639,
+                    "z": 53,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 267
+                },
+                "inputs": {
+                    "action": "HB152BVgGx",
+                    "url": "ItHLQBg2oD"
+                },
+                "outputs": {
+                    "action": [
+                        "dDtx6b2i6c"
+                    ],
+                    "content": [
+                        "2P16LOGLCF"
+                    ]
+                }
+            },
+            {
+                "name": "command_event_with_text",
+                "info": {
+                    "x": 0,
+                    "y": 1530,
+                    "z": 54,
+                    "color": "#5a5a5a",
+                    "height": 401,
+                    "width": 759
+                },
+                "inputs": {
+                    "command_slowmode": "uKylguuaAJ"
+                },
+                "options": {
+                    "command_name": "holu",
+                    "custom_prefix": "",
+                    "command_restriction": "none",
+                    "required_member_permission": "none",
+                    "case_sensitive": "no",
+                    "command_slowmode_restriction": "none"
+                },
+                "outputs": {
+                    "action1": [
+                        "HB152BVgGx"
+                    ],
+                    "action2": [],
+                    "message": [],
+                    "server": [],
+                    "channel": [
+                        "aWP4zilmbC"
+                    ],
+                    "vc": [],
+                    "user": [],
+                    "member": [],
+                    "error_message": []
+                }
+            },
+            {
+                "name": "send_message",
+                "info": {
+                    "x": 1460,
+                    "y": 1699,
+                    "z": 55,
+                    "color": "#5a5a5a",
+                    "height": 237,
+                    "width": 280
+                },
+                "inputs": {
+                    "action": "dDtx6b2i6c",
+                    "channel": "aWP4zilmbC",
+                    "text": "2P16LOGLCF",
+                    "embed": "oV3MXX9j9a",
+                    "attachment": "XImhlB7Szk",
+                    "split_message": "NR5CU0j5Sa"
+                },
+                "outputs": {
+                    "action": [],
+                    "message": []
+                }
+            },
+            {
+                "name": "text",
+                "info": {
+                    "x": 841,
+                    "y": 1927,
+                    "z": 56,
+                    "color": "#5a5a5a",
+                    "height": 118,
+                    "width": 305
+                },
+                "options": {
+                    "text": "https://www.devs.com.ar/smn/?ciudad=buenos.aires"
+                },
+                "outputs": {
+                    "text": [
+                        "ItHLQBg2oD"
                     ]
                 }
             }
