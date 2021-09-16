@@ -106,8 +106,8 @@
             {
                 "name": "text",
                 "info": {
-                    "x": 1321,
-                    "y": 896,
+                    "x": 1763,
+                    "y": 1091,
                     "z": 12,
                     "color": "#5a5a5a",
                     "height": 118,
@@ -196,8 +196,8 @@
             {
                 "name": "get_object_info",
                 "info": {
-                    "x": 1254,
-                    "y": 593,
+                    "x": 1433,
+                    "y": 590,
                     "z": 21,
                     "color": "#5a5a5a",
                     "height": 113,
@@ -208,7 +208,7 @@
                     "object": "iFxE2CmGPF"
                 },
                 "options": {
-                    "object_info": "1"
+                    "object_info": "2"
                 },
                 "outputs": {
                     "action": [
@@ -223,8 +223,8 @@
             {
                 "name": "split_text",
                 "info": {
-                    "x": 1738,
-                    "y": 804,
+                    "x": 1851,
+                    "y": 868,
                     "z": 23,
                     "color": "#5a5a5a",
                     "height": 175,
@@ -271,8 +271,8 @@
             {
                 "name": "number",
                 "info": {
-                    "x": 1193,
-                    "y": 1058,
+                    "x": 1210,
+                    "y": 1207,
                     "z": 25,
                     "color": "#5a5a5a",
                     "height": 107,
@@ -283,48 +283,6 @@
                 },
                 "outputs": {
                     "number": []
-                }
-            },
-            {
-                "name": "get_object_info",
-                "info": {
-                    "x": 1860,
-                    "y": 1038,
-                    "z": 26,
-                    "color": "#5a5a5a",
-                    "height": 113,
-                    "width": 478
-                },
-                "inputs": {
-                    "action": "op6hspGjrR",
-                    "object": "j7Br4NXETW"
-                },
-                "options": {
-                    "object_info": "1"
-                },
-                "outputs": {
-                    "action": [],
-                    "result": []
-                }
-            },
-            {
-                "name": "get_property_from_object",
-                "info": {
-                    "x": 2165,
-                    "y": 1306,
-                    "z": 27,
-                    "color": "#5a5a5a",
-                    "height": 144,
-                    "width": 259
-                },
-                "inputs": {
-                    "action": "gjnORfJyBD",
-                    "object": "AYEqF1X9rj",
-                    "key": "C9CV6kopfa"
-                },
-                "outputs": {
-                    "action": [],
-                    "value": []
                 }
             },
             {
@@ -344,10 +302,53 @@
                 },
                 "outputs": {
                     "action": [
+                        "abOdxpFsGb"
+                    ],
+                    "value": [
+                        "LtFPPo1Tvq"
+                    ]
+                }
+            },
+            {
+                "name": "get_property_from_object",
+                "info": {
+                    "x": 1470,
+                    "y": 825,
+                    "z": 29,
+                    "color": "#5a5a5a",
+                    "height": 144,
+                    "width": 259
+                },
+                "inputs": {
+                    "action": "abOdxpFsGb",
+                    "object": "LtFPPo1Tvq",
+                    "key": "nZbl6KVy8W"
+                },
+                "outputs": {
+                    "action": [
                         "Wdd3zb2S2f"
                     ],
                     "value": [
                         "iFxE2CmGPF"
+                    ]
+                }
+            },
+            {
+                "name": "text",
+                "info": {
+                    "x": 804,
+                    "y": 1062,
+                    "z": 30,
+                    "color": "#5a5a5a",
+                    "height": 118,
+                    "width": 305
+                },
+                "options": {
+                    "text": "venta"
+                },
+                "outputs": {
+                    "text": [
+                        "nZbl6KVy8W"
                     ]
                 }
             }
