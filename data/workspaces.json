@@ -200,18 +200,20 @@
                 },
                 "outputs": {
                     "action": [
-                        "abOdxpFsGb"
+                        "abOdxpFsGb",
+                        "Wdd3zb2S2f"
                     ],
                     "value": [
-                        "LtFPPo1Tvq"
+                        "LtFPPo1Tvq",
+                        "iFxE2CmGPF"
                     ]
                 }
             },
             {
                 "name": "get_property_from_object",
                 "info": {
-                    "x": 1384,
-                    "y": 872,
+                    "x": 1234,
+                    "y": 959,
                     "z": 29,
                     "color": "#5a5a5a",
                     "height": 144,
@@ -223,12 +225,8 @@
                     "key": "nZbl6KVy8W"
                 },
                 "outputs": {
-                    "action": [
-                        "Wdd3zb2S2f"
-                    ],
-                    "value": [
-                        "iFxE2CmGPF"
-                    ]
+                    "action": [],
+                    "value": []
                 }
             },
             {
@@ -253,8 +251,8 @@
             {
                 "name": "convert_list_to_text",
                 "info": {
-                    "x": 2447,
-                    "y": 786,
+                    "x": 2392,
+                    "y": 751,
                     "z": 32,
                     "color": "#5a5a5a",
                     "height": 144,
@@ -270,15 +268,15 @@
                         "nu6BnyIZ3b"
                     ],
                     "text": [
-                        "ybgyqLvOY3"
+                        "06qKbJQepz"
                     ]
                 }
             },
             {
                 "name": "text",
                 "info": {
-                    "x": 2055,
-                    "y": 1011,
+                    "x": 2007,
+                    "y": 1085,
                     "z": 33,
                     "color": "#5a5a5a",
                     "height": 118,
@@ -289,7 +287,6 @@
                 },
                 "outputs": {
                     "text": [
-                        "EWdVeO3pFr",
                         "z8zK97AlyD",
                         "nYMrtIPVfv",
                         "hDCBnyF6eO"
@@ -299,8 +296,8 @@
             {
                 "name": "Chad_send_messagev2.2",
                 "info": {
-                    "x": 3712,
-                    "y": 974,
+                    "x": 3722,
+                    "y": 575,
                     "z": 34,
                     "color": "#5a5a5a",
                     "height": 299,
@@ -366,8 +363,8 @@
             {
                 "name": "replace_text",
                 "info": {
-                    "x": 2844,
-                    "y": 820,
+                    "x": 2828,
+                    "y": 1027,
                     "z": 38,
                     "color": "#5a5a5a",
                     "height": 175,
@@ -394,8 +391,8 @@
             {
                 "name": "text",
                 "info": {
-                    "x": 2534,
-                    "y": 1057,
+                    "x": 2508,
+                    "y": 1240,
                     "z": 39,
                     "color": "#5a5a5a",
                     "height": 118,
@@ -463,9 +460,31 @@
                     "action": [
                         "LeG1gqkbuS"
                     ],
-                    "text": [
-                        "06qKbJQepz"
-                    ]
+                    "text": []
+                }
+            },
+            {
+                "name": "replace_text",
+                "info": {
+                    "x": 2965,
+                    "y": 1641,
+                    "z": 42,
+                    "color": "#5a5a5a",
+                    "height": 175,
+                    "width": 420
+                },
+                "inputs": {
+                    "action": "zaJsRt4kRV",
+                    "source_text": "2DN7jWApuu",
+                    "old_text": "9vPmfmvOb9",
+                    "new_text": "EBhgXuMfIv"
+                },
+                "options": {
+                    "replacement_type": "first"
+                },
+                "outputs": {
+                    "action": [],
+                    "text": []
                 }
             }
         ],
