@@ -529,10 +529,12 @@
                 },
                 "outputs": {
                     "action": [
-                        "P8Njh9f6fg"
+                        "P8Njh9f6fg",
+                        "dDtx6b2i6c"
                     ],
                     "content": [
-                        "XYCleR2Iho"
+                        "XYCleR2Iho",
+                        "2P16LOGLCF"
                     ]
                 }
             },
@@ -644,8 +646,8 @@
             {
                 "name": "get_item_from_list_v2",
                 "info": {
-                    "x": 1239,
-                    "y": 1793,
+                    "x": 1091,
+                    "y": 1862,
                     "z": 60,
                     "color": "#5a5a5a",
                     "height": 165,
@@ -657,15 +659,11 @@
                     "custom_position": "M9yI9dH3qi"
                 },
                 "options": {
-                    "position_type": "random"
+                    "position_type": "first"
                 },
                 "outputs": {
-                    "action": [
-                        "dDtx6b2i6c"
-                    ],
-                    "value": [
-                        "2P16LOGLCF"
-                    ]
+                    "action": [],
+                    "value": []
                 }
             }
         ],
