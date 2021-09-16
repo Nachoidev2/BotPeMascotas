@@ -302,20 +302,18 @@
                 },
                 "outputs": {
                     "action": [
-                        "abOdxpFsGb",
-                        "Wdd3zb2S2f"
+                        "abOdxpFsGb"
                     ],
                     "value": [
-                        "LtFPPo1Tvq",
-                        "iFxE2CmGPF"
+                        "LtFPPo1Tvq"
                     ]
                 }
             },
             {
                 "name": "get_property_from_object",
                 "info": {
-                    "x": 1473,
-                    "y": 895,
+                    "x": 1384,
+                    "y": 872,
                     "z": 29,
                     "color": "#5a5a5a",
                     "height": 144,
@@ -327,8 +325,12 @@
                     "key": "nZbl6KVy8W"
                 },
                 "outputs": {
-                    "action": [],
-                    "value": []
+                    "action": [
+                        "Wdd3zb2S2f"
+                    ],
+                    "value": [
+                        "iFxE2CmGPF"
+                    ]
                 }
             },
             {
