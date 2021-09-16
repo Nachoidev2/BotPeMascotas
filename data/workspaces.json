@@ -87,8 +87,8 @@
             {
                 "name": "text",
                 "info": {
-                    "x": 546,
-                    "y": 1241,
+                    "x": 817,
+                    "y": 790,
                     "z": 10,
                     "color": "#5a5a5a",
                     "height": 118,
@@ -104,18 +104,20 @@
             {
                 "name": "text",
                 "info": {
-                    "x": 815,
-                    "y": 927,
+                    "x": 1283,
+                    "y": 833,
                     "z": 12,
                     "color": "#5a5a5a",
                     "height": 118,
                     "width": 305
                 },
                 "options": {
-                    "text": "\""
+                    "text": ":"
                 },
                 "outputs": {
-                    "text": []
+                    "text": [
+                        "QS06yjNTea"
+                    ]
                 }
             },
             {
@@ -145,8 +147,8 @@
             {
                 "name": "console_log",
                 "info": {
-                    "x": 2316,
-                    "y": 916,
+                    "x": 2642,
+                    "y": 755,
                     "z": 18,
                     "color": "#5a5a5a",
                     "height": 113,
@@ -204,7 +206,7 @@
                     "object": "iFxE2CmGPF"
                 },
                 "options": {
-                    "object_info": "5"
+                    "object_info": "1"
                 },
                 "outputs": {
                     "action": [
@@ -218,8 +220,8 @@
             {
                 "name": "split_text",
                 "info": {
-                    "x": 1192,
-                    "y": 797,
+                    "x": 1819,
+                    "y": 620,
                     "z": 23,
                     "color": "#5a5a5a",
                     "height": 175,
@@ -243,8 +245,8 @@
             {
                 "name": "get_item_from_list_v2",
                 "info": {
-                    "x": 1659,
-                    "y": 829,
+                    "x": 2115,
+                    "y": 664,
                     "z": 24,
                     "color": "#5a5a5a",
                     "height": 165,
@@ -256,7 +258,7 @@
                     "custom_position": "XSX9jbHfne"
                 },
                 "options": {
-                    "position_type": "first"
+                    "position_type": "second"
                 },
                 "outputs": {
                     "action": [
@@ -284,6 +286,48 @@
                     "number": [
                         "XSX9jbHfne"
                     ]
+                }
+            },
+            {
+                "name": "get_object_info",
+                "info": {
+                    "x": 1183,
+                    "y": 1096,
+                    "z": 26,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 478
+                },
+                "inputs": {
+                    "action": "op6hspGjrR",
+                    "object": "j7Br4NXETW"
+                },
+                "options": {
+                    "object_info": "1"
+                },
+                "outputs": {
+                    "action": [],
+                    "result": []
+                }
+            },
+            {
+                "name": "get_property_from_object",
+                "info": {
+                    "x": 2165,
+                    "y": 1306,
+                    "z": 27,
+                    "color": "#5a5a5a",
+                    "height": 144,
+                    "width": 259
+                },
+                "inputs": {
+                    "action": "gjnORfJyBD",
+                    "object": "AYEqF1X9rj",
+                    "key": "C9CV6kopfa"
+                },
+                "outputs": {
+                    "action": [],
+                    "value": []
                 }
             }
         ],
