@@ -147,8 +147,8 @@
             {
                 "name": "console_log",
                 "info": {
-                    "x": 2642,
-                    "y": 755,
+                    "x": 2659,
+                    "y": 743,
                     "z": 18,
                     "color": "#5a5a5a",
                     "height": 113,
@@ -206,7 +206,7 @@
                     "object": "iFxE2CmGPF"
                 },
                 "options": {
-                    "object_info": "1"
+                    "object_info": "4"
                 },
                 "outputs": {
                     "action": [
@@ -220,8 +220,8 @@
             {
                 "name": "split_text",
                 "info": {
-                    "x": 1819,
-                    "y": 620,
+                    "x": 1780,
+                    "y": 642,
                     "z": 23,
                     "color": "#5a5a5a",
                     "height": 175,
@@ -245,8 +245,8 @@
             {
                 "name": "get_item_from_list_v2",
                 "info": {
-                    "x": 2104,
-                    "y": 708,
+                    "x": 2070,
+                    "y": 788,
                     "z": 24,
                     "color": "#5a5a5a",
                     "height": 165,
