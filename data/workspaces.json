@@ -16464,8 +16464,8 @@
             {
                 "name": "get_object_info",
                 "info": {
-                    "x": 2242,
-                    "y": 3286,
+                    "x": 2317,
+                    "y": 3086,
                     "z": 130,
                     "color": "#5a5a5a",
                     "height": 113,
@@ -16514,8 +16514,8 @@
             {
                 "name": "text",
                 "info": {
-                    "x": 1322,
-                    "y": 3473,
+                    "x": 1167,
+                    "y": 3418,
                     "z": 132,
                     "color": "#5a5a5a",
                     "height": 118,
@@ -16533,8 +16533,8 @@
             {
                 "name": "text",
                 "info": {
-                    "x": 1552,
-                    "y": 3530,
+                    "x": 1612,
+                    "y": 3563,
                     "z": 133,
                     "color": "#5a5a5a",
                     "height": 118,
@@ -16637,18 +16637,20 @@
                 },
                 "outputs": {
                     "action": [
-                        "VU21OHcUaG"
+                        "VU21OHcUaG",
+                        "zURwrWGqgb"
                     ],
                     "value": [
-                        "VeLQWki2bQ"
+                        "VeLQWki2bQ",
+                        "PVdXQBljk4"
                     ]
                 }
             },
             {
                 "name": "change_value_type_to_text",
                 "info": {
-                    "x": 3328,
-                    "y": 3263,
+                    "x": 3266,
+                    "y": 3563,
                     "z": 138,
                     "color": "#5a5a5a",
                     "height": 113,
@@ -16709,19 +16711,15 @@
                     "object_info": "2"
                 },
                 "outputs": {
-                    "action": [
-                        "zURwrWGqgb"
-                    ],
-                    "result": [
-                        "PVdXQBljk4"
-                    ]
+                    "action": [],
+                    "result": []
                 }
             },
             {
                 "name": "Chad_send_messagev2.2",
                 "info": {
-                    "x": 5068,
-                    "y": 3674,
+                    "x": 4888,
+                    "y": 3162,
                     "z": 141,
                     "color": "#5a5a5a",
                     "height": 299,
