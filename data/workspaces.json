@@ -16349,27 +16349,6 @@
                 }
             },
             {
-                "name": "get_bot_info",
-                "info": {
-                    "x": 1062,
-                    "y": 2943,
-                    "z": 125,
-                    "color": "#5a5a5a",
-                    "height": 113,
-                    "width": 579
-                },
-                "inputs": {
-                    "action": "akPLRHM0KS"
-                },
-                "options": {
-                    "bot_info": "1"
-                },
-                "outputs": {
-                    "action": [],
-                    "result": []
-                }
-            },
-            {
                 "name": "get_member_info",
                 "info": {
                     "x": 6298,
@@ -16393,6 +16372,377 @@
                     "result": [
                         "0F5WgsYbU6"
                     ]
+                }
+            },
+            {
+                "name": "command_event_with_text",
+                "info": {
+                    "x": 97,
+                    "y": 2941,
+                    "z": 127,
+                    "color": "#5a5a5a",
+                    "height": 401,
+                    "width": 759
+                },
+                "inputs": {
+                    "command_slowmode": "49Btlz9SOF"
+                },
+                "options": {
+                    "command_name": "wiki",
+                    "custom_prefix": "",
+                    "command_restriction": "none",
+                    "required_member_permission": "none",
+                    "case_sensitive": "yes",
+                    "command_slowmode_restriction": "none"
+                },
+                "outputs": {
+                    "action1": [
+                        "Qbaob1edr2"
+                    ],
+                    "action2": [],
+                    "message": [],
+                    "server": [],
+                    "channel": [
+                        "U6C9pVKqP9"
+                    ],
+                    "vc": [],
+                    "user": [],
+                    "member": [],
+                    "error_message": []
+                }
+            },
+            {
+                "name": "request_api3",
+                "info": {
+                    "x": 980,
+                    "y": 3012,
+                    "z": 128,
+                    "color": "#5a5a5a",
+                    "height": 175,
+                    "width": 392
+                },
+                "inputs": {
+                    "action": "Qbaob1edr2",
+                    "url": "ROVIhDwaFP",
+                    "headers": "e2EfFEoDav",
+                    "body": "J4K2qGo5JK"
+                },
+                "options": {
+                    "method_type": "get",
+                    "data_type": "json"
+                },
+                "outputs": {
+                    "action": [
+                        "f5Vwpovlk3"
+                    ],
+                    "data": [
+                        "58Hk5TF0wf"
+                    ]
+                }
+            },
+            {
+                "name": "text",
+                "info": {
+                    "x": 606,
+                    "y": 3370,
+                    "z": 129,
+                    "color": "#5a5a5a",
+                    "height": 118,
+                    "width": 305
+                },
+                "options": {
+                    "text": "https://en.wikipedia.org/w/api.php?format=json&origin=*&action=query&prop=extracts&explaintext=false&exintro&titles="
+                },
+                "outputs": {
+                    "text": [
+                        "ROVIhDwaFP"
+                    ]
+                }
+            },
+            {
+                "name": "get_object_info",
+                "info": {
+                    "x": 2242,
+                    "y": 3286,
+                    "z": 130,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 478
+                },
+                "inputs": {
+                    "action": "hwehC5w0XL",
+                    "object": "HlcHmZ3wKS"
+                },
+                "options": {
+                    "object_info": "1"
+                },
+                "outputs": {
+                    "action": [
+                        "SnZngpoG2X"
+                    ],
+                    "result": [
+                        "uy21Yp0bqU"
+                    ]
+                }
+            },
+            {
+                "name": "get_property_from_object",
+                "info": {
+                    "x": 1483,
+                    "y": 3227,
+                    "z": 131,
+                    "color": "#5a5a5a",
+                    "height": 144,
+                    "width": 262
+                },
+                "inputs": {
+                    "action": "f5Vwpovlk3",
+                    "object": "58Hk5TF0wf",
+                    "key": "OL0D3Phl2Y"
+                },
+                "outputs": {
+                    "action": [
+                        "8iNGzwvzXy"
+                    ],
+                    "value": [
+                        "TGauuXOYGG"
+                    ]
+                }
+            },
+            {
+                "name": "text",
+                "info": {
+                    "x": 1008,
+                    "y": 3382,
+                    "z": 132,
+                    "color": "#5a5a5a",
+                    "height": 118,
+                    "width": 305
+                },
+                "options": {
+                    "text": "query"
+                },
+                "outputs": {
+                    "text": [
+                        "OL0D3Phl2Y"
+                    ]
+                }
+            },
+            {
+                "name": "text",
+                "info": {
+                    "x": 1552,
+                    "y": 3530,
+                    "z": 133,
+                    "color": "#5a5a5a",
+                    "height": 118,
+                    "width": 305
+                },
+                "options": {
+                    "text": "pages"
+                },
+                "outputs": {
+                    "text": [
+                        "heeSJbaWfr"
+                    ]
+                }
+            },
+            {
+                "name": "get_property_from_object",
+                "info": {
+                    "x": 1887,
+                    "y": 3261,
+                    "z": 134,
+                    "color": "#5a5a5a",
+                    "height": 144,
+                    "width": 262
+                },
+                "inputs": {
+                    "action": "8iNGzwvzXy",
+                    "object": "TGauuXOYGG",
+                    "key": "heeSJbaWfr"
+                },
+                "outputs": {
+                    "action": [
+                        "hwehC5w0XL"
+                    ],
+                    "value": [
+                        "y0MRml8CVb",
+                        "HlcHmZ3wKS"
+                    ]
+                }
+            },
+            {
+                "name": "get_property_from_object",
+                "info": {
+                    "x": 3600,
+                    "y": 3482,
+                    "z": 135,
+                    "color": "#5a5a5a",
+                    "height": 144,
+                    "width": 262
+                },
+                "inputs": {
+                    "action": "t9MvQIT5Jf",
+                    "object": "y0MRml8CVb",
+                    "key": "qrEaTbym9E"
+                },
+                "outputs": {
+                    "action": [
+                        "HSx8t9I0li"
+                    ],
+                    "value": [
+                        "GwINbt27jS"
+                    ]
+                }
+            },
+            {
+                "name": "text",
+                "info": {
+                    "x": 3062,
+                    "y": 3702,
+                    "z": 136,
+                    "color": "#5a5a5a",
+                    "height": 118,
+                    "width": 305
+                },
+                "options": {
+                    "text": "extract"
+                },
+                "outputs": {
+                    "text": [
+                        "7jNfpRt38a"
+                    ]
+                }
+            },
+            {
+                "name": "get_item_from_list_v2",
+                "info": {
+                    "x": 2813,
+                    "y": 3288,
+                    "z": 137,
+                    "color": "#5a5a5a",
+                    "height": 165,
+                    "width": 443
+                },
+                "inputs": {
+                    "action": "SnZngpoG2X",
+                    "list": "uy21Yp0bqU",
+                    "custom_position": "AFZGJ3OEmJ"
+                },
+                "options": {
+                    "position_type": "first"
+                },
+                "outputs": {
+                    "action": [
+                        "VU21OHcUaG"
+                    ],
+                    "value": [
+                        "VeLQWki2bQ"
+                    ]
+                }
+            },
+            {
+                "name": "change_value_type_to_text",
+                "info": {
+                    "x": 3328,
+                    "y": 3263,
+                    "z": 138,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 268
+                },
+                "inputs": {
+                    "action": "VU21OHcUaG",
+                    "value": "VeLQWki2bQ"
+                },
+                "outputs": {
+                    "action": [
+                        "t9MvQIT5Jf"
+                    ],
+                    "value": [
+                        "qrEaTbym9E"
+                    ]
+                }
+            },
+            {
+                "name": "get_property_from_object",
+                "info": {
+                    "x": 3942,
+                    "y": 3513,
+                    "z": 139,
+                    "color": "#5a5a5a",
+                    "height": 144,
+                    "width": 262
+                },
+                "inputs": {
+                    "action": "HSx8t9I0li",
+                    "object": "GwINbt27jS",
+                    "key": "7jNfpRt38a"
+                },
+                "outputs": {
+                    "action": [
+                        "dAxtZMTF6s"
+                    ],
+                    "value": [
+                        "1CJvKcg1ch"
+                    ]
+                }
+            },
+            {
+                "name": "get_object_info",
+                "info": {
+                    "x": 4293,
+                    "y": 3535,
+                    "z": 140,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 478
+                },
+                "inputs": {
+                    "action": "dAxtZMTF6s",
+                    "object": "1CJvKcg1ch"
+                },
+                "options": {
+                    "object_info": "2"
+                },
+                "outputs": {
+                    "action": [
+                        "zURwrWGqgb"
+                    ],
+                    "result": [
+                        "PVdXQBljk4"
+                    ]
+                }
+            },
+            {
+                "name": "Chad_send_messagev2.2",
+                "info": {
+                    "x": 5068,
+                    "y": 3674,
+                    "z": 141,
+                    "color": "#5a5a5a",
+                    "height": 299,
+                    "width": 472
+                },
+                "inputs": {
+                    "action": "zURwrWGqgb",
+                    "channel": "U6C9pVKqP9",
+                    "embed": "J93SBvOilh",
+                    "attachment": "DGTeAwgjOy",
+                    "text1": "PVdXQBljk4",
+                    "text2": "mdJIDpnv2y",
+                    "text3": "77KSEF5qaK",
+                    "text4": "6FygJyVwm6"
+                },
+                "options": {
+                    "TTS": "false",
+                    "smsg": "false",
+                    "text": "${text1}"
+                },
+                "outputs": {
+                    "action": [],
+                    "message": []
                 }
             }
         ],
