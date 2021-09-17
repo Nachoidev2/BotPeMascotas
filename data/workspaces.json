@@ -16753,7 +16753,7 @@
                     "custom_position": "BGWwui0nGN"
                 },
                 "options": {
-                    "position_type": "custom"
+                    "position_type": "first"
                 },
                 "outputs": {
                     "action": [
@@ -16767,8 +16767,8 @@
             {
                 "name": "number",
                 "info": {
-                    "x": 4171,
-                    "y": 3621,
+                    "x": 4173,
+                    "y": 3636,
                     "z": 145,
                     "color": "#5a5a5a",
                     "height": 107,
