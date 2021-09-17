@@ -16753,7 +16753,7 @@
                     "custom_position": "BGWwui0nGN"
                 },
                 "options": {
-                    "position_type": "second"
+                    "position_type": "last"
                 },
                 "outputs": {
                     "action": [
@@ -16761,25 +16761,6 @@
                     ],
                     "value": [
                         "PVdXQBljk4"
-                    ]
-                }
-            },
-            {
-                "name": "number",
-                "info": {
-                    "x": 4173,
-                    "y": 3636,
-                    "z": 145,
-                    "color": "#5a5a5a",
-                    "height": 107,
-                    "width": 343
-                },
-                "options": {
-                    "number": "4"
-                },
-                "outputs": {
-                    "number": [
-                        "BGWwui0nGN"
                     ]
                 }
             }
