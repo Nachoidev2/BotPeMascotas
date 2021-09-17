@@ -16397,10 +16397,12 @@
                 },
                 "outputs": {
                     "action1": [
-                        "Qbaob1edr2"
+                        "8rXWq7EQMK"
                     ],
                     "action2": [],
-                    "message": [],
+                    "message": [
+                        "OXy8GeSISE"
+                    ],
                     "server": [],
                     "channel": [
                         "U6C9pVKqP9"
@@ -16414,8 +16416,8 @@
             {
                 "name": "request_api3",
                 "info": {
-                    "x": 980,
-                    "y": 3012,
+                    "x": 1620,
+                    "y": 2985,
                     "z": 128,
                     "color": "#5a5a5a",
                     "height": 175,
@@ -16443,19 +16445,19 @@
             {
                 "name": "text",
                 "info": {
-                    "x": 606,
-                    "y": 3370,
+                    "x": 317,
+                    "y": 3428,
                     "z": 129,
                     "color": "#5a5a5a",
                     "height": 118,
                     "width": 305
                 },
                 "options": {
-                    "text": "https://en.wikipedia.org/w/api.php?format=json&origin=*&action=query&prop=extracts&explaintext=false&exintro&titles="
+                    "text": "wiki"
                 },
                 "outputs": {
                     "text": [
-                        "ROVIhDwaFP"
+                        "SQkA5HwmCk"
                     ]
                 }
             },
@@ -16512,8 +16514,8 @@
             {
                 "name": "text",
                 "info": {
-                    "x": 1008,
-                    "y": 3382,
+                    "x": 1322,
+                    "y": 3473,
                     "z": 132,
                     "color": "#5a5a5a",
                     "height": 118,
@@ -16743,6 +16745,62 @@
                 "outputs": {
                     "action": [],
                     "message": []
+                }
+            },
+            {
+                "name": "merge_texts_advanced",
+                "info": {
+                    "x": 1116,
+                    "y": 2950,
+                    "z": 142,
+                    "color": "#5a5a5a",
+                    "height": 175,
+                    "width": 418
+                },
+                "inputs": {
+                    "action": "fMtAR0AKBC",
+                    "text1": "kmrTebG82q",
+                    "text2": "qjKoGCGetc",
+                    "text3": "pnta0c0CA4"
+                },
+                "options": {
+                    "text": "https://en.wikipedia.org/w/api.php?format=json&origin=*&action=query&prop=extracts&explaintext=false&exintro&titles=${text1}"
+                },
+                "outputs": {
+                    "action": [
+                        "Qbaob1edr2"
+                    ],
+                    "text": [
+                        "ROVIhDwaFP"
+                    ]
+                }
+            },
+            {
+                "name": "get_message_arguments",
+                "info": {
+                    "x": 1005,
+                    "y": 2671,
+                    "z": 143,
+                    "color": "#5a5a5a",
+                    "height": 238,
+                    "width": 457
+                },
+                "inputs": {
+                    "action": "8rXWq7EQMK",
+                    "message": "OXy8GeSISE",
+                    "argument_number": "BT7vvUZyET",
+                    "custom_argument_separator": "SQkA5HwmCk"
+                },
+                "options": {
+                    "argument_type": "multiple_arguments"
+                },
+                "outputs": {
+                    "action": [
+                        "fMtAR0AKBC"
+                    ],
+                    "result": [
+                        "kmrTebG82q"
+                    ]
                 }
             }
         ],
