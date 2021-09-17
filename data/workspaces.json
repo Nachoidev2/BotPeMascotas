@@ -16740,8 +16740,8 @@
             {
                 "name": "get_item_from_list_v2",
                 "info": {
-                    "x": 4554,
-                    "y": 3528,
+                    "x": 4479,
+                    "y": 3516,
                     "z": 144,
                     "color": "#5a5a5a",
                     "height": 165,
@@ -16757,10 +16757,76 @@
                 },
                 "outputs": {
                     "action": [
-                        "zURwrWGqgb"
+                        "vjzbLsrAOh"
                     ],
                     "value": [
+                        "BMEn7Ap1WX"
+                    ]
+                }
+            },
+            {
+                "name": "limit_chars",
+                "info": {
+                    "x": 5276,
+                    "y": 3707,
+                    "z": 145,
+                    "color": "#5a5a5a",
+                    "height": 144,
+                    "width": 215
+                },
+                "inputs": {
+                    "action": "j0OOQMxeY6",
+                    "text": "gmMs2YBCVP",
+                    "length": "oHAzMMx2Kn"
+                },
+                "outputs": {
+                    "action": [
+                        "zURwrWGqgb"
+                    ],
+                    "text": [
                         "PVdXQBljk4"
+                    ]
+                }
+            },
+            {
+                "name": "change_value_type_to_text",
+                "info": {
+                    "x": 4930,
+                    "y": 3616,
+                    "z": 146,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 268
+                },
+                "inputs": {
+                    "action": "vjzbLsrAOh",
+                    "value": "BMEn7Ap1WX"
+                },
+                "outputs": {
+                    "action": [
+                        "j0OOQMxeY6"
+                    ],
+                    "value": [
+                        "gmMs2YBCVP"
+                    ]
+                }
+            },
+            {
+                "name": "number",
+                "info": {
+                    "x": 4801,
+                    "y": 3873,
+                    "z": 147,
+                    "color": "#5a5a5a",
+                    "height": 107,
+                    "width": 343
+                },
+                "options": {
+                    "number": "200"
+                },
+                "outputs": {
+                    "number": [
+                        "oHAzMMx2Kn"
                     ]
                 }
             }
