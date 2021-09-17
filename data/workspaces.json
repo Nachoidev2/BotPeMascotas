@@ -16577,8 +16577,8 @@
             {
                 "name": "get_property_from_object",
                 "info": {
-                    "x": 3600,
-                    "y": 3482,
+                    "x": 3535,
+                    "y": 3457,
                     "z": 135,
                     "color": "#5a5a5a",
                     "height": 144,
@@ -16591,37 +16591,18 @@
                 },
                 "outputs": {
                     "action": [
-                        "HSx8t9I0li"
+                        "dAxtZMTF6s"
                     ],
                     "value": [
-                        "GwINbt27jS"
-                    ]
-                }
-            },
-            {
-                "name": "text",
-                "info": {
-                    "x": 3062,
-                    "y": 3702,
-                    "z": 136,
-                    "color": "#5a5a5a",
-                    "height": 118,
-                    "width": 305
-                },
-                "options": {
-                    "text": "extract"
-                },
-                "outputs": {
-                    "text": [
-                        "7jNfpRt38a"
+                        "1CJvKcg1ch"
                     ]
                 }
             },
             {
                 "name": "get_item_from_list_v2",
                 "info": {
-                    "x": 2813,
-                    "y": 3288,
+                    "x": 2948,
+                    "y": 3118,
                     "z": 137,
                     "color": "#5a5a5a",
                     "height": 165,
@@ -16637,31 +16618,6 @@
                 },
                 "outputs": {
                     "action": [
-                        "VU21OHcUaG",
-                        "zURwrWGqgb"
-                    ],
-                    "value": [
-                        "VeLQWki2bQ",
-                        "PVdXQBljk4"
-                    ]
-                }
-            },
-            {
-                "name": "change_value_type_to_text",
-                "info": {
-                    "x": 3266,
-                    "y": 3563,
-                    "z": 138,
-                    "color": "#5a5a5a",
-                    "height": 113,
-                    "width": 268
-                },
-                "inputs": {
-                    "action": "VU21OHcUaG",
-                    "value": "VeLQWki2bQ"
-                },
-                "outputs": {
-                    "action": [
                         "t9MvQIT5Jf"
                     ],
                     "value": [
@@ -16670,34 +16626,10 @@
                 }
             },
             {
-                "name": "get_property_from_object",
-                "info": {
-                    "x": 3942,
-                    "y": 3513,
-                    "z": 139,
-                    "color": "#5a5a5a",
-                    "height": 144,
-                    "width": 262
-                },
-                "inputs": {
-                    "action": "HSx8t9I0li",
-                    "object": "GwINbt27jS",
-                    "key": "7jNfpRt38a"
-                },
-                "outputs": {
-                    "action": [
-                        "dAxtZMTF6s"
-                    ],
-                    "value": [
-                        "1CJvKcg1ch"
-                    ]
-                }
-            },
-            {
                 "name": "get_object_info",
                 "info": {
-                    "x": 4293,
-                    "y": 3535,
+                    "x": 3951,
+                    "y": 3443,
                     "z": 140,
                     "color": "#5a5a5a",
                     "height": 113,
@@ -16711,15 +16643,19 @@
                     "object_info": "2"
                 },
                 "outputs": {
-                    "action": [],
-                    "result": []
+                    "action": [
+                        "8CWXJm3757"
+                    ],
+                    "result": [
+                        "OutuFC1nUm"
+                    ]
                 }
             },
             {
                 "name": "Chad_send_messagev2.2",
                 "info": {
-                    "x": 4888,
-                    "y": 3162,
+                    "x": 5189,
+                    "y": 3237,
                     "z": 141,
                     "color": "#5a5a5a",
                     "height": 299,
@@ -16798,6 +16734,52 @@
                     ],
                     "result": [
                         "kmrTebG82q"
+                    ]
+                }
+            },
+            {
+                "name": "get_item_from_list_v2",
+                "info": {
+                    "x": 4554,
+                    "y": 3528,
+                    "z": 144,
+                    "color": "#5a5a5a",
+                    "height": 165,
+                    "width": 443
+                },
+                "inputs": {
+                    "action": "8CWXJm3757",
+                    "list": "OutuFC1nUm",
+                    "custom_position": "BGWwui0nGN"
+                },
+                "options": {
+                    "position_type": "custom"
+                },
+                "outputs": {
+                    "action": [
+                        "zURwrWGqgb"
+                    ],
+                    "value": [
+                        "PVdXQBljk4"
+                    ]
+                }
+            },
+            {
+                "name": "number",
+                "info": {
+                    "x": 4171,
+                    "y": 3621,
+                    "z": 145,
+                    "color": "#5a5a5a",
+                    "height": 107,
+                    "width": 343
+                },
+                "options": {
+                    "number": "4"
+                },
+                "outputs": {
+                    "number": [
+                        "BGWwui0nGN"
                     ]
                 }
             }
