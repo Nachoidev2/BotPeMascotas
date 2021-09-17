@@ -13911,8 +13911,8 @@
             {
                 "name": "get_message_arguments",
                 "info": {
-                    "x": 1125,
-                    "y": 789,
+                    "x": 1096,
+                    "y": 790,
                     "z": 23,
                     "color": "#5a5a5a",
                     "height": 238,
@@ -14011,8 +14011,7 @@
                     "number": [
                         "vhSHhsHm5m"
                     ]
-                },
-                "inputs": {}
+                }
             },
             {
                 "name": "number",
@@ -14031,8 +14030,7 @@
                     "number": [
                         "mtNOQv1CAg"
                     ]
-                },
-                "inputs": {}
+                }
             },
             {
                 "name": "get_news",
@@ -14051,8 +14049,7 @@
                 "outputs": {
                     "action": [],
                     "result": []
-                },
-                "options": {}
+                }
             },
             {
                 "name": "get_message_arguments",
@@ -14099,8 +14096,7 @@
                     "number": [
                         "tgUVM0lNql"
                     ]
-                },
-                "inputs": {}
+                }
             }
         ],
         "notes": []
@@ -16698,7 +16694,7 @@
                     "text3": "pnta0c0CA4"
                 },
                 "options": {
-                    "text": "https://en.wikipedia.org/w/api.php?format=json&origin=*&action=query&prop=extracts&explaintext=false&exintro&titles=${text1}"
+                    "text": "https://es.wikipedia.org/w/api.php?format=json&origin=*&action=query&prop=extracts&explaintext=false&exintro&titles=${text1}"
                 },
                 "outputs": {
                     "action": [
@@ -16767,8 +16763,8 @@
             {
                 "name": "limit_chars",
                 "info": {
-                    "x": 5466,
-                    "y": 3401,
+                    "x": 5826,
+                    "y": 3404,
                     "z": 145,
                     "color": "#5a5a5a",
                     "height": 144,
@@ -16781,10 +16777,10 @@
                 },
                 "outputs": {
                     "action": [
-                        "lVC0HjQlzb"
+                        "zURwrWGqgb"
                     ],
                     "text": [
-                        "FV3IuDStjr"
+                        "PVdXQBljk4"
                     ]
                 }
             },
@@ -16831,36 +16827,6 @@
                 }
             },
             {
-                "name": "translate",
-                "info": {
-                    "x": 5750,
-                    "y": 3369,
-                    "z": 148,
-                    "color": "#5a5a5a",
-                    "height": 269,
-                    "width": 535
-                },
-                "inputs": {
-                    "action": "lVC0HjQlzb",
-                    "text": "FV3IuDStjr",
-                    "custom": "PyUk92RDAH"
-                },
-                "options": {
-                    "type": "2"
-                },
-                "outputs": {
-                    "action": [
-                        "zURwrWGqgb"
-                    ],
-                    "output": [
-                        "PVdXQBljk4"
-                    ],
-                    "auto": [],
-                    "didyoucheck": [],
-                    "didyoumean": []
-                }
-            },
-            {
                 "name": "text",
                 "info": {
                     "x": 4711,
@@ -16874,9 +16840,7 @@
                     "text": "es"
                 },
                 "outputs": {
-                    "text": [
-                        "PyUk92RDAH"
-                    ]
+                    "text": []
                 }
             }
         ],
