@@ -16412,8 +16412,8 @@
             {
                 "name": "request_api3",
                 "info": {
-                    "x": 1620,
-                    "y": 2985,
+                    "x": 1986,
+                    "y": 2983,
                     "z": 128,
                     "color": "#5a5a5a",
                     "height": 175,
@@ -16650,8 +16650,8 @@
             {
                 "name": "Chad_send_messagev2.2",
                 "info": {
-                    "x": 6398,
-                    "y": 3306,
+                    "x": 5885,
+                    "y": 3309,
                     "z": 141,
                     "color": "#5a5a5a",
                     "height": 299,
@@ -16673,15 +16673,19 @@
                     "text": "${text1}"
                 },
                 "outputs": {
-                    "action": [],
-                    "message": []
+                    "action": [
+                        "QeXvqV6eet"
+                    ],
+                    "message": [
+                        "78Bpk8e3MQ"
+                    ]
                 }
             },
             {
                 "name": "merge_texts_advanced",
                 "info": {
-                    "x": 1116,
-                    "y": 2950,
+                    "x": 1581,
+                    "y": 3065,
                     "z": 142,
                     "color": "#5a5a5a",
                     "height": 175,
@@ -16726,10 +16730,10 @@
                 },
                 "outputs": {
                     "action": [
-                        "fMtAR0AKBC"
+                        "ltut7uXbqt"
                     ],
                     "result": [
-                        "kmrTebG82q"
+                        "tMvbQ8Natb"
                     ]
                 }
             },
@@ -16763,8 +16767,8 @@
             {
                 "name": "limit_chars",
                 "info": {
-                    "x": 5826,
-                    "y": 3404,
+                    "x": 5506,
+                    "y": 3414,
                     "z": 145,
                     "color": "#5a5a5a",
                     "height": 144,
@@ -16841,6 +16845,65 @@
                 },
                 "outputs": {
                     "text": []
+                }
+            },
+            {
+                "name": "Chad_send_messagev2.2",
+                "info": {
+                    "x": 6446,
+                    "y": 3487,
+                    "z": 150,
+                    "color": "#5a5a5a",
+                    "height": 299,
+                    "width": 472
+                },
+                "inputs": {
+                    "action": "QeXvqV6eet",
+                    "channel": "78Bpk8e3MQ",
+                    "embed": "nBDNTJHcS9",
+                    "attachment": "SFsaudlh9H",
+                    "text1": "8doac3n0ch",
+                    "text2": "MU9R6Uk2HK",
+                    "text3": "Ro11mGxPlH",
+                    "text4": "Dc7WsYiJnU"
+                },
+                "options": {
+                    "TTS": "false",
+                    "smsg": "false",
+                    "text": "Articulo completo: \nhttps://es.wikipedia.org/wiki/${text1}"
+                },
+                "outputs": {
+                    "action": [],
+                    "message": []
+                }
+            },
+            {
+                "name": "replace_textsuji",
+                "info": {
+                    "x": 1017,
+                    "y": 2945,
+                    "z": 151,
+                    "color": "#5a5a5a",
+                    "height": 239,
+                    "width": 454
+                },
+                "inputs": {
+                    "action": "ltut7uXbqt",
+                    "source_text": "tMvbQ8Natb"
+                },
+                "options": {
+                    "replacement_type": "first",
+                    "old_text": " ",
+                    "new_text": "_"
+                },
+                "outputs": {
+                    "action": [
+                        "fMtAR0AKBC"
+                    ],
+                    "text": [
+                        "kmrTebG82q",
+                        "8doac3n0ch"
+                    ]
                 }
             }
         ],
