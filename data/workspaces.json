@@ -16401,7 +16401,8 @@
                     ],
                     "server": [],
                     "channel": [
-                        "U6C9pVKqP9"
+                        "U6C9pVKqP9",
+                        "78Bpk8e3MQ"
                     ],
                     "vc": [],
                     "user": [],
@@ -16676,9 +16677,7 @@
                     "action": [
                         "QeXvqV6eet"
                     ],
-                    "message": [
-                        "78Bpk8e3MQ"
-                    ]
+                    "message": []
                 }
             },
             {
@@ -16850,8 +16849,8 @@
             {
                 "name": "Chad_send_messagev2.2",
                 "info": {
-                    "x": 6446,
-                    "y": 3487,
+                    "x": 6536,
+                    "y": 3353,
                     "z": 150,
                     "color": "#5a5a5a",
                     "height": 299,
