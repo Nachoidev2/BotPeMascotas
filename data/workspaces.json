@@ -16450,7 +16450,7 @@
                     "width": 305
                 },
                 "options": {
-                    "text": "wiki"
+                    "text": "wiki "
                 },
                 "outputs": {
                     "text": [
@@ -16891,7 +16891,7 @@
                     "source_text": "tMvbQ8Natb"
                 },
                 "options": {
-                    "replacement_type": "first",
+                    "replacement_type": "all",
                     "old_text": " ",
                     "new_text": "_"
                 },
