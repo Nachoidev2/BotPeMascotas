@@ -16676,17 +16676,15 @@
                     "text": ""
                 },
                 "outputs": {
-                    "action": [
-                        "QeXvqV6eet"
-                    ],
+                    "action": [],
                     "message": []
                 }
             },
             {
                 "name": "merge_texts_advanced",
                 "info": {
-                    "x": 1581,
-                    "y": 3065,
+                    "x": 1555,
+                    "y": 3047,
                     "z": 142,
                     "color": "#5a5a5a",
                     "height": 175,
@@ -16888,14 +16886,15 @@
                         "kmrTebG82q",
                         "8doac3n0ch",
                         "qlSjxCgbvD",
-                        "AnWwG9gZ4F"
+                        "AnWwG9gZ4F",
+                        "LJeQyovDkR"
                     ]
                 }
             },
             {
                 "name": "create_embed_message",
                 "info": {
-                    "x": 5895,
+                    "x": 6003,
                     "y": 3623,
                     "z": 152,
                     "color": "#5a5a5a",
@@ -16929,8 +16928,8 @@
             {
                 "name": "merge_texts_advanced",
                 "info": {
-                    "x": 5241,
-                    "y": 3957,
+                    "x": 5016,
+                    "y": 3960,
                     "z": 153,
                     "color": "#5a5a5a",
                     "height": 175,
@@ -16947,7 +16946,7 @@
                 },
                 "outputs": {
                     "action": [
-                        "T8lwU6UQGj"
+                        "zIqf60HeZ9"
                     ],
                     "text": [
                         "gOmmd1Dud9"
@@ -16957,8 +16956,8 @@
             {
                 "name": "color",
                 "info": {
-                    "x": 5504,
-                    "y": 3732,
+                    "x": 5653,
+                    "y": 3662,
                     "z": 154,
                     "color": "#5a5a5a",
                     "height": 105,
@@ -17250,6 +17249,34 @@
                 "outputs": {
                     "action": [
                         "Palz0L3tG3"
+                    ]
+                }
+            },
+            {
+                "name": "merge_texts_advanced",
+                "info": {
+                    "x": 5473,
+                    "y": 3907,
+                    "z": 167,
+                    "color": "#5a5a5a",
+                    "height": 175,
+                    "width": 418
+                },
+                "inputs": {
+                    "action": "zIqf60HeZ9",
+                    "text1": "LJeQyovDkR",
+                    "text2": "RlNN5Wb4Eu",
+                    "text3": "lHvKRt5SJo"
+                },
+                "options": {
+                    "text": "https://es.wikipedia.org/wiki/${text1}"
+                },
+                "outputs": {
+                    "action": [
+                        "T8lwU6UQGj"
+                    ],
+                    "text": [
+                        "mDYJCRves5"
                     ]
                 }
             }
