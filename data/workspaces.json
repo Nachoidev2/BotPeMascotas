@@ -16876,7 +16876,7 @@
                 "options": {
                     "replacement_type": "all",
                     "old_text": " ",
-                    "new_text": "_"
+                    "new_text": "+"
                 },
                 "outputs": {
                     "action": [
