@@ -17159,8 +17159,8 @@
             {
                 "name": "get_object_info",
                 "info": {
-                    "x": 7424,
-                    "y": 4691,
+                    "x": 7404,
+                    "y": 4753,
                     "z": 163,
                     "color": "#5a5a5a",
                     "height": 113,
@@ -17185,8 +17185,8 @@
             {
                 "name": "get_item_from_list_v2",
                 "info": {
-                    "x": 7923,
-                    "y": 4763,
+                    "x": 8009,
+                    "y": 4779,
                     "z": 164,
                     "color": "#5a5a5a",
                     "height": 165,
@@ -17198,7 +17198,7 @@
                     "custom_position": "ByloivqIFX"
                 },
                 "options": {
-                    "position_type": "last"
+                    "position_type": "first"
                 },
                 "outputs": {
                     "action": [
