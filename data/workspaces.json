@@ -16384,7 +16384,7 @@
                     "command_slowmode": "49Btlz9SOF"
                 },
                 "options": {
-                    "command_name": "wiki",
+                    "command_name": "buscar",
                     "custom_prefix": "",
                     "command_restriction": "none",
                     "required_member_permission": "none",
@@ -16625,8 +16625,8 @@
             {
                 "name": "get_object_info",
                 "info": {
-                    "x": 3951,
-                    "y": 3443,
+                    "x": 3925,
+                    "y": 3485,
                     "z": 140,
                     "color": "#5a5a5a",
                     "height": 113,
@@ -16830,23 +16830,6 @@
                 }
             },
             {
-                "name": "text",
-                "info": {
-                    "x": 4711,
-                    "y": 3381,
-                    "z": 149,
-                    "color": "#5a5a5a",
-                    "height": 118,
-                    "width": 305
-                },
-                "options": {
-                    "text": "es"
-                },
-                "outputs": {
-                    "text": []
-                }
-            },
-            {
                 "name": "Chad_send_messagev2.2",
                 "info": {
                     "x": 6536,
@@ -16879,8 +16862,8 @@
             {
                 "name": "replace_textsuji",
                 "info": {
-                    "x": 1017,
-                    "y": 2945,
+                    "x": 1028,
+                    "y": 2942,
                     "z": 151,
                     "color": "#5a5a5a",
                     "height": 239,
