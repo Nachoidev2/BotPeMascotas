@@ -17216,8 +17216,8 @@
                     "y": 4248,
                     "z": 165,
                     "color": "#5a5a5a",
-                    "height": 113,
-                    "width": 268
+                    "height": 115,
+                    "width": 279
                 },
                 "inputs": {
                     "action": "T1zG4U2kBI",
@@ -17225,10 +17225,31 @@
                 },
                 "outputs": {
                     "action": [
-                        "Palz0L3tG3"
+                        "le5dMGAO87"
                     ],
                     "value": [
-                        "XCDTuvRVOZ"
+                        "XCDTuvRVOZ",
+                        "D5KYuhhzxM"
+                    ]
+                }
+            },
+            {
+                "name": "console_log",
+                "info": {
+                    "x": 5726,
+                    "y": 4281,
+                    "z": 166,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 211
+                },
+                "inputs": {
+                    "action": "le5dMGAO87",
+                    "value": "D5KYuhhzxM"
+                },
+                "outputs": {
+                    "action": [
+                        "Palz0L3tG3"
                     ]
                 }
             }
