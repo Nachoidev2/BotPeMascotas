@@ -16450,7 +16450,7 @@
                     "width": 305
                 },
                 "options": {
-                    "text": "wiki "
+                    "text": "buscar "
                 },
                 "outputs": {
                     "text": [
@@ -18185,8 +18185,8 @@
             {
                 "name": "command_event_with_text",
                 "info": {
-                    "x": 781,
-                    "y": 757,
+                    "x": 517,
+                    "y": 723,
                     "z": 189,
                     "color": "#5a5a5a",
                     "height": 401,
@@ -18202,7 +18202,7 @@
                     "required_member_permission": "none",
                     "case_sensitive": "no",
                     "command_slowmode_restriction": "none",
-                    "command_name": "b",
+                    "command_name": "mensaje ticket",
                     "custom_prefix": ""
                 },
                 "outputs": {
