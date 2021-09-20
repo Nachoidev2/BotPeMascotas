@@ -16732,7 +16732,8 @@
                         "ltut7uXbqt"
                     ],
                     "result": [
-                        "tMvbQ8Natb"
+                        "tMvbQ8Natb",
+                        "97eGp4Qtoc"
                     ]
                 }
             },
@@ -16894,8 +16895,8 @@
             {
                 "name": "create_embed_message",
                 "info": {
-                    "x": 6003,
-                    "y": 3623,
+                    "x": 5984,
+                    "y": 3268,
                     "z": 152,
                     "color": "#5a5a5a",
                     "height": 517,
@@ -17227,7 +17228,7 @@
                     "value": [
                         "XCDTuvRVOZ",
                         "D5KYuhhzxM",
-                        "gOmmd1Dud9"
+                        "BIYGDfmVAr"
                     ]
                 }
             },
@@ -17254,8 +17255,8 @@
             {
                 "name": "merge_texts_advanced",
                 "info": {
-                    "x": 5401,
-                    "y": 3876,
+                    "x": 5298,
+                    "y": 3861,
                     "z": 167,
                     "color": "#5a5a5a",
                     "height": 175,
@@ -17272,7 +17273,7 @@
                 },
                 "outputs": {
                     "action": [
-                        "T8lwU6UQGj"
+                        "mhnmuNZDR7"
                     ],
                     "text": [
                         "mDYJCRves5"
@@ -17411,6 +17412,34 @@
                 "outputs": {
                     "text": [
                         "cAfGPJ3O28"
+                    ]
+                }
+            },
+            {
+                "name": "merge_texts_advanced",
+                "info": {
+                    "x": 5776,
+                    "y": 3856,
+                    "z": 174,
+                    "color": "#5a5a5a",
+                    "height": 175,
+                    "width": 418
+                },
+                "inputs": {
+                    "action": "mhnmuNZDR7",
+                    "text1": "97eGp4Qtoc",
+                    "text2": "KqNJL4dkzc",
+                    "text3": "GvZhmN5iH6"
+                },
+                "options": {
+                    "text": "Info de ${text1}"
+                },
+                "outputs": {
+                    "action": [
+                        "T8lwU6UQGj"
+                    ],
+                    "text": [
+                        "IFRVqwMzCu"
                     ]
                 }
             }
