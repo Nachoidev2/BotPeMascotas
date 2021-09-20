@@ -16928,8 +16928,8 @@
             {
                 "name": "merge_texts_advanced",
                 "info": {
-                    "x": 5016,
-                    "y": 3960,
+                    "x": 4890,
+                    "y": 4013,
                     "z": 153,
                     "color": "#5a5a5a",
                     "height": 175,
@@ -16945,12 +16945,8 @@
                     "text": "https://es.wikipedia.org/wiki/${text1}#/media/Archivo:${text2}"
                 },
                 "outputs": {
-                    "action": [
-                        "zIqf60HeZ9"
-                    ],
-                    "text": [
-                        "gOmmd1Dud9"
-                    ]
+                    "action": [],
+                    "text": []
                 }
             },
             {
@@ -17230,7 +17226,8 @@
                     ],
                     "value": [
                         "XCDTuvRVOZ",
-                        "D5KYuhhzxM"
+                        "D5KYuhhzxM",
+                        "gOmmd1Dud9"
                     ]
                 }
             },
@@ -17250,7 +17247,7 @@
                 },
                 "outputs": {
                     "action": [
-                        "Palz0L3tG3"
+                        "zIqf60HeZ9"
                     ]
                 }
             },
@@ -17409,7 +17406,7 @@
                     "width": 305
                 },
                 "options": {
-                    "text": "pageimage"
+                    "text": "thumbnail"
                 },
                 "outputs": {
                     "text": [
