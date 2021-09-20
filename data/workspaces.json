@@ -17198,7 +17198,7 @@
                     "custom_position": "ByloivqIFX"
                 },
                 "options": {
-                    "position_type": "last"
+                    "position_type": "first"
                 },
                 "outputs": {
                     "action": [
@@ -17409,7 +17409,7 @@
                     "width": 305
                 },
                 "options": {
-                    "text": "thumbnail"
+                    "text": "pageimage"
                 },
                 "outputs": {
                     "text": [
