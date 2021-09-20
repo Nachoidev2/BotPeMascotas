@@ -16928,8 +16928,8 @@
             {
                 "name": "merge_texts_advanced",
                 "info": {
-                    "x": 4890,
-                    "y": 4013,
+                    "x": 4830,
+                    "y": 4025,
                     "z": 153,
                     "color": "#5a5a5a",
                     "height": 175,
@@ -17209,8 +17209,8 @@
             {
                 "name": "change_value_type_to_text",
                 "info": {
-                    "x": 5348,
-                    "y": 4265,
+                    "x": 5313,
+                    "y": 4238,
                     "z": 165,
                     "color": "#5a5a5a",
                     "height": 115,
@@ -17254,8 +17254,8 @@
             {
                 "name": "merge_texts_advanced",
                 "info": {
-                    "x": 5473,
-                    "y": 3907,
+                    "x": 5401,
+                    "y": 3876,
                     "z": 167,
                     "color": "#5a5a5a",
                     "height": 175,
