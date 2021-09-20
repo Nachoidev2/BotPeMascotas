@@ -17148,19 +17148,19 @@
                 },
                 "outputs": {
                     "action": [
-                        "lY4accT2n0"
+                        "Ds0oNREC8E"
                     ],
                     "value": [
-                        "BNCR5HuWRK",
-                        "f032jvSnKz"
+                        "f032jvSnKz",
+                        "q7JOVzFTjc"
                     ]
                 }
             },
             {
                 "name": "get_object_info",
                 "info": {
-                    "x": 7404,
-                    "y": 4753,
+                    "x": 7405,
+                    "y": 4705,
                     "z": 163,
                     "color": "#5a5a5a",
                     "height": 113,
@@ -17198,7 +17198,7 @@
                     "custom_position": "ByloivqIFX"
                 },
                 "options": {
-                    "position_type": "custom"
+                    "position_type": "first"
                 },
                 "outputs": {
                     "action": [
@@ -17371,6 +17371,49 @@
                 "outputs": {
                     "number": [
                         "ByloivqIFX"
+                    ]
+                }
+            },
+            {
+                "name": "get_property_from_object",
+                "info": {
+                    "x": 7411,
+                    "y": 4884,
+                    "z": 172,
+                    "color": "#5a5a5a",
+                    "height": 144,
+                    "width": 261
+                },
+                "inputs": {
+                    "action": "Ds0oNREC8E",
+                    "object": "q7JOVzFTjc",
+                    "key": "cAfGPJ3O28"
+                },
+                "outputs": {
+                    "action": [
+                        "lY4accT2n0"
+                    ],
+                    "value": [
+                        "BNCR5HuWRK"
+                    ]
+                }
+            },
+            {
+                "name": "text",
+                "info": {
+                    "x": 7018,
+                    "y": 4959,
+                    "z": 173,
+                    "color": "#5a5a5a",
+                    "height": 118,
+                    "width": 305
+                },
+                "options": {
+                    "text": "thumbnail"
+                },
+                "outputs": {
+                    "text": [
+                        "cAfGPJ3O28"
                     ]
                 }
             }
