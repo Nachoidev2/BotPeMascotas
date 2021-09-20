@@ -17209,7 +17209,7 @@
             {
                 "name": "change_value_type_to_text",
                 "info": {
-                    "x": 5313,
+                    "x": 5274,
                     "y": 4238,
                     "z": 165,
                     "color": "#5a5a5a",
@@ -17226,8 +17226,7 @@
                     ],
                     "value": [
                         "XCDTuvRVOZ",
-                        "D5KYuhhzxM",
-                        "gOmmd1Dud9"
+                        "D5KYuhhzxM"
                     ]
                 }
             },
