@@ -17107,8 +17107,8 @@
             {
                 "name": "get_item_from_list_v2",
                 "info": {
-                    "x": 6502,
-                    "y": 4603,
+                    "x": 6580,
+                    "y": 4669,
                     "z": 161,
                     "color": "#5a5a5a",
                     "height": 165,
@@ -17171,7 +17171,7 @@
                     "object": "BNCR5HuWRK"
                 },
                 "options": {
-                    "object_info": "1"
+                    "object_info": "2"
                 },
                 "outputs": {
                     "action": [
@@ -17185,8 +17185,8 @@
             {
                 "name": "get_item_from_list_v2",
                 "info": {
-                    "x": 8009,
-                    "y": 4779,
+                    "x": 7891,
+                    "y": 4449,
                     "z": 164,
                     "color": "#5a5a5a",
                     "height": 165,
@@ -17202,18 +17202,19 @@
                 },
                 "outputs": {
                     "action": [
-                        "KiKFuVeJEs"
+                        "T1zG4U2kBI"
                     ],
                     "value": [
-                        "Sh6fZi62jf"
+                        "Sh6fZi62jf",
+                        "4eM1bhRBrs"
                     ]
                 }
             },
             {
                 "name": "change_value_type_to_text",
                 "info": {
-                    "x": 5374,
-                    "y": 4248,
+                    "x": 5328,
+                    "y": 4252,
                     "z": 165,
                     "color": "#5a5a5a",
                     "height": 115,
@@ -17236,8 +17237,8 @@
             {
                 "name": "console_log",
                 "info": {
-                    "x": 5726,
-                    "y": 4281,
+                    "x": 5772,
+                    "y": 4207,
                     "z": 166,
                     "color": "#5a5a5a",
                     "height": 113,
@@ -17284,8 +17285,8 @@
             {
                 "name": "get_property_from_object",
                 "info": {
-                    "x": 8119,
-                    "y": 4439,
+                    "x": 8747,
+                    "y": 4645,
                     "z": 168,
                     "color": "#5a5a5a",
                     "height": 144,
@@ -17308,8 +17309,8 @@
             {
                 "name": "get_object_info",
                 "info": {
-                    "x": 8482,
-                    "y": 4665,
+                    "x": 8844,
+                    "y": 4393,
                     "z": 169,
                     "color": "#5a5a5a",
                     "height": 113,
@@ -17350,12 +17351,8 @@
                     "position_type": "first"
                 },
                 "outputs": {
-                    "action": [
-                        "T1zG4U2kBI"
-                    ],
-                    "value": [
-                        "4eM1bhRBrs"
-                    ]
+                    "action": [],
+                    "value": []
                 }
             }
         ],
