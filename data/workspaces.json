@@ -17354,6 +17354,25 @@
                     "action": [],
                     "value": []
                 }
+            },
+            {
+                "name": "number",
+                "info": {
+                    "x": 7768,
+                    "y": 4911,
+                    "z": 171,
+                    "color": "#5a5a5a",
+                    "height": 107,
+                    "width": 343
+                },
+                "options": {
+                    "number": "6"
+                },
+                "outputs": {
+                    "number": [
+                        "ByloivqIFX"
+                    ]
+                }
             }
         ],
         "notes": []
