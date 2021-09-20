@@ -17198,7 +17198,7 @@
                     "custom_position": "ByloivqIFX"
                 },
                 "options": {
-                    "position_type": "first"
+                    "position_type": "last"
                 },
                 "outputs": {
                     "action": [
@@ -17213,8 +17213,8 @@
             {
                 "name": "change_value_type_to_text",
                 "info": {
-                    "x": 5328,
-                    "y": 4252,
+                    "x": 5348,
+                    "y": 4265,
                     "z": 165,
                     "color": "#5a5a5a",
                     "height": 115,
