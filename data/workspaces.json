@@ -3416,8 +3416,8 @@
             {
                 "name": "get_message_info",
                 "info": {
-                    "x": 2312,
-                    "y": 326,
+                    "x": 2090,
+                    "y": 190,
                     "z": 12,
                     "color": "#5a5a5a",
                     "height": 113,
@@ -3432,11 +3432,12 @@
                 },
                 "outputs": {
                     "action": [
-                        "KW88RFot2o"
+                        "PXnFjuWqKj"
                     ],
                     "result": [
                         "70EWkev9Ku",
-                        "D3vmPYiUxr"
+                        "D3vmPYiUxr",
+                        "JyAh2dQAST"
                     ]
                 }
             },
@@ -3822,7 +3823,7 @@
                     "text_channel": "yo4x4NCNj7"
                 },
                 "options": {
-                    "text_channel_info": "1"
+                    "text_channel_info": "16"
                 },
                 "outputs": {
                     "action": [
@@ -3941,6 +3942,60 @@
                         "1KLGOJtJIG"
                     ],
                     "text3": []
+                }
+            },
+            {
+                "name": "Switch_conditional",
+                "info": {
+                    "x": 2431,
+                    "y": 322,
+                    "z": 40,
+                    "color": "#5a5a5a",
+                    "height": 299,
+                    "width": 440
+                },
+                "inputs": {
+                    "action": "PXnFjuWqKj",
+                    "value1": "JyAh2dQAST",
+                    "sw0": "rrkdjFvz02",
+                    "sw1": "fcsXpt5SLT",
+                    "sw2": "gmVcDG5Gaj",
+                    "sw3": "liLOTipaYM",
+                    "sw4": "1Y7Ai0nRWX",
+                    "sw5": "JQWEOZsaPa"
+                },
+                "options": {
+                    "operation": "includes"
+                },
+                "outputs": {
+                    "swo0": [],
+                    "swo1": [],
+                    "swo2": [],
+                    "swo3": [],
+                    "swo4": [],
+                    "swo5": [],
+                    "swo6": [
+                        "KW88RFot2o"
+                    ]
+                }
+            },
+            {
+                "name": "text",
+                "info": {
+                    "x": 2000,
+                    "y": 547,
+                    "z": 41,
+                    "color": "#5a5a5a",
+                    "height": 118,
+                    "width": 305
+                },
+                "options": {
+                    "text": "gif"
+                },
+                "outputs": {
+                    "text": [
+                        "rrkdjFvz02"
+                    ]
                 }
             }
         ],
